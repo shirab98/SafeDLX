@@ -1,0 +1,28 @@
+Command line:
+   IO_SIM_DLX_IO_SIM_DLX_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  41265
+
+Sat Jul 19 20:01:22 2025
+
+
+ Elaboration Time: 0.1 sec
+
+ Current Memory Usage: 204.988 Meg
+
+ Total Signals          : 603
+ Total Nets             : 4485
+ Total Signal Drivers   : 357
+ Total Blocks           : 88
+ Total Primitive Blocks : 70
+ Total Processes        : 380
+ Total Traceable Variables  : 123
+ Total Scalar Nets and Variables : 41974
+
+ Total Simulation Time: 2.44 sec
+
+ Current Memory Usage: 282.587 Meg
+
+Sat Jul 19 20:04:27 2025
+

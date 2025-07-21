@@ -1,0 +1,5 @@
+verilog work "RAM32x32_4BIT.v"
+verilog work "EDAC_decode_4BIT.v"
+verilog work "RE32RST.v"
+verilog work "EDAC_4BIT_A.v"
+verilog work "EDAC_2x4BIT.v"

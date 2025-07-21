@@ -1,0 +1,7 @@
+verilog work "RE32RST.v"
+verilog work "RAM32x32.v"
+verilog work "EDAC_encoder.v"
+verilog work "EDAC_decoder.v"
+verilog work "EDAC_BLOCK.v"
+verilog work "EDAC_BLOCK_TB.v"
+verilog work "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

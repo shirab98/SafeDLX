@@ -1,0 +1,7 @@
+verilog isim_temp "RE32RST.v"
+verilog isim_temp "RAM32x32.v"
+verilog isim_temp "EDAC_encoder.v"
+verilog isim_temp "EDAC_decoder.v"
+verilog isim_temp "EDAC_BLOCK.v"
+verilog isim_temp "EDAC_BLOCK_TB.v"
+verilog isim_temp "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

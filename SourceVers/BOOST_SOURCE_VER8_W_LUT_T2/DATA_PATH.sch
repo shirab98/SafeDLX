@@ -1,0 +1,1036 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<drawing version="7">
+    <attr value="spartan6" name="DeviceFamilyName">
+        <trait delete="all:0" />
+        <trait editname="all:0" />
+        <trait edittrait="all:0" />
+    </attr>
+    <netlist>
+        <signal name="CLK" />
+        <signal name="RESET" />
+        <signal name="DI(31:0)" />
+        <signal name="ADD" />
+        <signal name="PCCE" />
+        <signal name="IRCE" />
+        <signal name="ACE" />
+        <signal name="BCE" />
+        <signal name="CCE" />
+        <signal name="MARCE" />
+        <signal name="MDRCE" />
+        <signal name="TEST" />
+        <signal name="SHIFT" />
+        <signal name="RIGHT" />
+        <signal name="DO_D(31:0)" />
+        <signal name="C_O(31:0)" />
+        <signal name="AO(31:0)" />
+        <signal name="ALU_O(31:0)" />
+        <signal name="S1_O(31:0)" />
+        <signal name="S2_O(31:0)" />
+        <signal name="AEQZ_O" />
+        <signal name="ALUF(2:0)" />
+        <signal name="GPR_WE" />
+        <signal name="D_ADR(4:0)" />
+        <signal name="SHIFT_O(31:0)" />
+        <signal name="A_IN(31:0)" />
+        <signal name="B_IN(31:0)" />
+        <signal name="IR_31_25(5:0)" />
+        <signal name="IR_5_0(5:0)" />
+        <signal name="IR_O(31:0)" />
+        <signal name="SEXT(15:0)" />
+        <signal name="PC(31:0)" />
+        <signal name="B_O(31:0)" />
+        <signal name="A_O(31:0)" />
+        <signal name="DINT_O(31:0)" />
+        <signal name="MDR_MUX_O(31:0)" />
+        <signal name="RD(4:0)" />
+        <signal name="RS1(4:0)" />
+        <signal name="RS2(4:0)" />
+        <signal name="I_0(31:0)" />
+        <signal name="I_1(31:0)" />
+        <signal name="AO_0(31:0)" />
+        <signal name="DO(31:0)" />
+        <signal name="DINTSEL" />
+        <signal name="MDRSEL" />
+        <signal name="JLINK" />
+        <signal name="ITYPE" />
+        <signal name="ASEL" />
+        <signal name="S1SEL(1:0)" />
+        <signal name="S2SEL(1:0)" />
+        <signal name="IMM(31:0)" />
+        <signal name="MAR_O(31:0)" />
+        <signal name="XLXN_501" />
+        <signal name="XLXN_500" />
+        <signal name="EDAC_O(31:0)" />
+        <signal name="DINT2_O(31:0)" />
+        <signal name="DINT2SEL" />
+        <signal name="EDACCE" />
+        <signal name="NEG" />
+        <signal name="READ" />
+        <port polarity="Input" name="CLK" />
+        <port polarity="Input" name="RESET" />
+        <port polarity="Input" name="DI(31:0)" />
+        <port polarity="Input" name="ADD" />
+        <port polarity="Input" name="PCCE" />
+        <port polarity="Input" name="IRCE" />
+        <port polarity="Input" name="ACE" />
+        <port polarity="Input" name="BCE" />
+        <port polarity="Input" name="CCE" />
+        <port polarity="Input" name="MARCE" />
+        <port polarity="Input" name="MDRCE" />
+        <port polarity="Input" name="TEST" />
+        <port polarity="Input" name="SHIFT" />
+        <port polarity="Input" name="RIGHT" />
+        <port polarity="Output" name="DO_D(31:0)" />
+        <port polarity="Output" name="AO(31:0)" />
+        <port polarity="Output" name="AEQZ_O" />
+        <port polarity="Input" name="ALUF(2:0)" />
+        <port polarity="Input" name="GPR_WE" />
+        <port polarity="Input" name="D_ADR(4:0)" />
+        <port polarity="Output" name="IR_31_25(5:0)" />
+        <port polarity="Output" name="IR_5_0(5:0)" />
+        <port polarity="Output" name="PC(31:0)" />
+        <port polarity="Output" name="RD(4:0)" />
+        <port polarity="Output" name="RS1(4:0)" />
+        <port polarity="Output" name="RS2(4:0)" />
+        <port polarity="Output" name="DO(31:0)" />
+        <port polarity="Input" name="DINTSEL" />
+        <port polarity="Input" name="MDRSEL" />
+        <port polarity="Input" name="JLINK" />
+        <port polarity="Input" name="ITYPE" />
+        <port polarity="Input" name="ASEL" />
+        <port polarity="Input" name="S1SEL(1:0)" />
+        <port polarity="Input" name="S2SEL(1:0)" />
+        <port polarity="Output" name="IMM(31:0)" />
+        <port polarity="Input" name="DINT2SEL" />
+        <port polarity="Input" name="EDACCE" />
+        <port polarity="Input" name="READ" />
+        <blockdef name="IR_ENV">
+            <timestamp>2025-1-12T14:19:7</timestamp>
+            <line x2="0" y1="32" y2="32" x1="64" />
+            <line x2="0" y1="-480" y2="-480" x1="64" />
+            <line x2="0" y1="-256" y2="-256" x1="64" />
+            <rect width="64" x="0" y="-44" height="24" />
+            <line x2="0" y1="-32" y2="-32" x1="64" />
+            <rect width="64" x="320" y="-492" height="24" />
+            <line x2="384" y1="-480" y2="-480" x1="320" />
+            <rect width="64" x="320" y="-428" height="24" />
+            <line x2="384" y1="-416" y2="-416" x1="320" />
+            <rect width="64" x="320" y="-364" height="24" />
+            <line x2="384" y1="-352" y2="-352" x1="320" />
+            <rect width="64" x="320" y="-300" height="24" />
+            <line x2="384" y1="-288" y2="-288" x1="320" />
+            <rect width="64" x="320" y="-236" height="24" />
+            <line x2="384" y1="-224" y2="-224" x1="320" />
+            <rect width="64" x="320" y="-172" height="24" />
+            <line x2="384" y1="-160" y2="-160" x1="320" />
+            <rect width="64" x="320" y="-108" height="24" />
+            <line x2="384" y1="-96" y2="-96" x1="320" />
+            <rect width="64" x="320" y="-44" height="24" />
+            <line x2="384" y1="-32" y2="-32" x1="320" />
+            <rect width="256" x="64" y="-512" height="576" />
+        </blockdef>
+        <blockdef name="GPR">
+            <timestamp>2024-12-15T15:15:19</timestamp>
+            <rect width="256" x="64" y="-448" height="448" />
+            <rect width="64" x="0" y="-428" height="24" />
+            <line x2="0" y1="-416" y2="-416" x1="64" />
+            <rect width="64" x="0" y="-364" height="24" />
+            <line x2="0" y1="-352" y2="-352" x1="64" />
+            <line x2="0" y1="-288" y2="-288" x1="64" />
+            <line x2="0" y1="-224" y2="-224" x1="64" />
+            <rect width="64" x="0" y="-172" height="24" />
+            <line x2="0" y1="-160" y2="-160" x1="64" />
+            <rect width="64" x="0" y="-108" height="24" />
+            <line x2="0" y1="-96" y2="-96" x1="64" />
+            <rect width="64" x="0" y="-44" height="24" />
+            <line x2="0" y1="-32" y2="-32" x1="64" />
+            <rect width="64" x="320" y="-428" height="24" />
+            <line x2="384" y1="-416" y2="-416" x1="320" />
+            <rect width="64" x="320" y="-300" height="24" />
+            <line x2="384" y1="-288" y2="-288" x1="320" />
+            <rect width="64" x="320" y="-172" height="24" />
+            <line x2="384" y1="-160" y2="-160" x1="320" />
+            <line x2="384" y1="-32" y2="-32" x1="320" />
+        </blockdef>
+        <blockdef name="MUX4_32bit">
+            <timestamp>2024-4-10T7:9:44</timestamp>
+            <rect width="256" x="64" y="-320" height="320" />
+            <rect width="64" x="0" y="-300" height="24" />
+            <line x2="0" y1="-288" y2="-288" x1="64" />
+            <rect width="64" x="0" y="-236" height="24" />
+            <line x2="0" y1="-224" y2="-224" x1="64" />
+            <rect width="64" x="0" y="-172" height="24" />
+            <line x2="0" y1="-160" y2="-160" x1="64" />
+            <rect width="64" x="0" y="-108" height="24" />
+            <line x2="0" y1="-96" y2="-96" x1="64" />
+            <rect width="64" x="0" y="-44" height="24" />
+            <line x2="0" y1="-32" y2="-32" x1="64" />
+            <rect width="64" x="320" y="-300" height="24" />
+            <line x2="384" y1="-288" y2="-288" x1="320" />
+        </blockdef>
+        <blockdef name="SHIFT_ENV">
+            <timestamp>2025-1-5T13:30:49</timestamp>
+            <rect width="256" x="64" y="-192" height="192" />
+            <line x2="0" y1="-160" y2="-160" x1="64" />
+            <line x2="0" y1="-96" y2="-96" x1="64" />
+            <rect width="64" x="0" y="-44" height="24" />
+            <line x2="0" y1="-32" y2="-32" x1="64" />
+            <rect width="64" x="320" y="-172" height="24" />
+            <line x2="384" y1="-160" y2="-160" x1="320" />
+        </blockdef>
+        <blockdef name="ALU_ENV">
+            <timestamp>2025-1-5T13:2:59</timestamp>
+            <line x2="416" y1="32" y2="32" x1="352" />
+            <line x2="0" y1="-288" y2="-288" x1="64" />
+            <rect width="64" x="0" y="-236" height="24" />
+            <line x2="0" y1="-224" y2="-224" x1="64" />
+            <line x2="0" y1="-160" y2="-160" x1="64" />
+            <rect width="64" x="0" y="-108" height="24" />
+            <line x2="0" y1="-96" y2="-96" x1="64" />
+            <rect width="64" x="0" y="-44" height="24" />
+            <line x2="0" y1="-32" y2="-32" x1="64" />
+            <rect width="64" x="352" y="-300" height="24" />
+            <line x2="416" y1="-288" y2="-288" x1="352" />
+            <rect width="288" x="64" y="-320" height="384" />
+        </blockdef>
+        <blockdef name="MMU">
+            <timestamp>2025-1-5T14:24:59</timestamp>
+            <rect width="256" x="64" y="-64" height="64" />
+            <rect width="64" x="0" y="-44" height="24" />
+            <line x2="0" y1="-32" y2="-32" x1="64" />
+            <rect width="64" x="320" y="-44" height="24" />
+            <line x2="384" y1="-32" y2="-32" x1="320" />
+        </blockdef>
+        <blockdef name="REG32RST">
+            <timestamp>2024-4-10T5:17:17</timestamp>
+            <rect width="256" x="64" y="-256" height="256" />
+            <line x2="0" y1="-224" y2="-224" x1="64" />
+            <line x2="0" y1="-160" y2="-160" x1="64" />
+            <line x2="0" y1="-96" y2="-96" x1="64" />
+            <rect width="64" x="0" y="-44" height="24" />
+            <line x2="0" y1="-32" y2="-32" x1="64" />
+            <rect width="64" x="320" y="-236" height="24" />
+            <line x2="384" y1="-224" y2="-224" x1="320" />
+        </blockdef>
+        <blockdef name="REG32CE">
+            <timestamp>2024-4-10T5:17:12</timestamp>
+            <rect width="256" x="64" y="-192" height="192" />
+            <line x2="0" y1="-160" y2="-160" x1="64" />
+            <line x2="0" y1="-96" y2="-96" x1="64" />
+            <rect width="64" x="0" y="-44" height="24" />
+            <line x2="0" y1="-32" y2="-32" x1="64" />
+            <rect width="64" x="320" y="-172" height="24" />
+            <line x2="384" y1="-160" y2="-160" x1="320" />
+        </blockdef>
+        <blockdef name="MUX32bit">
+            <timestamp>2024-4-10T7:9:38</timestamp>
+            <rect width="256" x="64" y="-192" height="192" />
+            <line x2="0" y1="-160" y2="-160" x1="64" />
+            <rect width="64" x="0" y="-108" height="24" />
+            <line x2="0" y1="-96" y2="-96" x1="64" />
+            <rect width="64" x="0" y="-44" height="24" />
+            <line x2="0" y1="-32" y2="-32" x1="64" />
+            <rect width="64" x="320" y="-172" height="24" />
+            <line x2="384" y1="-160" y2="-160" x1="320" />
+        </blockdef>
+        <blockdef name="ZERO_BUF_32">
+            <timestamp>2025-1-5T12:45:59</timestamp>
+            <rect width="256" x="64" y="-64" height="64" />
+            <line x2="0" y1="-32" y2="-32" x1="64" />
+            <rect width="64" x="320" y="-44" height="24" />
+            <line x2="384" y1="-32" y2="-32" x1="320" />
+        </blockdef>
+        <blockdef name="vcc">
+            <timestamp>2000-1-1T10:10:10</timestamp>
+            <line x2="64" y1="-32" y2="-64" x1="64" />
+            <line x2="64" y1="0" y2="-32" x1="64" />
+            <line x2="32" y1="-64" y2="-64" x1="96" />
+        </blockdef>
+        <blockdef name="gnd">
+            <timestamp>2000-1-1T10:10:10</timestamp>
+            <line x2="64" y1="-64" y2="-96" x1="64" />
+            <line x2="52" y1="-48" y2="-48" x1="76" />
+            <line x2="60" y1="-32" y2="-32" x1="68" />
+            <line x2="40" y1="-64" y2="-64" x1="88" />
+            <line x2="64" y1="-64" y2="-80" x1="64" />
+            <line x2="64" y1="-128" y2="-96" x1="64" />
+        </blockdef>
+        <blockdef name="EDAC_BLOCK">
+            <timestamp>2025-7-1T19:33:40</timestamp>
+            <rect width="256" x="64" y="-384" height="384" />
+            <line x2="0" y1="-352" y2="-352" x1="64" />
+            <line x2="0" y1="-288" y2="-288" x1="64" />
+            <line x2="0" y1="-224" y2="-224" x1="64" />
+            <line x2="0" y1="-160" y2="-160" x1="64" />
+            <line x2="0" y1="-96" y2="-96" x1="64" />
+            <rect width="64" x="0" y="-44" height="24" />
+            <line x2="0" y1="-32" y2="-32" x1="64" />
+            <rect width="64" x="320" y="-364" height="24" />
+            <line x2="384" y1="-352" y2="-352" x1="320" />
+        </blockdef>
+        <block symbolname="IR_ENV" name="XLXI_1">
+            <blockpin signalname="IRCE" name="IRCE" />
+            <blockpin signalname="CLK" name="CLK" />
+            <blockpin signalname="JLINK" name="JLINK" />
+            <blockpin signalname="DI(31:0)" name="DI(31:0)" />
+            <blockpin signalname="IR_31_25(5:0)" name="IR_31_26(5:0)" />
+            <blockpin signalname="IR_5_0(5:0)" name="IR_5_0(5:0)" />
+            <blockpin signalname="IR_O(31:0)" name="IR_OUT(31:0)" />
+            <blockpin signalname="SEXT(15:0)" name="SEXT(15:0)" />
+            <blockpin signalname="IMM(31:0)" name="imm(31:0)" />
+            <blockpin signalname="RS1(4:0)" name="RS1(4:0)" />
+            <blockpin signalname="RS2(4:0)" name="RS2(4:0)" />
+            <blockpin signalname="RD(4:0)" name="RD(4:0)" />
+        </block>
+        <block symbolname="REG32CE" name="XLXI_20">
+            <blockpin signalname="CLK" name="CLK" />
+            <blockpin signalname="BCE" name="CE" />
+            <blockpin signalname="B_IN(31:0)" name="DI(31:0)" />
+            <blockpin signalname="B_O(31:0)" name="DO(31:0)" />
+        </block>
+        <block symbolname="REG32CE" name="XLXI_21">
+            <blockpin signalname="CLK" name="CLK" />
+            <blockpin signalname="MDRCE" name="CE" />
+            <blockpin signalname="MDR_MUX_O(31:0)" name="DI(31:0)" />
+            <blockpin signalname="DO(31:0)" name="DO(31:0)" />
+        </block>
+        <block symbolname="REG32CE" name="XLXI_22">
+            <blockpin signalname="CLK" name="CLK" />
+            <blockpin signalname="ACE" name="CE" />
+            <blockpin signalname="A_IN(31:0)" name="DI(31:0)" />
+            <blockpin signalname="A_O(31:0)" name="DO(31:0)" />
+        </block>
+        <block symbolname="GPR" name="XLXI_2">
+            <blockpin signalname="RD(4:0)" name="C_adr(4:0)" />
+            <blockpin signalname="C_O(31:0)" name="D_IN(31:0)" />
+            <blockpin signalname="CLK" name="CLK" />
+            <blockpin signalname="GPR_WE" name="GPR_WE" />
+            <blockpin signalname="RS1(4:0)" name="A_adr(4:0)" />
+            <blockpin signalname="RS2(4:0)" name="B_adr(4:0)" />
+            <blockpin signalname="D_ADR(4:0)" name="D_adr(4:0)" />
+            <blockpin signalname="A_IN(31:0)" name="DO_A(31:0)" />
+            <blockpin signalname="B_IN(31:0)" name="DO_B(31:0)" />
+            <blockpin signalname="DO_D(31:0)" name="DO_D(31:0)" />
+            <blockpin signalname="AEQZ_O" name="A_eqz" />
+        </block>
+        <block symbolname="MMU" name="XLXI_7">
+            <blockpin signalname="AO_0(31:0)" name="AO(31:0)" />
+            <blockpin signalname="AO(31:0)" name="MMU_AO(31:0)" />
+        </block>
+        <block symbolname="MUX4_32bit" name="XLXI_51">
+            <blockpin signalname="B_O(31:0)" name="A(31:0)" />
+            <blockpin signalname="IMM(31:0)" name="B(31:0)" />
+            <blockpin signalname="I_0(31:0)" name="C(31:0)" />
+            <blockpin signalname="I_1(31:0)" name="D(31:0)" />
+            <blockpin signalname="S2SEL(1:0)" name="sel(1:0)" />
+            <blockpin signalname="S2_O(31:0)" name="O(31:0)" />
+        </block>
+        <block symbolname="MUX4_32bit" name="XLXI_3">
+            <blockpin signalname="PC(31:0)" name="A(31:0)" />
+            <blockpin signalname="A_O(31:0)" name="B(31:0)" />
+            <blockpin signalname="B_O(31:0)" name="C(31:0)" />
+            <blockpin signalname="DO(31:0)" name="D(31:0)" />
+            <blockpin signalname="S1SEL(1:0)" name="sel(1:0)" />
+            <blockpin signalname="S1_O(31:0)" name="O(31:0)" />
+        </block>
+        <block symbolname="REG32RST" name="XLXI_8">
+            <blockpin signalname="CLK" name="CLK" />
+            <blockpin signalname="PCCE" name="CE" />
+            <blockpin signalname="RESET" name="RST" />
+            <blockpin signalname="DINT_O(31:0)" name="DI(31:0)" />
+            <blockpin signalname="PC(31:0)" name="DO(31:0)" />
+        </block>
+        <block symbolname="REG32CE" name="XLXI_10">
+            <blockpin signalname="CLK" name="CLK" />
+            <blockpin signalname="CCE" name="CE" />
+            <blockpin signalname="DINT2_O(31:0)" name="DI(31:0)" />
+            <blockpin signalname="C_O(31:0)" name="DO(31:0)" />
+        </block>
+        <block symbolname="REG32CE" name="XLXI_23">
+            <blockpin signalname="CLK" name="CLK" />
+            <blockpin signalname="MARCE" name="CE" />
+            <blockpin signalname="DINT2_O(31:0)" name="DI(31:0)" />
+            <blockpin signalname="MAR_O(31:0)" name="DO(31:0)" />
+        </block>
+        <block symbolname="MUX32bit" name="XLXI_47">
+            <blockpin signalname="MDRSEL" name="sel" />
+            <blockpin signalname="DINT2_O(31:0)" name="A(31:0)" />
+            <blockpin signalname="DI(31:0)" name="B(31:0)" />
+            <blockpin signalname="MDR_MUX_O(31:0)" name="O(31:0)" />
+        </block>
+        <block symbolname="MUX32bit" name="XLXI_86">
+            <blockpin signalname="ASEL" name="sel" />
+            <blockpin signalname="PC(31:0)" name="A(31:0)" />
+            <blockpin signalname="MAR_O(31:0)" name="B(31:0)" />
+            <blockpin signalname="AO_0(31:0)" name="O(31:0)" />
+        </block>
+        <block symbolname="MUX32bit" name="XLXI_68">
+            <blockpin signalname="DINTSEL" name="sel" />
+            <blockpin signalname="ALU_O(31:0)" name="A(31:0)" />
+            <blockpin signalname="SHIFT_O(31:0)" name="B(31:0)" />
+            <blockpin signalname="DINT_O(31:0)" name="O(31:0)" />
+        </block>
+        <block symbolname="vcc" name="XLXI_84">
+            <blockpin signalname="XLXN_501" name="P" />
+        </block>
+        <block symbolname="ZERO_BUF_32" name="XLXI_83">
+            <blockpin signalname="XLXN_501" name="I" />
+            <blockpin signalname="I_1(31:0)" name="O(31:0)" />
+        </block>
+        <block symbolname="gnd" name="XLXI_85">
+            <blockpin signalname="XLXN_500" name="G" />
+        </block>
+        <block symbolname="ZERO_BUF_32" name="XLXI_82">
+            <blockpin signalname="XLXN_500" name="I" />
+            <blockpin signalname="I_0(31:0)" name="O(31:0)" />
+        </block>
+        <block symbolname="MUX32bit" name="XLXI_112">
+            <blockpin signalname="DINT2SEL" name="sel" />
+            <blockpin signalname="DINT_O(31:0)" name="A(31:0)" />
+            <blockpin signalname="EDAC_O(31:0)" name="B(31:0)" />
+            <blockpin signalname="DINT2_O(31:0)" name="O(31:0)" />
+        </block>
+        <block symbolname="SHIFT_ENV" name="XLXI_5">
+            <blockpin signalname="SHIFT" name="SHIFT" />
+            <blockpin signalname="RIGHT" name="RIGHT" />
+            <blockpin signalname="S1_O(31:0)" name="I(31:0)" />
+            <blockpin signalname="SHIFT_O(31:0)" name="O(31:0)" />
+        </block>
+        <block symbolname="ALU_ENV" name="XLXI_6">
+            <blockpin signalname="ADD" name="ADD" />
+            <blockpin signalname="ALUF(2:0)" name="ALUF(2:0)" />
+            <blockpin signalname="TEST" name="TEST" />
+            <blockpin signalname="S1_O(31:0)" name="A(31:0)" />
+            <blockpin signalname="S2_O(31:0)" name="B(31:0)" />
+            <blockpin signalname="ALU_O(31:0)" name="ALU_OUT(31:0)" />
+            <blockpin signalname="NEG" name="NEG" />
+        </block>
+        <block symbolname="EDAC_BLOCK" name="XLXI_120">
+            <blockpin signalname="CLK" name="CLK" />
+            <blockpin signalname="EDACCE" name="en" />
+            <blockpin signalname="DINT2SEL" name="EDACSEL" />
+            <blockpin signalname="RESET" name="reset" />
+            <blockpin signalname="READ" name="READ" />
+            <blockpin signalname="S1_O(31:0)" name="DIN(31:0)" />
+            <blockpin signalname="EDAC_O(31:0)" name="DOUT(31:0)" />
+        </block>
+    </netlist>
+    <sheet sheetnum="1" width="3520" height="2720">
+        <branch name="DO(31:0)">
+            <wire x2="3248" y1="240" y2="240" x1="3120" />
+        </branch>
+        <branch name="AO(31:0)">
+            <wire x2="3248" y1="288" y2="288" x1="3120" />
+        </branch>
+        <branch name="IR_31_25(5:0)">
+            <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="960" y="1072" type="branch" />
+            <wire x2="960" y1="1072" y2="1072" x1="944" />
+        </branch>
+        <branch name="IR_5_0(5:0)">
+            <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="960" y="1136" type="branch" />
+            <wire x2="960" y1="1136" y2="1136" x1="944" />
+        </branch>
+        <branch name="IR_O(31:0)">
+            <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="960" y="1200" type="branch" />
+            <wire x2="960" y1="1200" y2="1200" x1="944" />
+        </branch>
+        <branch name="SEXT(15:0)">
+            <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="960" y="1264" type="branch" />
+            <wire x2="960" y1="1264" y2="1264" x1="944" />
+        </branch>
+        <branch name="RS1(4:0)">
+            <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="960" y="1392" type="branch" />
+            <wire x2="960" y1="1392" y2="1392" x1="944" />
+        </branch>
+        <branch name="RS2(4:0)">
+            <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="960" y="1456" type="branch" />
+            <wire x2="960" y1="1456" y2="1456" x1="944" />
+        </branch>
+        <branch name="RD(4:0)">
+            <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="960" y="1520" type="branch" />
+            <wire x2="960" y1="1520" y2="1520" x1="944" />
+        </branch>
+        <branch name="DI(31:0)">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="544" y="1520" type="branch" />
+            <wire x2="560" y1="1520" y2="1520" x1="544" />
+        </branch>
+        <branch name="CLK">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="544" y="1296" type="branch" />
+            <wire x2="560" y1="1296" y2="1296" x1="544" />
+        </branch>
+        <branch name="IRCE">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="544" y="1072" type="branch" />
+            <wire x2="560" y1="1072" y2="1072" x1="544" />
+        </branch>
+        <instance x="560" y="1552" name="XLXI_1" orien="R0">
+        </instance>
+        <branch name="CLK">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="1376" y="672" type="branch" />
+            <wire x2="1408" y1="672" y2="672" x1="1376" />
+        </branch>
+        <branch name="BCE">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="1376" y="736" type="branch" />
+            <wire x2="1408" y1="736" y2="736" x1="1376" />
+        </branch>
+        <branch name="B_IN(31:0)">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="1376" y="800" type="branch" />
+            <wire x2="1408" y1="800" y2="800" x1="1376" />
+        </branch>
+        <branch name="B_O(31:0)">
+            <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="1824" y="672" type="branch" />
+            <wire x2="1824" y1="672" y2="672" x1="1792" />
+        </branch>
+        <text style="fontsize:56;fontname:Arial" x="1580" y="732">B</text>
+        <instance x="1408" y="832" name="XLXI_20" orien="R0">
+        </instance>
+        <branch name="CLK">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="2208" y="672" type="branch" />
+            <wire x2="2224" y1="672" y2="672" x1="2208" />
+            <wire x2="2240" y1="672" y2="672" x1="2224" />
+        </branch>
+        <branch name="MDRCE">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="2208" y="736" type="branch" />
+            <wire x2="2240" y1="736" y2="736" x1="2208" />
+        </branch>
+        <branch name="MDR_MUX_O(31:0)">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="2208" y="800" type="branch" />
+            <wire x2="2224" y1="800" y2="800" x1="2208" />
+            <wire x2="2240" y1="800" y2="800" x1="2224" />
+        </branch>
+        <branch name="DO(31:0)">
+            <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="2656" y="672" type="branch" />
+            <wire x2="2656" y1="672" y2="672" x1="2624" />
+        </branch>
+        <text style="fontsize:56;fontname:Arial" x="2380" y="732">MDR</text>
+        <instance x="2240" y="832" name="XLXI_21" orien="R0">
+        </instance>
+        <branch name="CLK">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="624" y="672" type="branch" />
+            <wire x2="656" y1="672" y2="672" x1="624" />
+        </branch>
+        <branch name="ACE">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="624" y="736" type="branch" />
+            <wire x2="656" y1="736" y2="736" x1="624" />
+        </branch>
+        <branch name="A_IN(31:0)">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="624" y="800" type="branch" />
+            <wire x2="656" y1="800" y2="800" x1="624" />
+        </branch>
+        <branch name="A_O(31:0)">
+            <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="1072" y="672" type="branch" />
+            <wire x2="1072" y1="672" y2="672" x1="1040" />
+        </branch>
+        <text style="fontsize:56;fontname:Arial" x="836" y="732">A</text>
+        <instance x="656" y="832" name="XLXI_22" orien="R0">
+        </instance>
+        <branch name="A_IN(31:0)">
+            <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="720" y="1888" type="branch" />
+            <wire x2="720" y1="1888" y2="1888" x1="704" />
+        </branch>
+        <branch name="B_IN(31:0)">
+            <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="720" y="2016" type="branch" />
+            <wire x2="720" y1="2016" y2="2016" x1="704" />
+        </branch>
+        <branch name="DO_D(31:0)">
+            <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="720" y="2144" type="branch" />
+            <wire x2="720" y1="2144" y2="2144" x1="704" />
+        </branch>
+        <branch name="AEQZ_O">
+            <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="720" y="2272" type="branch" />
+            <wire x2="720" y1="2272" y2="2272" x1="704" />
+        </branch>
+        <branch name="RD(4:0)">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="304" y="1888" type="branch" />
+            <wire x2="320" y1="1888" y2="1888" x1="304" />
+        </branch>
+        <branch name="C_O(31:0)">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="304" y="1952" type="branch" />
+            <wire x2="320" y1="1952" y2="1952" x1="304" />
+        </branch>
+        <branch name="CLK">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="304" y="2016" type="branch" />
+            <wire x2="320" y1="2016" y2="2016" x1="304" />
+        </branch>
+        <branch name="GPR_WE">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="304" y="2080" type="branch" />
+            <wire x2="320" y1="2080" y2="2080" x1="304" />
+        </branch>
+        <branch name="RS1(4:0)">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="304" y="2144" type="branch" />
+            <wire x2="320" y1="2144" y2="2144" x1="304" />
+        </branch>
+        <branch name="RS2(4:0)">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="304" y="2208" type="branch" />
+            <wire x2="320" y1="2208" y2="2208" x1="304" />
+        </branch>
+        <branch name="D_ADR(4:0)">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="304" y="2272" type="branch" />
+            <wire x2="320" y1="2272" y2="2272" x1="304" />
+        </branch>
+        <instance x="320" y="2304" name="XLXI_2" orien="R0">
+        </instance>
+        <iomarker fontsize="28" x="3248" y="240" name="DO(31:0)" orien="R0" />
+        <iomarker fontsize="28" x="3248" y="288" name="AO(31:0)" orien="R0" />
+        <branch name="RD(4:0)">
+            <wire x2="3248" y1="336" y2="336" x1="3120" />
+        </branch>
+        <branch name="RS2(4:0)">
+            <wire x2="3136" y1="384" y2="384" x1="3120" />
+            <wire x2="3248" y1="384" y2="384" x1="3136" />
+        </branch>
+        <branch name="RS1(4:0)">
+            <wire x2="3248" y1="432" y2="432" x1="3120" />
+        </branch>
+        <branch name="IR_31_25(5:0)">
+            <wire x2="3248" y1="624" y2="624" x1="3120" />
+        </branch>
+        <branch name="IR_5_0(5:0)">
+            <wire x2="3248" y1="672" y2="672" x1="3120" />
+        </branch>
+        <branch name="DO_D(31:0)">
+            <wire x2="3248" y1="720" y2="720" x1="3120" />
+        </branch>
+        <branch name="AEQZ_O">
+            <wire x2="3248" y1="816" y2="816" x1="3120" />
+        </branch>
+        <iomarker fontsize="28" x="3248" y="336" name="RD(4:0)" orien="R0" />
+        <iomarker fontsize="28" x="3248" y="384" name="RS2(4:0)" orien="R0" />
+        <iomarker fontsize="28" x="3248" y="432" name="RS1(4:0)" orien="R0" />
+        <iomarker fontsize="28" x="3248" y="480" name="IMM(31:0)" orien="R0" />
+        <iomarker fontsize="28" x="3248" y="624" name="IR_31_25(5:0)" orien="R0" />
+        <iomarker fontsize="28" x="3248" y="672" name="IR_5_0(5:0)" orien="R0" />
+        <iomarker fontsize="28" x="3248" y="720" name="DO_D(31:0)" orien="R0" />
+        <iomarker fontsize="28" x="3248" y="816" name="AEQZ_O" orien="R0" />
+        <branch name="AO(31:0)">
+            <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="3280" y="1280" type="branch" />
+            <wire x2="3280" y1="1280" y2="1280" x1="3248" />
+        </branch>
+        <branch name="AO_0(31:0)">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="2832" y="1280" type="branch" />
+            <wire x2="2864" y1="1280" y2="1280" x1="2832" />
+        </branch>
+        <instance x="2864" y="1312" name="XLXI_7" orien="R0">
+        </instance>
+        <branch name="B_O(31:0)">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="2208" y="976" type="branch" />
+            <wire x2="2224" y1="976" y2="976" x1="2208" />
+        </branch>
+        <branch name="I_0(31:0)">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="2208" y="1104" type="branch" />
+            <wire x2="2224" y1="1104" y2="1104" x1="2208" />
+        </branch>
+        <branch name="I_1(31:0)">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="2208" y="1168" type="branch" />
+            <wire x2="2224" y1="1168" y2="1168" x1="2208" />
+        </branch>
+        <branch name="S2SEL(1:0)">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="2208" y="1232" type="branch" />
+            <wire x2="2224" y1="1232" y2="1232" x1="2208" />
+        </branch>
+        <branch name="S2_O(31:0)">
+            <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="2640" y="976" type="branch" />
+            <wire x2="2640" y1="976" y2="976" x1="2608" />
+        </branch>
+        <text style="fontsize:56;fontname:Arial" x="2412" y="1060">S2</text>
+        <instance x="2224" y="1264" name="XLXI_51" orien="R0">
+        </instance>
+        <branch name="PC(31:0)">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="1376" y="976" type="branch" />
+            <wire x2="1392" y1="976" y2="976" x1="1376" />
+        </branch>
+        <branch name="A_O(31:0)">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="1376" y="1040" type="branch" />
+            <wire x2="1392" y1="1040" y2="1040" x1="1376" />
+        </branch>
+        <branch name="B_O(31:0)">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="1376" y="1104" type="branch" />
+            <wire x2="1392" y1="1104" y2="1104" x1="1376" />
+        </branch>
+        <branch name="DO(31:0)">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="1376" y="1168" type="branch" />
+            <wire x2="1392" y1="1168" y2="1168" x1="1376" />
+        </branch>
+        <branch name="S1SEL(1:0)">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="1376" y="1232" type="branch" />
+            <wire x2="1392" y1="1232" y2="1232" x1="1376" />
+        </branch>
+        <branch name="S1_O(31:0)">
+            <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="1808" y="976" type="branch" />
+            <wire x2="1808" y1="976" y2="976" x1="1776" />
+        </branch>
+        <text style="fontsize:56;fontname:Arial" x="1580" y="1084">S1</text>
+        <instance x="1392" y="1264" name="XLXI_3" orien="R0">
+        </instance>
+        <branch name="CLK">
+            <wire x2="352" y1="240" y2="240" x1="224" />
+        </branch>
+        <branch name="RESET">
+            <wire x2="352" y1="288" y2="288" x1="224" />
+        </branch>
+        <branch name="DI(31:0)">
+            <wire x2="352" y1="336" y2="336" x1="224" />
+        </branch>
+        <branch name="ADD">
+            <wire x2="352" y1="384" y2="384" x1="224" />
+        </branch>
+        <branch name="PCCE">
+            <wire x2="352" y1="432" y2="432" x1="224" />
+        </branch>
+        <branch name="IRCE">
+            <wire x2="352" y1="480" y2="480" x1="224" />
+        </branch>
+        <branch name="ACE">
+            <wire x2="352" y1="528" y2="528" x1="224" />
+        </branch>
+        <branch name="BCE">
+            <wire x2="352" y1="576" y2="576" x1="224" />
+        </branch>
+        <branch name="CCE">
+            <wire x2="352" y1="624" y2="624" x1="224" />
+        </branch>
+        <branch name="MARCE">
+            <wire x2="352" y1="672" y2="672" x1="224" />
+        </branch>
+        <branch name="MDRCE">
+            <wire x2="352" y1="720" y2="720" x1="224" />
+        </branch>
+        <branch name="TEST">
+            <wire x2="352" y1="768" y2="768" x1="224" />
+        </branch>
+        <branch name="SHIFT">
+            <wire x2="352" y1="816" y2="816" x1="224" />
+        </branch>
+        <branch name="RIGHT">
+            <wire x2="352" y1="864" y2="864" x1="224" />
+        </branch>
+        <branch name="JLINK">
+            <wire x2="352" y1="912" y2="912" x1="224" />
+        </branch>
+        <branch name="ITYPE">
+            <wire x2="352" y1="960" y2="960" x1="224" />
+        </branch>
+        <branch name="S1SEL(1:0)">
+            <wire x2="352" y1="1008" y2="1008" x1="224" />
+        </branch>
+        <branch name="S2SEL(1:0)">
+            <wire x2="352" y1="1056" y2="1056" x1="224" />
+        </branch>
+        <branch name="DINTSEL">
+            <wire x2="352" y1="1104" y2="1104" x1="224" />
+        </branch>
+        <branch name="MDRSEL">
+            <wire x2="352" y1="1152" y2="1152" x1="224" />
+        </branch>
+        <branch name="ASEL">
+            <wire x2="352" y1="1200" y2="1200" x1="224" />
+        </branch>
+        <branch name="DINTSEL">
+            <wire x2="352" y1="1248" y2="1248" x1="224" />
+        </branch>
+        <branch name="ALUF(2:0)">
+            <wire x2="352" y1="1296" y2="1296" x1="224" />
+        </branch>
+        <branch name="GPR_WE">
+            <wire x2="352" y1="1344" y2="1344" x1="224" />
+        </branch>
+        <branch name="D_ADR(4:0)">
+            <wire x2="336" y1="1392" y2="1392" x1="224" />
+            <wire x2="352" y1="1392" y2="1392" x1="336" />
+        </branch>
+        <iomarker fontsize="28" x="224" y="240" name="CLK" orien="R180" />
+        <iomarker fontsize="28" x="224" y="288" name="RESET" orien="R180" />
+        <iomarker fontsize="28" x="224" y="336" name="DI(31:0)" orien="R180" />
+        <iomarker fontsize="28" x="224" y="384" name="ADD" orien="R180" />
+        <iomarker fontsize="28" x="224" y="432" name="PCCE" orien="R180" />
+        <iomarker fontsize="28" x="224" y="480" name="IRCE" orien="R180" />
+        <iomarker fontsize="28" x="224" y="528" name="ACE" orien="R180" />
+        <iomarker fontsize="28" x="224" y="576" name="BCE" orien="R180" />
+        <iomarker fontsize="28" x="224" y="624" name="CCE" orien="R180" />
+        <iomarker fontsize="28" x="224" y="672" name="MARCE" orien="R180" />
+        <iomarker fontsize="28" x="224" y="720" name="MDRCE" orien="R180" />
+        <iomarker fontsize="28" x="224" y="768" name="TEST" orien="R180" />
+        <iomarker fontsize="28" x="224" y="816" name="SHIFT" orien="R180" />
+        <iomarker fontsize="28" x="224" y="864" name="RIGHT" orien="R180" />
+        <iomarker fontsize="28" x="224" y="912" name="JLINK" orien="R180" />
+        <iomarker fontsize="28" x="224" y="960" name="ITYPE" orien="R180" />
+        <iomarker fontsize="28" x="224" y="1008" name="S1SEL(1:0)" orien="R180" />
+        <iomarker fontsize="28" x="224" y="1056" name="S2SEL(1:0)" orien="R180" />
+        <iomarker fontsize="28" x="224" y="1104" name="DINTSEL" orien="R180" />
+        <iomarker fontsize="28" x="224" y="1152" name="MDRSEL" orien="R180" />
+        <iomarker fontsize="28" x="224" y="1200" name="ASEL" orien="R180" />
+        <iomarker fontsize="28" x="224" y="1248" name="DINTSEL" orien="R180" />
+        <iomarker fontsize="28" x="224" y="1296" name="ALUF(2:0)" orien="R180" />
+        <iomarker fontsize="28" x="224" y="1344" name="GPR_WE" orien="R180" />
+        <iomarker fontsize="28" x="224" y="1392" name="D_ADR(4:0)" orien="R180" />
+        <branch name="JLINK">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="544" y="1584" type="branch" />
+            <wire x2="560" y1="1584" y2="1584" x1="544" />
+        </branch>
+        <instance x="944" y="480" name="XLXI_8" orien="R0">
+        </instance>
+        <branch name="CLK">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="912" y="256" type="branch" />
+            <wire x2="944" y1="256" y2="256" x1="912" />
+        </branch>
+        <branch name="PCCE">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="912" y="320" type="branch" />
+            <wire x2="944" y1="320" y2="320" x1="912" />
+        </branch>
+        <branch name="PC(31:0)">
+            <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="1360" y="256" type="branch" />
+            <wire x2="1360" y1="256" y2="256" x1="1328" />
+        </branch>
+        <branch name="DINT_O(31:0)">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="912" y="448" type="branch" />
+            <wire x2="944" y1="448" y2="448" x1="912" />
+        </branch>
+        <branch name="RESET">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="912" y="384" type="branch" />
+            <wire x2="944" y1="384" y2="384" x1="912" />
+        </branch>
+        <text style="fontsize:56;fontname:Arial" x="1112" y="344">PC</text>
+        <instance x="1792" y="416" name="XLXI_10" orien="R0">
+        </instance>
+        <branch name="CLK">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="1760" y="256" type="branch" />
+            <wire x2="1776" y1="256" y2="256" x1="1760" />
+            <wire x2="1792" y1="256" y2="256" x1="1776" />
+        </branch>
+        <branch name="CCE">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="1760" y="320" type="branch" />
+            <wire x2="1792" y1="320" y2="320" x1="1760" />
+        </branch>
+        <branch name="DINT2_O(31:0)">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="1760" y="384" type="branch" />
+            <wire x2="1792" y1="384" y2="384" x1="1760" />
+        </branch>
+        <branch name="C_O(31:0)">
+            <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="2208" y="256" type="branch" />
+            <wire x2="2208" y1="256" y2="256" x1="2176" />
+        </branch>
+        <text style="fontsize:56;fontname:Arial" x="1972" y="320">C</text>
+        <branch name="IMM(31:0)">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="2176" y="1040" type="branch" />
+            <wire x2="2224" y1="1040" y2="1040" x1="2176" />
+        </branch>
+        <branch name="IMM(31:0)">
+            <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="992" y="1328" type="branch" />
+            <wire x2="992" y1="1328" y2="1328" x1="944" />
+        </branch>
+        <branch name="IMM(31:0)">
+            <wire x2="3248" y1="480" y2="480" x1="3120" />
+        </branch>
+        <branch name="PC(31:0)">
+            <wire x2="3248" y1="880" y2="880" x1="3120" />
+        </branch>
+        <iomarker fontsize="28" x="3248" y="880" name="PC(31:0)" orien="R0" />
+        <instance x="2736" y="2336" name="XLXI_23" orien="R0">
+        </instance>
+        <branch name="CLK">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="2704" y="2176" type="branch" />
+            <wire x2="2736" y1="2176" y2="2176" x1="2704" />
+        </branch>
+        <branch name="MARCE">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="2704" y="2240" type="branch" />
+            <wire x2="2736" y1="2240" y2="2240" x1="2704" />
+        </branch>
+        <branch name="DINT2_O(31:0)">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="2704" y="2304" type="branch" />
+            <wire x2="2736" y1="2304" y2="2304" x1="2704" />
+        </branch>
+        <branch name="MAR_O(31:0)">
+            <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="3152" y="2176" type="branch" />
+            <wire x2="3152" y1="2176" y2="2176" x1="3120" />
+        </branch>
+        <branch name="MDRSEL">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="2704" y="1776" type="branch" />
+            <wire x2="2736" y1="1776" y2="1776" x1="2704" />
+        </branch>
+        <branch name="DINT2_O(31:0)">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="2704" y="1840" type="branch" />
+            <wire x2="2736" y1="1840" y2="1840" x1="2704" />
+        </branch>
+        <branch name="DI(31:0)">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="2704" y="1904" type="branch" />
+            <wire x2="2720" y1="1904" y2="1904" x1="2704" />
+            <wire x2="2736" y1="1904" y2="1904" x1="2720" />
+        </branch>
+        <branch name="MDR_MUX_O(31:0)">
+            <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="3168" y="1776" type="branch" />
+            <wire x2="3168" y1="1776" y2="1776" x1="3120" />
+        </branch>
+        <text style="fontsize:56;fontname:Arial" x="2888" y="2232">MAR</text>
+        <text style="fontsize:56;fontname:Arial" x="2904" y="1852">MDR</text>
+        <branch name="DINTSEL">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="2704" y="1488" type="branch" />
+            <wire x2="2736" y1="1488" y2="1488" x1="2704" />
+        </branch>
+        <branch name="ALU_O(31:0)">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="2704" y="1552" type="branch" />
+            <wire x2="2736" y1="1552" y2="1552" x1="2704" />
+        </branch>
+        <branch name="SHIFT_O(31:0)">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="2704" y="1616" type="branch" />
+            <wire x2="2736" y1="1616" y2="1616" x1="2704" />
+        </branch>
+        <branch name="DINT_O(31:0)">
+            <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="3168" y="1488" type="branch" />
+            <wire x2="3168" y1="1488" y2="1488" x1="3120" />
+        </branch>
+        <branch name="PC(31:0)">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="2672" y="2544" type="branch" />
+            <wire x2="2704" y1="2544" y2="2544" x1="2672" />
+        </branch>
+        <branch name="MAR_O(31:0)">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="2672" y="2608" type="branch" />
+            <wire x2="2704" y1="2608" y2="2608" x1="2672" />
+        </branch>
+        <branch name="AO_0(31:0)">
+            <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="3136" y="2480" type="branch" />
+            <wire x2="3136" y1="2480" y2="2480" x1="3088" />
+        </branch>
+        <instance x="2736" y="1936" name="XLXI_47" orien="R0">
+        </instance>
+        <branch name="ASEL">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="2640" y="2480" type="branch" />
+            <wire x2="2704" y1="2480" y2="2480" x1="2640" />
+        </branch>
+        <text style="fontsize:56;fontname:Arial" x="2892" y="2560">A</text>
+        <instance x="2704" y="2640" name="XLXI_86" orien="R0">
+        </instance>
+        <instance x="2736" y="1648" name="XLXI_68" orien="R0">
+        </instance>
+        <instance x="224" y="2576" name="XLXI_84" orien="R0" />
+        <instance x="320" y="2608" name="XLXI_83" orien="R0">
+        </instance>
+        <branch name="I_1(31:0)">
+            <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="736" y="2576" type="branch" />
+            <wire x2="736" y1="2576" y2="2576" x1="704" />
+        </branch>
+        <branch name="I_0(31:0)">
+            <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="736" y="2432" type="branch" />
+            <wire x2="736" y1="2432" y2="2432" x1="704" />
+        </branch>
+        <branch name="XLXN_501">
+            <wire x2="320" y1="2576" y2="2576" x1="288" />
+        </branch>
+        <branch name="XLXN_500">
+            <wire x2="320" y1="2432" y2="2432" x1="208" />
+        </branch>
+        <instance x="144" y="2560" name="XLXI_85" orien="R0" />
+        <instance x="320" y="2464" name="XLXI_82" orien="R0">
+        </instance>
+        <branch name="RIGHT">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="1312" y="1536" type="branch" />
+            <wire x2="1328" y1="1536" y2="1536" x1="1312" />
+            <wire x2="1344" y1="1536" y2="1536" x1="1328" />
+        </branch>
+        <branch name="SHIFT">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="1312" y="1472" type="branch" />
+            <wire x2="1328" y1="1472" y2="1472" x1="1312" />
+            <wire x2="1344" y1="1472" y2="1472" x1="1328" />
+        </branch>
+        <branch name="SHIFT_O(31:0)">
+            <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="1760" y="1472" type="branch" />
+            <wire x2="1760" y1="1472" y2="1472" x1="1728" />
+        </branch>
+        <branch name="S1_O(31:0)">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="1312" y="1600" type="branch" />
+            <wire x2="1344" y1="1600" y2="1600" x1="1312" />
+        </branch>
+        <instance x="1344" y="1632" name="XLXI_5" orien="R0">
+        </instance>
+        <instance x="2112" y="2160" name="XLXI_112" orien="R0">
+        </instance>
+        <branch name="DINT2_O(31:0)">
+            <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="2544" y="2000" type="branch" />
+            <wire x2="2544" y1="2000" y2="2000" x1="2496" />
+        </branch>
+        <branch name="DINT2SEL">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="2064" y="2000" type="branch" />
+            <wire x2="2112" y1="2000" y2="2000" x1="2064" />
+        </branch>
+        <branch name="DINT_O(31:0)">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="2064" y="2064" type="branch" />
+            <wire x2="2112" y1="2064" y2="2064" x1="2064" />
+        </branch>
+        <branch name="EDAC_O(31:0)">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="2064" y="2128" type="branch" />
+            <wire x2="2112" y1="2128" y2="2128" x1="2064" />
+        </branch>
+        <branch name="READ">
+            <wire x2="352" y1="1440" y2="1440" x1="208" />
+        </branch>
+        <branch name="DINT2SEL">
+            <wire x2="352" y1="1568" y2="1568" x1="208" />
+        </branch>
+        <iomarker fontsize="28" x="208" y="1568" name="DINT2SEL" orien="R180" />
+        <text style="fontsize:56;fontname:Arial" x="2904" y="1568">DINT</text>
+        <text style="fontsize:56;fontname:Arial" x="2268" y="2076">DINT2</text>
+        <branch name="EDACCE">
+            <wire x2="352" y1="1616" y2="1616" x1="208" />
+        </branch>
+        <iomarker fontsize="28" x="208" y="1616" name="EDACCE" orien="R180" />
+        <branch name="ALU_O(31:0)">
+            <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="1776" y="1760" type="branch" />
+            <wire x2="1776" y1="1760" y2="1760" x1="1744" />
+        </branch>
+        <branch name="NEG">
+            <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="1760" y="2080" type="branch" />
+            <wire x2="1760" y1="2080" y2="2080" x1="1744" />
+        </branch>
+        <branch name="S2_O(31:0)">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="1296" y="2016" type="branch" />
+            <wire x2="1328" y1="2016" y2="2016" x1="1296" />
+        </branch>
+        <branch name="S1_O(31:0)">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="1296" y="1952" type="branch" />
+            <wire x2="1328" y1="1952" y2="1952" x1="1296" />
+        </branch>
+        <branch name="TEST">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="1296" y="1888" type="branch" />
+            <wire x2="1328" y1="1888" y2="1888" x1="1296" />
+        </branch>
+        <branch name="ALUF(2:0)">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="1296" y="1824" type="branch" />
+            <wire x2="1328" y1="1824" y2="1824" x1="1296" />
+        </branch>
+        <branch name="ADD">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="1296" y="1760" type="branch" />
+            <wire x2="1328" y1="1760" y2="1760" x1="1296" />
+        </branch>
+        <instance x="1328" y="2048" name="XLXI_6" orien="R0">
+        </instance>
+        <iomarker fontsize="28" x="208" y="1440" name="READ" orien="R180" />
+        <branch name="CLK">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="1520" y="2320" type="branch" />
+            <wire x2="1568" y1="2320" y2="2320" x1="1520" />
+        </branch>
+        <branch name="EDACCE">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="1520" y="2384" type="branch" />
+            <wire x2="1568" y1="2384" y2="2384" x1="1520" />
+        </branch>
+        <branch name="EDAC_O(31:0)">
+            <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="2000" y="2320" type="branch" />
+            <wire x2="2000" y1="2320" y2="2320" x1="1952" />
+        </branch>
+        <branch name="S1_O(31:0)">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="1504" y="2640" type="branch" />
+            <wire x2="1568" y1="2640" y2="2640" x1="1504" />
+        </branch>
+        <branch name="DINT2SEL">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="1520" y="2448" type="branch" />
+            <wire x2="1568" y1="2448" y2="2448" x1="1520" />
+        </branch>
+        <branch name="RESET">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="1520" y="2512" type="branch" />
+            <wire x2="1568" y1="2512" y2="2512" x1="1520" />
+        </branch>
+        <branch name="READ">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="1520" y="2576" type="branch" />
+            <wire x2="1568" y1="2576" y2="2576" x1="1520" />
+        </branch>
+        <instance x="1568" y="2672" name="XLXI_120" orien="R0">
+        </instance>
+    </sheet>
+</drawing>

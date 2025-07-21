@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/ise/Xilinx_data/EDAC_LAST_VER/IO_SIMUL_4BIT_NO_L/IO_SIM_DLX_IO_SIM_DLX_sch_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="IO_SIM_DLX_IO_SIM_DLX_sch_tb" />
+            <top_module name="glbl" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="vcomponents" />
+            <top_module name="vl_types" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/IO_SIM_DLX_IO_SIM_DLX_sch_tb/CLK_IN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CLK_IN</obj_property>
+      <obj_property name="ObjectShortName">CLK_IN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/IO_SIM_DLX_IO_SIM_DLX_sch_tb/RESET_IN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RESET_IN</obj_property>
+      <obj_property name="ObjectShortName">RESET_IN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/IO_SIM_DLX_IO_SIM_DLX_sch_tb/STEP_IN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">STEP_IN</obj_property>
+      <obj_property name="ObjectShortName">STEP_IN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/IO_SIM_DLX_IO_SIM_DLX_sch_tb/AS_N" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">AS_N</obj_property>
+      <obj_property name="ObjectShortName">AS_N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/IO_SIM_DLX_IO_SIM_DLX_sch_tb/RD" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RD[4:0]</obj_property>
+      <obj_property name="ObjectShortName">RD[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/IO_SIM_DLX_IO_SIM_DLX_sch_tb/IN_INIT" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">IN_INIT</obj_property>
+      <obj_property name="ObjectShortName">IN_INIT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/IO_SIM_DLX_IO_SIM_DLX_sch_tb/STATE" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">STATE[11:0]</obj_property>
+      <obj_property name="ObjectShortName">STATE[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/IO_SIM_DLX_IO_SIM_DLX_sch_tb/STOP_N" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">STOP_N</obj_property>
+      <obj_property name="ObjectShortName">STOP_N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/IO_SIM_DLX_IO_SIM_DLX_sch_tb/WR_N" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">WR_N</obj_property>
+      <obj_property name="ObjectShortName">WR_N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/IO_SIM_DLX_IO_SIM_DLX_sch_tb/PC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/IO_SIM_DLX_IO_SIM_DLX_sch_tb/UUT/XLXI_1/XLXI_3/XLXI_2/XLXI_1/memory_array" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">memory_array[0:31,31:0]</obj_property>
+      <obj_property name="ObjectShortName">memory_array[0:31,31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <wvobject fp_name="/IO_SIM_DLX_IO_SIM_DLX_sch_tb/UUT/XLXI_1/XLXI_3/XLXI_2/XLXI_1/memory_array[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memory_array[0,31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/IO_SIM_DLX_IO_SIM_DLX_sch_tb/UUT/XLXI_1/XLXI_3/XLXI_2/XLXI_1/memory_array[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memory_array[1,31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/IO_SIM_DLX_IO_SIM_DLX_sch_tb/UUT/XLXI_1/XLXI_3/XLXI_2/XLXI_1/memory_array[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memory_array[2,31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/IO_SIM_DLX_IO_SIM_DLX_sch_tb/UUT/XLXI_1/XLXI_3/XLXI_2/XLXI_1/memory_array[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memory_array[3,31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/IO_SIM_DLX_IO_SIM_DLX_sch_tb/UUT/XLXI_1/XLXI_3/XLXI_2/XLXI_1/memory_array[4]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[4,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memory_array[4,31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/IO_SIM_DLX_IO_SIM_DLX_sch_tb/UUT/XLXI_1/XLXI_3/XLXI_2/XLXI_1/memory_array[5]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[5,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memory_array[5,31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/IO_SIM_DLX_IO_SIM_DLX_sch_tb/UUT/XLXI_1/XLXI_3/XLXI_2/XLXI_1/memory_array[6]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[6,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memory_array[6,31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/IO_SIM_DLX_IO_SIM_DLX_sch_tb/UUT/XLXI_1/XLXI_3/XLXI_2/XLXI_1/memory_array[7]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[7,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memory_array[7,31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/IO_SIM_DLX_IO_SIM_DLX_sch_tb/UUT/XLXI_1/XLXI_3/XLXI_2/XLXI_1/memory_array[8]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[8,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memory_array[8,31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffff00</obj_property>
+      </wvobject>
+      <wvobject fp_name="/IO_SIM_DLX_IO_SIM_DLX_sch_tb/UUT/XLXI_1/XLXI_3/XLXI_2/XLXI_1/memory_array[9]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[9,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memory_array[9,31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/IO_SIM_DLX_IO_SIM_DLX_sch_tb/UUT/XLXI_1/XLXI_3/XLXI_2/XLXI_1/memory_array[10]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[10,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memory_array[10,31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/IO_SIM_DLX_IO_SIM_DLX_sch_tb/UUT/XLXI_1/XLXI_3/XLXI_2/XLXI_1/memory_array[11]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[11,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memory_array[11,31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/IO_SIM_DLX_IO_SIM_DLX_sch_tb/UUT/XLXI_1/XLXI_3/XLXI_2/XLXI_1/memory_array[12]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[12,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memory_array[12,31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/IO_SIM_DLX_IO_SIM_DLX_sch_tb/UUT/XLXI_1/XLXI_3/XLXI_2/XLXI_1/memory_array[13]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[13,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memory_array[13,31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/IO_SIM_DLX_IO_SIM_DLX_sch_tb/UUT/XLXI_1/XLXI_3/XLXI_2/XLXI_1/memory_array[14]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[14,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memory_array[14,31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/IO_SIM_DLX_IO_SIM_DLX_sch_tb/UUT/XLXI_1/XLXI_3/XLXI_2/XLXI_1/memory_array[15]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[15,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memory_array[15,31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/IO_SIM_DLX_IO_SIM_DLX_sch_tb/UUT/XLXI_1/XLXI_3/XLXI_2/XLXI_1/memory_array[16]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[16,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memory_array[16,31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/IO_SIM_DLX_IO_SIM_DLX_sch_tb/UUT/XLXI_1/XLXI_3/XLXI_2/XLXI_1/memory_array[17]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[17,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memory_array[17,31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/IO_SIM_DLX_IO_SIM_DLX_sch_tb/UUT/XLXI_1/XLXI_3/XLXI_2/XLXI_1/memory_array[18]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[18,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memory_array[18,31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/IO_SIM_DLX_IO_SIM_DLX_sch_tb/UUT/XLXI_1/XLXI_3/XLXI_2/XLXI_1/memory_array[19]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[19,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memory_array[19,31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/IO_SIM_DLX_IO_SIM_DLX_sch_tb/UUT/XLXI_1/XLXI_3/XLXI_2/XLXI_1/memory_array[20]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[20,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memory_array[20,31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/IO_SIM_DLX_IO_SIM_DLX_sch_tb/UUT/XLXI_1/XLXI_3/XLXI_2/XLXI_1/memory_array[21]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[21,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memory_array[21,31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/IO_SIM_DLX_IO_SIM_DLX_sch_tb/UUT/XLXI_1/XLXI_3/XLXI_2/XLXI_1/memory_array[22]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[22,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memory_array[22,31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/IO_SIM_DLX_IO_SIM_DLX_sch_tb/UUT/XLXI_1/XLXI_3/XLXI_2/XLXI_1/memory_array[23]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[23,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memory_array[23,31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/IO_SIM_DLX_IO_SIM_DLX_sch_tb/UUT/XLXI_1/XLXI_3/XLXI_2/XLXI_1/memory_array[24]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[24,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memory_array[24,31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/IO_SIM_DLX_IO_SIM_DLX_sch_tb/UUT/XLXI_1/XLXI_3/XLXI_2/XLXI_1/memory_array[25]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[25,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memory_array[25,31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/IO_SIM_DLX_IO_SIM_DLX_sch_tb/UUT/XLXI_1/XLXI_3/XLXI_2/XLXI_1/memory_array[26]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[26,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memory_array[26,31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/IO_SIM_DLX_IO_SIM_DLX_sch_tb/UUT/XLXI_1/XLXI_3/XLXI_2/XLXI_1/memory_array[27]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[27,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memory_array[27,31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/IO_SIM_DLX_IO_SIM_DLX_sch_tb/UUT/XLXI_1/XLXI_3/XLXI_2/XLXI_1/memory_array[28]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[28,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memory_array[28,31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/IO_SIM_DLX_IO_SIM_DLX_sch_tb/UUT/XLXI_1/XLXI_3/XLXI_2/XLXI_1/memory_array[29]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[29,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memory_array[29,31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/IO_SIM_DLX_IO_SIM_DLX_sch_tb/UUT/XLXI_1/XLXI_3/XLXI_2/XLXI_1/memory_array[30]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[30,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memory_array[30,31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/IO_SIM_DLX_IO_SIM_DLX_sch_tb/UUT/XLXI_1/XLXI_3/XLXI_2/XLXI_1/memory_array[31]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[31,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memory_array[31,31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/IO_SIM_DLX_IO_SIM_DLX_sch_tb/UUT/XLXI_1/XLXI_3/XLXI_2/XLXI_1/memory_array[10]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[10,31:0]</obj_property>
+      <obj_property name="ObjectShortName">memory_array[10,31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,40 @@
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl IO_SIM_DLX_drc.vhf -w E:/adlx/B1/shirab2/Lab7/IO_SIMUL_VER/IO_SIM_DLX.sch 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl IO_SIM_DLX_drc.vhf -w E:/adlx/B1/shirab2/Lab7/IO_SIMUL_VER/IO_SIM_DLX.sch 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl IO_SIM_DLX_drc.vhf -w E:/adlx/B1/shirab2/Lab7/IO_SIMUL_VER/IO_SIM_DLX.sch 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl IO_SIM_DLX_drc.vhf -w E:/adlx/B1/shirab2/Lab7/IO_SIMUL_VER/IO_SIM_DLX.sch 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl IO_SIM_DLX_drc.vhf -w E:/adlx/B1/shirab2/Lab7/IO_SIMUL_VER/IO_SIM_DLX.sch 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl IO_SIM_DLX_drc.vhf -w E:/adlx/B1/shirab2/Lab7/IO_SIMUL_VER/IO_SIM_DLX.sch 
+xst -intstyle ise -ifn "/home/ise/Xilinx_data/IO_SIMUL_VER/IO_SIM_DLX.xst" -ofn "/home/ise/Xilinx_data/IO_SIMUL_VER/IO_SIM_DLX.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_data/IO_SIMUL_VER/IO_SIM_DLX.xst" -ofn "/home/ise/Xilinx_data/IO_SIMUL_VER/IO_SIM_DLX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx25-ftg256-2 IO_SIM_DLX.ngc IO_SIM_DLX.ngd  
+map -intstyle ise -p xc6slx25-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o IO_SIM_DLX_map.ncd IO_SIM_DLX.ngd IO_SIM_DLX.pcf 
+par -w -intstyle ise -ol high -mt off IO_SIM_DLX_map.ncd IO_SIM_DLX.ncd IO_SIM_DLX.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml IO_SIM_DLX.twx IO_SIM_DLX.ncd -o IO_SIM_DLX.twr IO_SIM_DLX.pcf 
+xst -intstyle ise -ifn "/home/ise/Xilinx_data/IO_SIMUL_VER/IO_SIM_DLX.xst" -ofn "/home/ise/Xilinx_data/IO_SIMUL_VER/IO_SIM_DLX.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_data/IO_SIMUL_VER/IO_SIM_DLX.xst" -ofn "/home/ise/Xilinx_data/IO_SIMUL_VER/IO_SIM_DLX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx25-ftg256-2 IO_SIM_DLX.ngc IO_SIM_DLX.ngd  
+map -intstyle ise -p xc6slx25-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o IO_SIM_DLX_map.ncd IO_SIM_DLX.ngd IO_SIM_DLX.pcf 
+par -w -intstyle ise -ol high -mt off IO_SIM_DLX_map.ncd IO_SIM_DLX.ncd IO_SIM_DLX.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml IO_SIM_DLX.twx IO_SIM_DLX.ncd -o IO_SIM_DLX.twr IO_SIM_DLX.pcf 
+xst -intstyle ise -ifn "/home/ise/Xilinx_data/IO_SIMUL_VER/IO_SIM_DLX.xst" -ofn "/home/ise/Xilinx_data/IO_SIMUL_VER/IO_SIM_DLX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx25-ftg256-2 IO_SIM_DLX.ngc IO_SIM_DLX.ngd  
+map -intstyle ise -p xc6slx25-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o IO_SIM_DLX_map.ncd IO_SIM_DLX.ngd IO_SIM_DLX.pcf 
+par -w -intstyle ise -ol high -mt off IO_SIM_DLX_map.ncd IO_SIM_DLX.ncd IO_SIM_DLX.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml IO_SIM_DLX.twx IO_SIM_DLX.ncd -o IO_SIM_DLX.twr IO_SIM_DLX.pcf 
+xst -intstyle ise -ifn "/home/ise/Xilinx_data/IO_SIMUL_VER/IO_SIM_DLX.xst" -ofn "/home/ise/Xilinx_data/IO_SIMUL_VER/IO_SIM_DLX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx25-ftg256-2 IO_SIM_DLX.ngc IO_SIM_DLX.ngd  
+map -intstyle ise -p xc6slx25-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o IO_SIM_DLX_map.ncd IO_SIM_DLX.ngd IO_SIM_DLX.pcf 
+par -w -intstyle ise -ol high -mt off IO_SIM_DLX_map.ncd IO_SIM_DLX.ncd IO_SIM_DLX.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml IO_SIM_DLX.twx IO_SIM_DLX.ncd -o IO_SIM_DLX.twr IO_SIM_DLX.pcf 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl IO_SIM_DLX_drc.vhf -w /home/ise/Xilinx_data/IO_SIMUL_VER_TRY2/IO_SIM_DLX.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym IO_SIM_DLX /home/ise/Xilinx_data/IO_SIMUL_VER_TRY2/IO_SIM_DLX.sch /home/ise/Xilinx_data/IO_SIMUL_VER_TRY2/IO_SIM_DLX.sym 
+xst -intstyle ise -ifn "/home/ise/Xilinx_data/IO_SIMUL_VER_TRY2/IO_SIM_DLX.xst" -ofn "/home/ise/Xilinx_data/IO_SIMUL_VER_TRY2/IO_SIM_DLX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx25-ftg256-2 IO_SIM_DLX.ngc IO_SIM_DLX.ngd  
+map -intstyle ise -p xc6slx25-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o IO_SIM_DLX_map.ncd IO_SIM_DLX.ngd IO_SIM_DLX.pcf 
+par -w -intstyle ise -ol high -mt off IO_SIM_DLX_map.ncd IO_SIM_DLX.ncd IO_SIM_DLX.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml IO_SIM_DLX.twx IO_SIM_DLX.ncd -o IO_SIM_DLX.twr IO_SIM_DLX.pcf 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl IO_SIM_DLX_drc.vhf -w /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/IO_SIM_DLX.sch 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl IO_SIM_DLX_drc.vhf -w /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/IO_SIM_DLX.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym IO_SIM_DLX /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/IO_SIM_DLX.sch /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/IO_SIM_DLX.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl IO_SIM_DLX_drc.vhf -w /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/IO_SIM_DLX.sch 
+xst -intstyle ise -ifn "/home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/IO_SIM_DLX.xst" -ofn "/home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/IO_SIM_DLX.syr" 

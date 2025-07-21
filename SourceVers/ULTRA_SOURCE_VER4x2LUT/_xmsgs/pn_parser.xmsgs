@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/Xilinx_data/Final_ver/SourceVers/Lab_base/ClkGen_U.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/Xilinx_data/Final_ver/SourceVers/Lab_base/Common.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/Xilinx_data/Final_ver/SourceVers/Lab_base/Lab_base/IO_LOGIC_U/HostIoToDut_U.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/Xilinx_data/Final_ver/SourceVers/Lab_base/Lab_base/IO_LOGIC_U/IO_LOGIC_U.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/Xilinx_data/Final_ver/SourceVers/Lab_base/Lab_base/IO_LOGIC_U/Interface_Ctrl_U.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/Xilinx_data/Final_ver/SourceVers/Lab_base/Lab_base/IO_LOGIC_U/SdramCntl.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/Xilinx_data/Final_ver/SourceVers/Lab_base/Lab_base/IO_LOGIC_U/SyncToClk.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/Xilinx_data/Final_ver/SourceVers/Lab_base/Lab_base/IO_LOGIC_U/sdram_adapter_U.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER4x2LUT/AEQZ.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER4x2LUT/AND32.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER4x2LUT/BROJA.VHD&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER4x2LUT/BUF5.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER4x2LUT/BUF6.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER4x2LUT/CNT5.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER4x2LUT/CONST_011.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER4x2LUT/CONTROL.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER4x2LUT/DLX_CTRL.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER4x2LUT/EDAC_2x4BIT.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER4x2LUT/EDAC_4BIT_A.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER4x2LUT/EDAC_decode_4BIT.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER4x2LUT/ID_REG.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER4x2LUT/IR_ENV.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER4x2LUT/MAC.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER4x2LUT/MMU.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER4x2LUT/MUX16bit.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER4x2LUT/MUX32bit.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER4x2LUT/MUX3bit.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER4x2LUT/MUX4_32bit.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER4x2LUT/MUX5bit.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER4x2LUT/OR32.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER4x2LUT/RAM16x16_4BIT.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER4x2LUT/RAM32x32.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER4x2LUT/RE32RST.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER4x2LUT/REG32CE.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER4x2LUT/REG_sram.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER4x2LUT/SHIFT_ENV.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER4x2LUT/Step_CNT5.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER4x2LUT/XOR32.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER4x2LUT/ZERO.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER4x2LUT/ZERO_BUF_32.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER4x2LUT/slave_mux.v&quot; into library work</arg>
+</msg>
+
+</messages>
+

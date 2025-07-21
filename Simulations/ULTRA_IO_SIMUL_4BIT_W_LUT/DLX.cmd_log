@@ -1,0 +1,24 @@
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DLX_drc.vhf -w /home/ise/Xilinx_data/IO_SIMUL_4BIT/DLX.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DLX /home/ise/Xilinx_data/IO_SIMUL_4BIT/DLX.sch /home/ise/Xilinx_data/IO_SIMUL_4BIT/DLX.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DLX_drc.vhf -w /home/ise/Xilinx_data/IO_SIMUL_4BIT/DLX.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DLX /home/ise/Xilinx_data/IO_SIMUL_4BIT/DLX.sch /home/ise/Xilinx_data/IO_SIMUL_4BIT/DLX.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DLX_drc.vhf -w /home/ise/Xilinx_data/IO_SIMUL_4BIT/DLX.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DLX /home/ise/Xilinx_data/IO_SIMUL_4BIT/DLX.sch /home/ise/Xilinx_data/IO_SIMUL_4BIT/DLX.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DLX_drc.vhf -w /home/ise/Xilinx_data/IO_SIMUL_4BIT/DLX.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DLX /home/ise/Xilinx_data/IO_SIMUL_4BIT/DLX.sch /home/ise/Xilinx_data/IO_SIMUL_4BIT/DLX.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DLX_drc.vhf -w /home/ise/Xilinx_data/IO_SIMUL_4BIT/DLX.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DLX /home/ise/Xilinx_data/IO_SIMUL_4BIT/DLX.sch /home/ise/Xilinx_data/IO_SIMUL_4BIT/DLX.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DLX_drc.vhf -w /home/ise/Xilinx_data/IO_SIMUL_4BIT/DLX.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DLX /home/ise/Xilinx_data/IO_SIMUL_4BIT/DLX.sch /home/ise/Xilinx_data/IO_SIMUL_4BIT/DLX.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DLX_drc.vhf -w /home/ise/Xilinx_data/IO_SIMUL_4BIT/DLX.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DLX /home/ise/Xilinx_data/IO_SIMUL_4BIT/DLX.sch /home/ise/Xilinx_data/IO_SIMUL_4BIT/DLX.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DLX_drc.vhf -w /home/ise/Xilinx_data/IO_SIMUL_4BIT/DLX.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DLX /home/ise/Xilinx_data/IO_SIMUL_4BIT/DLX.sch /home/ise/Xilinx_data/IO_SIMUL_4BIT/DLX.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym DLX /home/ise/Xilinx_data/IO_SIMUL_4BIT/DLX.sch /home/ise/Xilinx_data/IO_SIMUL_4BIT/DLX.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DLX_drc.vhf -w /home/ise/Xilinx_data/IO_SIMUL_4BIT4CRC/DLX.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DLX /home/ise/Xilinx_data/IO_SIMUL_4BIT4CRC/DLX.sch /home/ise/Xilinx_data/IO_SIMUL_4BIT4CRC/DLX.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DLX_drc.vhf -w /home/ise/Xilinx_data/IO_SIMUL_4BIT4CRC/DLX.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DLX /home/ise/Xilinx_data/IO_SIMUL_4BIT4CRC/DLX.sch /home/ise/Xilinx_data/IO_SIMUL_4BIT4CRC/DLX.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym DLX /home/ise/Xilinx_data/11_5/IO_SIMUL_4BIT_W_LUT/DLX.sch /home/ise/Xilinx_data/11_5/IO_SIMUL_4BIT_W_LUT/DLX.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym DLX D:/shira/11-5/IO_SIMUL_4BIT_W_LUT/DLX.sch D:/shira/11-5/IO_SIMUL_4BIT_W_LUT/DLX.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym DLX D:/shira/11-5/IO_SIMUL_4BIT_W_LUT/DLX.sch D:/shira/11-5/IO_SIMUL_4BIT_W_LUT/DLX.sym 

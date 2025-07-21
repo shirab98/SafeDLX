@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/ise/Xilinx_data/IO_SIMUL_4BIT/EDAC_SCHEM_4BIT_EDAC_SCHEM_4BIT_sch_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="EDAC_SCHEM_4BIT_EDAC_SCHEM_4BIT_sch_tb" />
+            <top_module name="glbl" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="vcomponents" />
+            <top_module name="vl_types" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="36" />
+   <wvobject fp_name="/EDAC_SCHEM_4BIT_EDAC_SCHEM_4BIT_sch_tb/DOUT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DOUT[15:0]</obj_property>
+      <obj_property name="ObjectShortName">DOUT[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_SCHEM_4BIT_EDAC_SCHEM_4BIT_sch_tb/READ" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">READ</obj_property>
+      <obj_property name="ObjectShortName">READ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_SCHEM_4BIT_EDAC_SCHEM_4BIT_sch_tb/en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">en</obj_property>
+      <obj_property name="ObjectShortName">en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_SCHEM_4BIT_EDAC_SCHEM_4BIT_sch_tb/CLK" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_SCHEM_4BIT_EDAC_SCHEM_4BIT_sch_tb/CRC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CRC[7:0]</obj_property>
+      <obj_property name="ObjectShortName">CRC[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_SCHEM_4BIT_EDAC_SCHEM_4BIT_sch_tb/DIN" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DIN[15:0]</obj_property>
+      <obj_property name="ObjectShortName">DIN[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_SCHEM_4BIT_EDAC_SCHEM_4BIT_sch_tb/UUT/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_SCHEM_4BIT_EDAC_SCHEM_4BIT_sch_tb/UUT/crc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">crc[7:0]</obj_property>
+      <obj_property name="ObjectShortName">crc[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_SCHEM_4BIT_EDAC_SCHEM_4BIT_sch_tb/UUT/din" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">din[15:0]</obj_property>
+      <obj_property name="ObjectShortName">din[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_SCHEM_4BIT_EDAC_SCHEM_4BIT_sch_tb/UUT/en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">en</obj_property>
+      <obj_property name="ObjectShortName">en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_SCHEM_4BIT_EDAC_SCHEM_4BIT_sch_tb/UUT/read" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">read</obj_property>
+      <obj_property name="ObjectShortName">read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_SCHEM_4BIT_EDAC_SCHEM_4BIT_sch_tb/UUT/dout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_SCHEM_4BIT_EDAC_SCHEM_4BIT_sch_tb/UUT/lut_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">lut_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">lut_in[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_SCHEM_4BIT_EDAC_SCHEM_4BIT_sch_tb/UUT/rd_add" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rd_add[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_add[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_SCHEM_4BIT_EDAC_SCHEM_4BIT_sch_tb/UUT/wr_add" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wr_add[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_add[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_SCHEM_4BIT_EDAC_SCHEM_4BIT_sch_tb/UUT/xlxn_431" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">xlxn_431</obj_property>
+      <obj_property name="ObjectShortName">xlxn_431</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_SCHEM_4BIT_EDAC_SCHEM_4BIT_sch_tb/UUT/xlxn_446" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">xlxn_446</obj_property>
+      <obj_property name="ObjectShortName">xlxn_446</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_SCHEM_4BIT_EDAC_SCHEM_4BIT_sch_tb/UUT/xlxn_448" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">xlxn_448[4:0]</obj_property>
+      <obj_property name="ObjectShortName">xlxn_448[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_SCHEM_4BIT_EDAC_SCHEM_4BIT_sch_tb/UUT/xlxi_102_di_opensignal" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">xlxi_102_di_opensignal[31:0]</obj_property>
+      <obj_property name="ObjectShortName">xlxi_102_di_opensignal[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_SCHEM_4BIT_EDAC_SCHEM_4BIT_sch_tb/UUT/XLXI_116/Din" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Din[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Din[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_SCHEM_4BIT_EDAC_SCHEM_4BIT_sch_tb/UUT/XLXI_116/LUT_IN" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">LUT_IN[15:0]</obj_property>
+      <obj_property name="ObjectShortName">LUT_IN[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_SCHEM_4BIT_EDAC_SCHEM_4BIT_sch_tb/UUT/XLXI_116/CRC_POLY" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CRC_POLY[7:0]</obj_property>
+      <obj_property name="ObjectShortName">CRC_POLY[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_SCHEM_4BIT_EDAC_SCHEM_4BIT_sch_tb/UUT/XLXI_116/en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">en</obj_property>
+      <obj_property name="ObjectShortName">en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_SCHEM_4BIT_EDAC_SCHEM_4BIT_sch_tb/UUT/XLXI_116/READ" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">READ</obj_property>
+      <obj_property name="ObjectShortName">READ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_SCHEM_4BIT_EDAC_SCHEM_4BIT_sch_tb/UUT/XLXI_116/Dout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Dout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Dout[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_SCHEM_4BIT_EDAC_SCHEM_4BIT_sch_tb/UUT/XLXI_116/valid" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">valid</obj_property>
+      <obj_property name="ObjectShortName">valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_SCHEM_4BIT_EDAC_SCHEM_4BIT_sch_tb/UUT/XLXI_116/reg_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_out[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_SCHEM_4BIT_EDAC_SCHEM_4BIT_sch_tb/UUT/XLXI_116/reg_out_1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg_out_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_out_1[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_SCHEM_4BIT_EDAC_SCHEM_4BIT_sch_tb/UUT/XLXI_116/reg_out_2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg_out_2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_out_2[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_SCHEM_4BIT_EDAC_SCHEM_4BIT_sch_tb/UUT/XLXI_116/reg_out_temp" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg_out_temp[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_out_temp[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_SCHEM_4BIT_EDAC_SCHEM_4BIT_sch_tb/UUT/XLXI_116/valid_1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">valid_1</obj_property>
+      <obj_property name="ObjectShortName">valid_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_SCHEM_4BIT_EDAC_SCHEM_4BIT_sch_tb/UUT/XLXI_116/same_result" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">same_result</obj_property>
+      <obj_property name="ObjectShortName">same_result</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_SCHEM_4BIT_EDAC_SCHEM_4BIT_sch_tb/UUT/XLXI_116/temp" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">temp[2:0]</obj_property>
+      <obj_property name="ObjectShortName">temp[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_SCHEM_4BIT_EDAC_SCHEM_4BIT_sch_tb/UUT/XLXI_116/crc_2nd_check" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">crc_2nd_check</obj_property>
+      <obj_property name="ObjectShortName">crc_2nd_check</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_SCHEM_4BIT_EDAC_SCHEM_4BIT_sch_tb/UUT/XLXI_116/fix_max" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">fix_max[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fix_max[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_SCHEM_4BIT_EDAC_SCHEM_4BIT_sch_tb/UUT/XLXI_116/error_message" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">error_message[31:0]</obj_property>
+      <obj_property name="ObjectShortName">error_message[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

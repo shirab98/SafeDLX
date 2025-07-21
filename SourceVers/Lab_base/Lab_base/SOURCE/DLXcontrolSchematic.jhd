@@ -1,0 +1,5 @@
+MODULE DLXcontrolSchematic
+	SUBMODULE myMACschematic
+		INSTANCE XLXI_2
+	SUBMODULE myDLX_state_machine
+		INSTANCE XLXI_27

@@ -1,0 +1,28 @@
+Command line:
+   EDAC_BLOCK_TB_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  48149
+
+Mon Jul  7 05:41:00 2025
+
+
+ Elaboration Time: 0.07 sec
+
+ Current Memory Usage: 198.738 Meg
+
+ Total Signals          : 42
+ Total Nets             : 198
+ Total Signal Drivers   : 21
+ Total Blocks           : 12
+ Total Primitive Blocks : 4
+ Total Processes        : 28
+ Total Traceable Variables  : 59
+ Total Scalar Nets and Variables : 870
+
+ Total Simulation Time: 0.08 sec
+
+ Current Memory Usage: 276.337 Meg
+
+Mon Jul  7 05:41:21 2025
+

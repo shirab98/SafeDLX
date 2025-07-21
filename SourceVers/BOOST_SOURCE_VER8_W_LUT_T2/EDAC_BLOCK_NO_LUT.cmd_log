@@ -1,0 +1,2 @@
+vhdtdtfi -lib work /home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER8_W_LUT_T2/EDAC_BLOCK_NO_LUT.v -lang verilog -prj SOURCE_VER -o EDAC_BLOCK_NO_LUT.spl -module EDAC_BLOCK_NO_LUT -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w EDAC_BLOCK_NO_LUT.spl /home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER8_W_LUT_T2/EDAC_BLOCK_NO_LUT.sym 

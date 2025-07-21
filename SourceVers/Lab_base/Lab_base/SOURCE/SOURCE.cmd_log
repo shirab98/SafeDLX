@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "D:/Study/Project/Final_material/Lab_base/SOURCE/SOURCE.xst" -ofn "D:/Study/Project/Final_material/Lab_base/SOURCE/SOURCE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc XuLA2.ucf -p xc6slx25-ftg256-2 SOURCE.ngc SOURCE.ngd  
+map -intstyle ise -p xc6slx25-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SOURCE_map.ncd SOURCE.ngd SOURCE.pcf 
+par -w -intstyle ise -ol high -mt off SOURCE_map.ncd SOURCE.ncd SOURCE.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml SOURCE.twx SOURCE.ncd -o SOURCE.twr SOURCE.pcf -ucf XuLA2.ucf 
+bitgen -intstyle ise -f SOURCE.ut SOURCE.ncd 

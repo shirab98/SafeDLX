@@ -1,0 +1,3 @@
+MODULE myMACschematic
+	SUBMODULE myMAC
+		INSTANCE XLXI_1

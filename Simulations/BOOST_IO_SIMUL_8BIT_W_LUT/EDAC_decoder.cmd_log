@@ -1,0 +1,19 @@
+vhdtdtfi -lib work /home/ise/Xilinx_data/IO_SIMUL_VER_TRY2/EDAC_decoder.v -lang verilog -prj IO_SIMUL_VER -o EDAC_decoder.spl -module EDAC_decoder -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w EDAC_decoder.spl /home/ise/Xilinx_data/IO_SIMUL_VER_TRY2/EDAC_decoder.sym 
+vhdtdtfi -lib work /home/ise/Xilinx_data/IO_SIMUL_VER_TRY2/EDAC_decoder.v -lang verilog -prj IO_SIMUL_VER -o EDAC_decoder.spl -module EDAC_decoder -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w EDAC_decoder.spl /home/ise/Xilinx_data/IO_SIMUL_VER_TRY2/EDAC_decoder.sym 
+vhdtdtfi -lib work /home/ise/Xilinx_data/IO_SIMUL_VER_TRY2/EDAC_decoder.v -lang verilog -prj IO_SIMUL_VER -o EDAC_decoder.spl -module EDAC_decoder -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w EDAC_decoder.spl /home/ise/Xilinx_data/IO_SIMUL_VER_TRY2/EDAC_decoder.sym 
+vhdtdtfi -lang verilog -prj IO_SIMUL_VER -o /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/EDAC_decoder.vhi -lib work /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3//EDAC_decoder.v -module EDAC_decoder -template /opt/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror 
+vhdtdtfi -lib work /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/EDAC_decoder.v -lang verilog -prj IO_SIMUL_VER -o EDAC_decoder.spl -module EDAC_decoder -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w EDAC_decoder.spl /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/EDAC_decoder.sym 
+vhdtdtfi -lib work /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/EDAC_decoder.v -lang verilog -prj IO_SIMUL_VER -o EDAC_decoder.spl -module EDAC_decoder -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w EDAC_decoder.spl /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/EDAC_decoder.sym 
+vhdtdtfi -lib work /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/EDAC_decoder.v -lang verilog -prj IO_SIMUL_VER -o EDAC_decoder.spl -module EDAC_decoder -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w EDAC_decoder.spl /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/EDAC_decoder.sym 
+vhdtdtfi -lib work /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/EDAC_decoder.v -lang verilog -prj IO_SIMUL_VER -o EDAC_decoder.spl -module EDAC_decoder -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w EDAC_decoder.spl /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/EDAC_decoder.sym 
+vhdtdtfi -lib work /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/EDAC_decoder.v -lang verilog -prj IO_SIMUL_VER -o EDAC_decoder.spl -module EDAC_decoder -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w EDAC_decoder.spl /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/EDAC_decoder.sym 
+vhdtdtfi -lib work /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/EDAC_decoder.v -lang verilog -prj IO_SIMUL_VER -o EDAC_decoder.spl -module EDAC_decoder -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w EDAC_decoder.spl /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/EDAC_decoder.sym 

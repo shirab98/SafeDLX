@@ -1,0 +1,18 @@
+[Inputs]
+IRCE
+CLK
+JLINK
+=DI[31:0]=
+[Outputs]
+=IR_31_26[5:0]=
+=IR_5_0[5:0]=
+=IR_OUT[31:0]=
+=SEXT[15:0]=
+=imm[31:0]=
+=RS1[4:0]=
+=RS2[4:0]=
+=RD[4:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel IR_ENV
+

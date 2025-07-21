@@ -1,0 +1,972 @@
+--------------------------------------------------------------------------------
+Release 13.4 Trace  (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+D:\Xilinx_13.4\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 2 -n
+3 -fastpaths -xml SOURCE.twx SOURCE.ncd -o SOURCE.twr SOURCE.pcf -ucf XuLA2.ucf
+
+Design file:              SOURCE.ncd
+Physical constraint file: SOURCE.pcf
+Device,package,speed:     xc6slx25,ftg256,C,-2 (PRODUCTION 1.21 2012-01-07)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+================================================================================
+Timing constraint: TSfpgaClk_i = PERIOD TIMEGRP "fpgaClk_i" 12 MHz HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is  32.000ns.
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: TSfpgaClk_i = PERIOD TIMEGRP "fpgaClk_i" 12 MHz HIGH 50%;
+--------------------------------------------------------------------------------
+Slack: 13.667ns (period - min period limit)
+  Period: 16.667ns
+  Min period limit: 3.000ns (333.333MHz) (Tdcmper_CLKFX)
+  Physical resource: XLXI_20/u0/u0/CLKFX
+  Logical resource: XLXI_20/u0/u0/CLKFX
+  Location pin: DCM_X0Y2.CLKFX
+  Clock network: XLXI_20/u0/genClkP_s
+--------------------------------------------------------------------------------
+Slack: 13.667ns (period - min period limit)
+  Period: 16.667ns
+  Min period limit: 3.000ns (333.333MHz) (Tdcmper_CLKFX)
+  Physical resource: XLXI_20/u0/u0/CLKFX180
+  Logical resource: XLXI_20/u0/u0/CLKFX180
+  Location pin: DCM_X0Y2.CLKFX180
+  Clock network: XLXI_20/u0/genClkN_s
+--------------------------------------------------------------------------------
+Slack: 51.333ns (period - (min low pulse limit / (low pulse / period)))
+  Period: 83.333ns
+  Low pulse: 41.666ns
+  Low pulse limit: 16.000ns (Tdcmpw_CLKIN_10_25)
+  Physical resource: XLXI_20/u0/u0/CLKIN
+  Logical resource: XLXI_20/u0/u0/CLKIN
+  Location pin: DCM_X0Y2.CLKIN
+  Clock network: XLXI_20/u0/u0_ML_NEW_DIVCLK
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_sdClkFb_i = PERIOD TIMEGRP "sdClkFb_i" 60 MHz HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 3820568 paths analyzed, 3124 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is  15.410ns.
+--------------------------------------------------------------------------------
+
+Paths for end point XLXI_18/XLXI_7/XLXI_19/XLXI_3/Q_0 (SLICE_X20Y11.AX), 532665 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     1.256ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd5 (FF)
+  Destination:          XLXI_18/XLXI_7/XLXI_19/XLXI_3/Q_0 (FF)
+  Requirement:          16.666ns
+  Data Path Delay:      15.402ns (Levels of Logic = 14)
+  Clock Path Skew:      0.027ns (0.349 - 0.322)
+  Source Clock:         sdClkFb_i_BUFGP rising at 0.000ns
+  Destination Clock:    sdClkFb_i_BUFGP rising at 16.666ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd5 to XLXI_18/XLXI_7/XLXI_19/XLXI_3/Q_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X28Y3.CQ       Tcko                  0.476   XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd5
+                                                       XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd5
+    SLICE_X33Y7.B5       net (fanout=22)       1.228   XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd5
+    SLICE_X33Y7.BMUX     Tilo                  0.337   samp<12>
+                                                       XLXI_18/XLXI_1/XLXI_27/current_state_S1sel11
+    SLICE_X24Y3.D1       net (fanout=33)       1.701   samp<29>
+    SLICE_X24Y3.D        Tilo                  0.235   XLXI_18/XLXI_7/S1out<3>
+                                                       XLXI_18/XLXI_7/XLXI_36/Mmux_O261
+    SLICE_X26Y0.D2       net (fanout=6)        1.273   XLXI_18/XLXI_7/S1out<3>
+    SLICE_X26Y0.COUT     Topcyd                0.312   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<3>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_lut<3>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<3>
+    SLICE_X26Y1.CIN      net (fanout=1)        0.003   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<3>
+    SLICE_X26Y1.COUT     Tbyp                  0.093   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<7>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<7>
+    SLICE_X26Y2.CIN      net (fanout=1)        0.003   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<7>
+    SLICE_X26Y2.AMUX     Tcina                 0.220   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<11>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<11>
+    SLICE_X34Y3.A2       net (fanout=2)        1.522   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_A<8>
+    SLICE_X34Y3.COUT     Topcya                0.474   XLXI_18/XLXI_7/XLXI_135/Dout<3>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_lut<8>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_cy<11>
+    SLICE_X34Y4.CIN      net (fanout=1)        0.003   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_cy<11>
+    SLICE_X34Y4.COUT     Tbyp                  0.093   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_cy<15>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_cy<15>
+    SLICE_X34Y5.CIN      net (fanout=1)        0.003   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_cy<15>
+    SLICE_X34Y5.AMUX     Tcina                 0.220   XLXI_18/XLXI_7/S1out<11>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_xor<16>
+    SLICE_X26Y12.B4      net (fanout=1)        1.389   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/adsu_p.adsu_tmp<16>
+    SLICE_X26Y12.B       Tilo                  0.254   XLXI_18/XLXI_7/XLXI_136/S<30>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_CO11
+    SLICE_X26Y9.A4       net (fanout=19)       0.810   XLXI_18/XLXI_7/XLXI_136/XLXI_19/co0
+    SLICE_X26Y9.A        Tilo                  0.254   XLXI_18/XLXI_7/XLXI_136/S<20>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_25/Mmux_O31
+    SLICE_X26Y11.A3      net (fanout=2)        1.398   XLXI_18/XLXI_7/XLXI_136/S<18>
+    SLICE_X26Y11.A       Tilo                  0.254   XLXI_18/XLXI_7/XLXI_136/S<23>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_12/XLXI_19/XLXI_15/O
+    SLICE_X25Y12.D4      net (fanout=1)        0.652   XLXI_18/XLXI_7/XLXI_136/XLXI_12/XLXI_19/XLXN_49
+    SLICE_X25Y12.D       Tilo                  0.259   XLXI_18/XLXI_7/XLXI_136/XLXI_12/zero_out
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_12/XLXI_19/XLXI_18
+    SLICE_X23Y11.B3      net (fanout=1)        0.574   XLXI_18/XLXI_7/XLXI_136/XLXI_12/zero_out
+    SLICE_X23Y11.B       Tilo                  0.259   XLXI_18/XLXI_7/MAR_out<2>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_12/XLXI_14
+    SLICE_X23Y11.A5      net (fanout=2)        0.238   XLXI_18/XLXI_7/XLXI_136/COMP_OUT<0>
+    SLICE_X23Y11.A       Tilo                  0.259   XLXI_18/XLXI_7/MAR_out<2>
+                                                       XLXI_18/XLXI_7/XLXI_144/Mmux_O112
+    SLICE_X20Y11.AX      net (fanout=3)        0.492   XLXI_18/XLXI_7/DINT<0>
+    SLICE_X20Y11.CLK     Tdick                 0.114   XLXI_18/XLXI_7/MAR_out<1>
+                                                       XLXI_18/XLXI_7/XLXI_19/XLXI_3/Q_0
+    -------------------------------------------------  ---------------------------
+    Total                                     15.402ns (4.113ns logic, 11.289ns route)
+                                                       (26.7% logic, 73.3% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     1.256ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd5 (FF)
+  Destination:          XLXI_18/XLXI_7/XLXI_19/XLXI_3/Q_0 (FF)
+  Requirement:          16.666ns
+  Data Path Delay:      15.402ns (Levels of Logic = 14)
+  Clock Path Skew:      0.027ns (0.349 - 0.322)
+  Source Clock:         sdClkFb_i_BUFGP rising at 0.000ns
+  Destination Clock:    sdClkFb_i_BUFGP rising at 16.666ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd5 to XLXI_18/XLXI_7/XLXI_19/XLXI_3/Q_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X28Y3.CQ       Tcko                  0.476   XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd5
+                                                       XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd5
+    SLICE_X33Y7.B5       net (fanout=22)       1.228   XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd5
+    SLICE_X33Y7.BMUX     Tilo                  0.337   samp<12>
+                                                       XLXI_18/XLXI_1/XLXI_27/current_state_S1sel11
+    SLICE_X24Y3.D1       net (fanout=33)       1.701   samp<29>
+    SLICE_X24Y3.D        Tilo                  0.235   XLXI_18/XLXI_7/S1out<3>
+                                                       XLXI_18/XLXI_7/XLXI_36/Mmux_O261
+    SLICE_X26Y0.D2       net (fanout=6)        1.273   XLXI_18/XLXI_7/S1out<3>
+    SLICE_X26Y0.COUT     Topcyd                0.312   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<3>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_lut<3>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<3>
+    SLICE_X26Y1.CIN      net (fanout=1)        0.003   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<3>
+    SLICE_X26Y1.COUT     Tbyp                  0.093   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<7>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<7>
+    SLICE_X26Y2.CIN      net (fanout=1)        0.003   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<7>
+    SLICE_X26Y2.COUT     Tbyp                  0.093   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<11>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<11>
+    SLICE_X26Y3.CIN      net (fanout=1)        0.003   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<11>
+    SLICE_X26Y3.AMUX     Tcina                 0.220   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<15>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<15>
+    SLICE_X34Y4.A2       net (fanout=2)        1.522   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_A<12>
+    SLICE_X34Y4.COUT     Topcya                0.474   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_cy<15>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_lut<12>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_cy<15>
+    SLICE_X34Y5.CIN      net (fanout=1)        0.003   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_cy<15>
+    SLICE_X34Y5.AMUX     Tcina                 0.220   XLXI_18/XLXI_7/S1out<11>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_xor<16>
+    SLICE_X26Y12.B4      net (fanout=1)        1.389   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/adsu_p.adsu_tmp<16>
+    SLICE_X26Y12.B       Tilo                  0.254   XLXI_18/XLXI_7/XLXI_136/S<30>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_CO11
+    SLICE_X26Y9.A4       net (fanout=19)       0.810   XLXI_18/XLXI_7/XLXI_136/XLXI_19/co0
+    SLICE_X26Y9.A        Tilo                  0.254   XLXI_18/XLXI_7/XLXI_136/S<20>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_25/Mmux_O31
+    SLICE_X26Y11.A3      net (fanout=2)        1.398   XLXI_18/XLXI_7/XLXI_136/S<18>
+    SLICE_X26Y11.A       Tilo                  0.254   XLXI_18/XLXI_7/XLXI_136/S<23>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_12/XLXI_19/XLXI_15/O
+    SLICE_X25Y12.D4      net (fanout=1)        0.652   XLXI_18/XLXI_7/XLXI_136/XLXI_12/XLXI_19/XLXN_49
+    SLICE_X25Y12.D       Tilo                  0.259   XLXI_18/XLXI_7/XLXI_136/XLXI_12/zero_out
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_12/XLXI_19/XLXI_18
+    SLICE_X23Y11.B3      net (fanout=1)        0.574   XLXI_18/XLXI_7/XLXI_136/XLXI_12/zero_out
+    SLICE_X23Y11.B       Tilo                  0.259   XLXI_18/XLXI_7/MAR_out<2>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_12/XLXI_14
+    SLICE_X23Y11.A5      net (fanout=2)        0.238   XLXI_18/XLXI_7/XLXI_136/COMP_OUT<0>
+    SLICE_X23Y11.A       Tilo                  0.259   XLXI_18/XLXI_7/MAR_out<2>
+                                                       XLXI_18/XLXI_7/XLXI_144/Mmux_O112
+    SLICE_X20Y11.AX      net (fanout=3)        0.492   XLXI_18/XLXI_7/DINT<0>
+    SLICE_X20Y11.CLK     Tdick                 0.114   XLXI_18/XLXI_7/MAR_out<1>
+                                                       XLXI_18/XLXI_7/XLXI_19/XLXI_3/Q_0
+    -------------------------------------------------  ---------------------------
+    Total                                     15.402ns (4.113ns logic, 11.289ns route)
+                                                       (26.7% logic, 73.3% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     1.256ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd5 (FF)
+  Destination:          XLXI_18/XLXI_7/XLXI_19/XLXI_3/Q_0 (FF)
+  Requirement:          16.666ns
+  Data Path Delay:      15.402ns (Levels of Logic = 14)
+  Clock Path Skew:      0.027ns (0.349 - 0.322)
+  Source Clock:         sdClkFb_i_BUFGP rising at 0.000ns
+  Destination Clock:    sdClkFb_i_BUFGP rising at 16.666ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd5 to XLXI_18/XLXI_7/XLXI_19/XLXI_3/Q_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X28Y3.CQ       Tcko                  0.476   XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd5
+                                                       XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd5
+    SLICE_X33Y7.B5       net (fanout=22)       1.228   XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd5
+    SLICE_X33Y7.BMUX     Tilo                  0.337   samp<12>
+                                                       XLXI_18/XLXI_1/XLXI_27/current_state_S1sel11
+    SLICE_X24Y3.D1       net (fanout=33)       1.701   samp<29>
+    SLICE_X24Y3.D        Tilo                  0.235   XLXI_18/XLXI_7/S1out<3>
+                                                       XLXI_18/XLXI_7/XLXI_36/Mmux_O261
+    SLICE_X26Y0.D2       net (fanout=6)        1.273   XLXI_18/XLXI_7/S1out<3>
+    SLICE_X26Y0.COUT     Topcyd                0.312   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<3>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_lut<3>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<3>
+    SLICE_X26Y1.CIN      net (fanout=1)        0.003   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<3>
+    SLICE_X26Y1.AMUX     Tcina                 0.220   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<7>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<7>
+    SLICE_X34Y2.A2       net (fanout=2)        1.522   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_A<4>
+    SLICE_X34Y2.COUT     Topcya                0.474   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_cy<7>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_lut<4>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_cy<7>
+    SLICE_X34Y3.CIN      net (fanout=1)        0.003   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_cy<7>
+    SLICE_X34Y3.COUT     Tbyp                  0.093   XLXI_18/XLXI_7/XLXI_135/Dout<3>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_cy<11>
+    SLICE_X34Y4.CIN      net (fanout=1)        0.003   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_cy<11>
+    SLICE_X34Y4.COUT     Tbyp                  0.093   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_cy<15>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_cy<15>
+    SLICE_X34Y5.CIN      net (fanout=1)        0.003   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_cy<15>
+    SLICE_X34Y5.AMUX     Tcina                 0.220   XLXI_18/XLXI_7/S1out<11>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_xor<16>
+    SLICE_X26Y12.B4      net (fanout=1)        1.389   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/adsu_p.adsu_tmp<16>
+    SLICE_X26Y12.B       Tilo                  0.254   XLXI_18/XLXI_7/XLXI_136/S<30>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_CO11
+    SLICE_X26Y9.A4       net (fanout=19)       0.810   XLXI_18/XLXI_7/XLXI_136/XLXI_19/co0
+    SLICE_X26Y9.A        Tilo                  0.254   XLXI_18/XLXI_7/XLXI_136/S<20>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_25/Mmux_O31
+    SLICE_X26Y11.A3      net (fanout=2)        1.398   XLXI_18/XLXI_7/XLXI_136/S<18>
+    SLICE_X26Y11.A       Tilo                  0.254   XLXI_18/XLXI_7/XLXI_136/S<23>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_12/XLXI_19/XLXI_15/O
+    SLICE_X25Y12.D4      net (fanout=1)        0.652   XLXI_18/XLXI_7/XLXI_136/XLXI_12/XLXI_19/XLXN_49
+    SLICE_X25Y12.D       Tilo                  0.259   XLXI_18/XLXI_7/XLXI_136/XLXI_12/zero_out
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_12/XLXI_19/XLXI_18
+    SLICE_X23Y11.B3      net (fanout=1)        0.574   XLXI_18/XLXI_7/XLXI_136/XLXI_12/zero_out
+    SLICE_X23Y11.B       Tilo                  0.259   XLXI_18/XLXI_7/MAR_out<2>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_12/XLXI_14
+    SLICE_X23Y11.A5      net (fanout=2)        0.238   XLXI_18/XLXI_7/XLXI_136/COMP_OUT<0>
+    SLICE_X23Y11.A       Tilo                  0.259   XLXI_18/XLXI_7/MAR_out<2>
+                                                       XLXI_18/XLXI_7/XLXI_144/Mmux_O112
+    SLICE_X20Y11.AX      net (fanout=3)        0.492   XLXI_18/XLXI_7/DINT<0>
+    SLICE_X20Y11.CLK     Tdick                 0.114   XLXI_18/XLXI_7/MAR_out<1>
+                                                       XLXI_18/XLXI_7/XLXI_19/XLXI_3/Q_0
+    -------------------------------------------------  ---------------------------
+    Total                                     15.402ns (4.113ns logic, 11.289ns route)
+                                                       (26.7% logic, 73.3% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point XLXI_18/XLXI_7/XLXI_12/XLXI_3/Q_0 (SLICE_X23Y10.AX), 532665 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     1.276ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd5 (FF)
+  Destination:          XLXI_18/XLXI_7/XLXI_12/XLXI_3/Q_0 (FF)
+  Requirement:          16.666ns
+  Data Path Delay:      15.369ns (Levels of Logic = 14)
+  Clock Path Skew:      0.014ns (0.336 - 0.322)
+  Source Clock:         sdClkFb_i_BUFGP rising at 0.000ns
+  Destination Clock:    sdClkFb_i_BUFGP rising at 16.666ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd5 to XLXI_18/XLXI_7/XLXI_12/XLXI_3/Q_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X28Y3.CQ       Tcko                  0.476   XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd5
+                                                       XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd5
+    SLICE_X33Y7.B5       net (fanout=22)       1.228   XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd5
+    SLICE_X33Y7.BMUX     Tilo                  0.337   samp<12>
+                                                       XLXI_18/XLXI_1/XLXI_27/current_state_S1sel11
+    SLICE_X24Y3.D1       net (fanout=33)       1.701   samp<29>
+    SLICE_X24Y3.D        Tilo                  0.235   XLXI_18/XLXI_7/S1out<3>
+                                                       XLXI_18/XLXI_7/XLXI_36/Mmux_O261
+    SLICE_X26Y0.D2       net (fanout=6)        1.273   XLXI_18/XLXI_7/S1out<3>
+    SLICE_X26Y0.COUT     Topcyd                0.312   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<3>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_lut<3>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<3>
+    SLICE_X26Y1.CIN      net (fanout=1)        0.003   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<3>
+    SLICE_X26Y1.COUT     Tbyp                  0.093   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<7>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<7>
+    SLICE_X26Y2.CIN      net (fanout=1)        0.003   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<7>
+    SLICE_X26Y2.AMUX     Tcina                 0.220   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<11>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<11>
+    SLICE_X34Y3.A2       net (fanout=2)        1.522   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_A<8>
+    SLICE_X34Y3.COUT     Topcya                0.474   XLXI_18/XLXI_7/XLXI_135/Dout<3>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_lut<8>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_cy<11>
+    SLICE_X34Y4.CIN      net (fanout=1)        0.003   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_cy<11>
+    SLICE_X34Y4.COUT     Tbyp                  0.093   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_cy<15>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_cy<15>
+    SLICE_X34Y5.CIN      net (fanout=1)        0.003   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_cy<15>
+    SLICE_X34Y5.AMUX     Tcina                 0.220   XLXI_18/XLXI_7/S1out<11>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_xor<16>
+    SLICE_X26Y12.B4      net (fanout=1)        1.389   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/adsu_p.adsu_tmp<16>
+    SLICE_X26Y12.B       Tilo                  0.254   XLXI_18/XLXI_7/XLXI_136/S<30>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_CO11
+    SLICE_X26Y9.A4       net (fanout=19)       0.810   XLXI_18/XLXI_7/XLXI_136/XLXI_19/co0
+    SLICE_X26Y9.A        Tilo                  0.254   XLXI_18/XLXI_7/XLXI_136/S<20>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_25/Mmux_O31
+    SLICE_X26Y11.A3      net (fanout=2)        1.398   XLXI_18/XLXI_7/XLXI_136/S<18>
+    SLICE_X26Y11.A       Tilo                  0.254   XLXI_18/XLXI_7/XLXI_136/S<23>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_12/XLXI_19/XLXI_15/O
+    SLICE_X25Y12.D4      net (fanout=1)        0.652   XLXI_18/XLXI_7/XLXI_136/XLXI_12/XLXI_19/XLXN_49
+    SLICE_X25Y12.D       Tilo                  0.259   XLXI_18/XLXI_7/XLXI_136/XLXI_12/zero_out
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_12/XLXI_19/XLXI_18
+    SLICE_X23Y11.B3      net (fanout=1)        0.574   XLXI_18/XLXI_7/XLXI_136/XLXI_12/zero_out
+    SLICE_X23Y11.B       Tilo                  0.259   XLXI_18/XLXI_7/MAR_out<2>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_12/XLXI_14
+    SLICE_X23Y11.A5      net (fanout=2)        0.238   XLXI_18/XLXI_7/XLXI_136/COMP_OUT<0>
+    SLICE_X23Y11.A       Tilo                  0.259   XLXI_18/XLXI_7/MAR_out<2>
+                                                       XLXI_18/XLXI_7/XLXI_144/Mmux_O112
+    SLICE_X23Y10.AX      net (fanout=3)        0.459   XLXI_18/XLXI_7/DINT<0>
+    SLICE_X23Y10.CLK     Tdick                 0.114   XLXI_18/XLXI_7/C_DATA<2>
+                                                       XLXI_18/XLXI_7/XLXI_12/XLXI_3/Q_0
+    -------------------------------------------------  ---------------------------
+    Total                                     15.369ns (4.113ns logic, 11.256ns route)
+                                                       (26.8% logic, 73.2% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     1.276ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd5 (FF)
+  Destination:          XLXI_18/XLXI_7/XLXI_12/XLXI_3/Q_0 (FF)
+  Requirement:          16.666ns
+  Data Path Delay:      15.369ns (Levels of Logic = 14)
+  Clock Path Skew:      0.014ns (0.336 - 0.322)
+  Source Clock:         sdClkFb_i_BUFGP rising at 0.000ns
+  Destination Clock:    sdClkFb_i_BUFGP rising at 16.666ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd5 to XLXI_18/XLXI_7/XLXI_12/XLXI_3/Q_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X28Y3.CQ       Tcko                  0.476   XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd5
+                                                       XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd5
+    SLICE_X33Y7.B5       net (fanout=22)       1.228   XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd5
+    SLICE_X33Y7.BMUX     Tilo                  0.337   samp<12>
+                                                       XLXI_18/XLXI_1/XLXI_27/current_state_S1sel11
+    SLICE_X24Y3.D1       net (fanout=33)       1.701   samp<29>
+    SLICE_X24Y3.D        Tilo                  0.235   XLXI_18/XLXI_7/S1out<3>
+                                                       XLXI_18/XLXI_7/XLXI_36/Mmux_O261
+    SLICE_X26Y0.D2       net (fanout=6)        1.273   XLXI_18/XLXI_7/S1out<3>
+    SLICE_X26Y0.COUT     Topcyd                0.312   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<3>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_lut<3>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<3>
+    SLICE_X26Y1.CIN      net (fanout=1)        0.003   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<3>
+    SLICE_X26Y1.COUT     Tbyp                  0.093   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<7>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<7>
+    SLICE_X26Y2.CIN      net (fanout=1)        0.003   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<7>
+    SLICE_X26Y2.COUT     Tbyp                  0.093   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<11>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<11>
+    SLICE_X26Y3.CIN      net (fanout=1)        0.003   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<11>
+    SLICE_X26Y3.AMUX     Tcina                 0.220   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<15>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<15>
+    SLICE_X34Y4.A2       net (fanout=2)        1.522   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_A<12>
+    SLICE_X34Y4.COUT     Topcya                0.474   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_cy<15>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_lut<12>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_cy<15>
+    SLICE_X34Y5.CIN      net (fanout=1)        0.003   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_cy<15>
+    SLICE_X34Y5.AMUX     Tcina                 0.220   XLXI_18/XLXI_7/S1out<11>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_xor<16>
+    SLICE_X26Y12.B4      net (fanout=1)        1.389   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/adsu_p.adsu_tmp<16>
+    SLICE_X26Y12.B       Tilo                  0.254   XLXI_18/XLXI_7/XLXI_136/S<30>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_CO11
+    SLICE_X26Y9.A4       net (fanout=19)       0.810   XLXI_18/XLXI_7/XLXI_136/XLXI_19/co0
+    SLICE_X26Y9.A        Tilo                  0.254   XLXI_18/XLXI_7/XLXI_136/S<20>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_25/Mmux_O31
+    SLICE_X26Y11.A3      net (fanout=2)        1.398   XLXI_18/XLXI_7/XLXI_136/S<18>
+    SLICE_X26Y11.A       Tilo                  0.254   XLXI_18/XLXI_7/XLXI_136/S<23>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_12/XLXI_19/XLXI_15/O
+    SLICE_X25Y12.D4      net (fanout=1)        0.652   XLXI_18/XLXI_7/XLXI_136/XLXI_12/XLXI_19/XLXN_49
+    SLICE_X25Y12.D       Tilo                  0.259   XLXI_18/XLXI_7/XLXI_136/XLXI_12/zero_out
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_12/XLXI_19/XLXI_18
+    SLICE_X23Y11.B3      net (fanout=1)        0.574   XLXI_18/XLXI_7/XLXI_136/XLXI_12/zero_out
+    SLICE_X23Y11.B       Tilo                  0.259   XLXI_18/XLXI_7/MAR_out<2>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_12/XLXI_14
+    SLICE_X23Y11.A5      net (fanout=2)        0.238   XLXI_18/XLXI_7/XLXI_136/COMP_OUT<0>
+    SLICE_X23Y11.A       Tilo                  0.259   XLXI_18/XLXI_7/MAR_out<2>
+                                                       XLXI_18/XLXI_7/XLXI_144/Mmux_O112
+    SLICE_X23Y10.AX      net (fanout=3)        0.459   XLXI_18/XLXI_7/DINT<0>
+    SLICE_X23Y10.CLK     Tdick                 0.114   XLXI_18/XLXI_7/C_DATA<2>
+                                                       XLXI_18/XLXI_7/XLXI_12/XLXI_3/Q_0
+    -------------------------------------------------  ---------------------------
+    Total                                     15.369ns (4.113ns logic, 11.256ns route)
+                                                       (26.8% logic, 73.2% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     1.276ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd5 (FF)
+  Destination:          XLXI_18/XLXI_7/XLXI_12/XLXI_3/Q_0 (FF)
+  Requirement:          16.666ns
+  Data Path Delay:      15.369ns (Levels of Logic = 14)
+  Clock Path Skew:      0.014ns (0.336 - 0.322)
+  Source Clock:         sdClkFb_i_BUFGP rising at 0.000ns
+  Destination Clock:    sdClkFb_i_BUFGP rising at 16.666ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd5 to XLXI_18/XLXI_7/XLXI_12/XLXI_3/Q_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X28Y3.CQ       Tcko                  0.476   XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd5
+                                                       XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd5
+    SLICE_X33Y7.B5       net (fanout=22)       1.228   XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd5
+    SLICE_X33Y7.BMUX     Tilo                  0.337   samp<12>
+                                                       XLXI_18/XLXI_1/XLXI_27/current_state_S1sel11
+    SLICE_X24Y3.D1       net (fanout=33)       1.701   samp<29>
+    SLICE_X24Y3.D        Tilo                  0.235   XLXI_18/XLXI_7/S1out<3>
+                                                       XLXI_18/XLXI_7/XLXI_36/Mmux_O261
+    SLICE_X26Y0.D2       net (fanout=6)        1.273   XLXI_18/XLXI_7/S1out<3>
+    SLICE_X26Y0.COUT     Topcyd                0.312   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<3>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_lut<3>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<3>
+    SLICE_X26Y1.CIN      net (fanout=1)        0.003   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<3>
+    SLICE_X26Y1.AMUX     Tcina                 0.220   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<7>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<7>
+    SLICE_X34Y2.A2       net (fanout=2)        1.522   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_A<4>
+    SLICE_X34Y2.COUT     Topcya                0.474   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_cy<7>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_lut<4>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_cy<7>
+    SLICE_X34Y3.CIN      net (fanout=1)        0.003   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_cy<7>
+    SLICE_X34Y3.COUT     Tbyp                  0.093   XLXI_18/XLXI_7/XLXI_135/Dout<3>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_cy<11>
+    SLICE_X34Y4.CIN      net (fanout=1)        0.003   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_cy<11>
+    SLICE_X34Y4.COUT     Tbyp                  0.093   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_cy<15>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_cy<15>
+    SLICE_X34Y5.CIN      net (fanout=1)        0.003   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_cy<15>
+    SLICE_X34Y5.AMUX     Tcina                 0.220   XLXI_18/XLXI_7/S1out<11>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_xor<16>
+    SLICE_X26Y12.B4      net (fanout=1)        1.389   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/adsu_p.adsu_tmp<16>
+    SLICE_X26Y12.B       Tilo                  0.254   XLXI_18/XLXI_7/XLXI_136/S<30>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_CO11
+    SLICE_X26Y9.A4       net (fanout=19)       0.810   XLXI_18/XLXI_7/XLXI_136/XLXI_19/co0
+    SLICE_X26Y9.A        Tilo                  0.254   XLXI_18/XLXI_7/XLXI_136/S<20>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_25/Mmux_O31
+    SLICE_X26Y11.A3      net (fanout=2)        1.398   XLXI_18/XLXI_7/XLXI_136/S<18>
+    SLICE_X26Y11.A       Tilo                  0.254   XLXI_18/XLXI_7/XLXI_136/S<23>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_12/XLXI_19/XLXI_15/O
+    SLICE_X25Y12.D4      net (fanout=1)        0.652   XLXI_18/XLXI_7/XLXI_136/XLXI_12/XLXI_19/XLXN_49
+    SLICE_X25Y12.D       Tilo                  0.259   XLXI_18/XLXI_7/XLXI_136/XLXI_12/zero_out
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_12/XLXI_19/XLXI_18
+    SLICE_X23Y11.B3      net (fanout=1)        0.574   XLXI_18/XLXI_7/XLXI_136/XLXI_12/zero_out
+    SLICE_X23Y11.B       Tilo                  0.259   XLXI_18/XLXI_7/MAR_out<2>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_12/XLXI_14
+    SLICE_X23Y11.A5      net (fanout=2)        0.238   XLXI_18/XLXI_7/XLXI_136/COMP_OUT<0>
+    SLICE_X23Y11.A       Tilo                  0.259   XLXI_18/XLXI_7/MAR_out<2>
+                                                       XLXI_18/XLXI_7/XLXI_144/Mmux_O112
+    SLICE_X23Y10.AX      net (fanout=3)        0.459   XLXI_18/XLXI_7/DINT<0>
+    SLICE_X23Y10.CLK     Tdick                 0.114   XLXI_18/XLXI_7/C_DATA<2>
+                                                       XLXI_18/XLXI_7/XLXI_12/XLXI_3/Q_0
+    -------------------------------------------------  ---------------------------
+    Total                                     15.369ns (4.113ns logic, 11.256ns route)
+                                                       (26.8% logic, 73.2% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point XLXI_18/XLXI_7/XLXI_23/XLXI_2/data_out_0 (SLICE_X22Y11.AX), 532665 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     1.451ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd5 (FF)
+  Destination:          XLXI_18/XLXI_7/XLXI_23/XLXI_2/data_out_0 (FF)
+  Requirement:          16.666ns
+  Data Path Delay:      15.196ns (Levels of Logic = 14)
+  Clock Path Skew:      0.016ns (0.338 - 0.322)
+  Source Clock:         sdClkFb_i_BUFGP rising at 0.000ns
+  Destination Clock:    sdClkFb_i_BUFGP rising at 16.666ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd5 to XLXI_18/XLXI_7/XLXI_23/XLXI_2/data_out_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X28Y3.CQ       Tcko                  0.476   XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd5
+                                                       XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd5
+    SLICE_X33Y7.B5       net (fanout=22)       1.228   XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd5
+    SLICE_X33Y7.BMUX     Tilo                  0.337   samp<12>
+                                                       XLXI_18/XLXI_1/XLXI_27/current_state_S1sel11
+    SLICE_X24Y3.D1       net (fanout=33)       1.701   samp<29>
+    SLICE_X24Y3.D        Tilo                  0.235   XLXI_18/XLXI_7/S1out<3>
+                                                       XLXI_18/XLXI_7/XLXI_36/Mmux_O261
+    SLICE_X26Y0.D2       net (fanout=6)        1.273   XLXI_18/XLXI_7/S1out<3>
+    SLICE_X26Y0.COUT     Topcyd                0.312   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<3>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_lut<3>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<3>
+    SLICE_X26Y1.CIN      net (fanout=1)        0.003   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<3>
+    SLICE_X26Y1.COUT     Tbyp                  0.093   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<7>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<7>
+    SLICE_X26Y2.CIN      net (fanout=1)        0.003   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<7>
+    SLICE_X26Y2.AMUX     Tcina                 0.220   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<11>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<11>
+    SLICE_X34Y3.A2       net (fanout=2)        1.522   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_A<8>
+    SLICE_X34Y3.COUT     Topcya                0.474   XLXI_18/XLXI_7/XLXI_135/Dout<3>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_lut<8>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_cy<11>
+    SLICE_X34Y4.CIN      net (fanout=1)        0.003   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_cy<11>
+    SLICE_X34Y4.COUT     Tbyp                  0.093   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_cy<15>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_cy<15>
+    SLICE_X34Y5.CIN      net (fanout=1)        0.003   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_cy<15>
+    SLICE_X34Y5.AMUX     Tcina                 0.220   XLXI_18/XLXI_7/S1out<11>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_xor<16>
+    SLICE_X26Y12.B4      net (fanout=1)        1.389   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/adsu_p.adsu_tmp<16>
+    SLICE_X26Y12.B       Tilo                  0.254   XLXI_18/XLXI_7/XLXI_136/S<30>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_CO11
+    SLICE_X26Y9.A4       net (fanout=19)       0.810   XLXI_18/XLXI_7/XLXI_136/XLXI_19/co0
+    SLICE_X26Y9.A        Tilo                  0.254   XLXI_18/XLXI_7/XLXI_136/S<20>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_25/Mmux_O31
+    SLICE_X26Y11.A3      net (fanout=2)        1.398   XLXI_18/XLXI_7/XLXI_136/S<18>
+    SLICE_X26Y11.A       Tilo                  0.254   XLXI_18/XLXI_7/XLXI_136/S<23>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_12/XLXI_19/XLXI_15/O
+    SLICE_X25Y12.D4      net (fanout=1)        0.652   XLXI_18/XLXI_7/XLXI_136/XLXI_12/XLXI_19/XLXN_49
+    SLICE_X25Y12.D       Tilo                  0.259   XLXI_18/XLXI_7/XLXI_136/XLXI_12/zero_out
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_12/XLXI_19/XLXI_18
+    SLICE_X23Y11.B3      net (fanout=1)        0.574   XLXI_18/XLXI_7/XLXI_136/XLXI_12/zero_out
+    SLICE_X23Y11.B       Tilo                  0.259   XLXI_18/XLXI_7/MAR_out<2>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_12/XLXI_14
+    SLICE_X23Y11.A5      net (fanout=2)        0.238   XLXI_18/XLXI_7/XLXI_136/COMP_OUT<0>
+    SLICE_X23Y11.A       Tilo                  0.259   XLXI_18/XLXI_7/MAR_out<2>
+                                                       XLXI_18/XLXI_7/XLXI_144/Mmux_O112
+    SLICE_X22Y11.AX      net (fanout=3)        0.315   XLXI_18/XLXI_7/DINT<0>
+    SLICE_X22Y11.CLK     Tdick                 0.085   XLXI_18/XLXI_7/XLXI_23/XLXI_2/data_out<2>
+                                                       XLXI_18/XLXI_7/XLXI_23/XLXI_2/data_out_0
+    -------------------------------------------------  ---------------------------
+    Total                                     15.196ns (4.084ns logic, 11.112ns route)
+                                                       (26.9% logic, 73.1% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     1.451ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd5 (FF)
+  Destination:          XLXI_18/XLXI_7/XLXI_23/XLXI_2/data_out_0 (FF)
+  Requirement:          16.666ns
+  Data Path Delay:      15.196ns (Levels of Logic = 14)
+  Clock Path Skew:      0.016ns (0.338 - 0.322)
+  Source Clock:         sdClkFb_i_BUFGP rising at 0.000ns
+  Destination Clock:    sdClkFb_i_BUFGP rising at 16.666ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd5 to XLXI_18/XLXI_7/XLXI_23/XLXI_2/data_out_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X28Y3.CQ       Tcko                  0.476   XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd5
+                                                       XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd5
+    SLICE_X33Y7.B5       net (fanout=22)       1.228   XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd5
+    SLICE_X33Y7.BMUX     Tilo                  0.337   samp<12>
+                                                       XLXI_18/XLXI_1/XLXI_27/current_state_S1sel11
+    SLICE_X24Y3.D1       net (fanout=33)       1.701   samp<29>
+    SLICE_X24Y3.D        Tilo                  0.235   XLXI_18/XLXI_7/S1out<3>
+                                                       XLXI_18/XLXI_7/XLXI_36/Mmux_O261
+    SLICE_X26Y0.D2       net (fanout=6)        1.273   XLXI_18/XLXI_7/S1out<3>
+    SLICE_X26Y0.COUT     Topcyd                0.312   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<3>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_lut<3>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<3>
+    SLICE_X26Y1.CIN      net (fanout=1)        0.003   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<3>
+    SLICE_X26Y1.COUT     Tbyp                  0.093   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<7>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<7>
+    SLICE_X26Y2.CIN      net (fanout=1)        0.003   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<7>
+    SLICE_X26Y2.COUT     Tbyp                  0.093   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<11>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<11>
+    SLICE_X26Y3.CIN      net (fanout=1)        0.003   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<11>
+    SLICE_X26Y3.AMUX     Tcina                 0.220   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<15>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<15>
+    SLICE_X34Y4.A2       net (fanout=2)        1.522   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_A<12>
+    SLICE_X34Y4.COUT     Topcya                0.474   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_cy<15>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_lut<12>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_cy<15>
+    SLICE_X34Y5.CIN      net (fanout=1)        0.003   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_cy<15>
+    SLICE_X34Y5.AMUX     Tcina                 0.220   XLXI_18/XLXI_7/S1out<11>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_xor<16>
+    SLICE_X26Y12.B4      net (fanout=1)        1.389   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/adsu_p.adsu_tmp<16>
+    SLICE_X26Y12.B       Tilo                  0.254   XLXI_18/XLXI_7/XLXI_136/S<30>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_CO11
+    SLICE_X26Y9.A4       net (fanout=19)       0.810   XLXI_18/XLXI_7/XLXI_136/XLXI_19/co0
+    SLICE_X26Y9.A        Tilo                  0.254   XLXI_18/XLXI_7/XLXI_136/S<20>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_25/Mmux_O31
+    SLICE_X26Y11.A3      net (fanout=2)        1.398   XLXI_18/XLXI_7/XLXI_136/S<18>
+    SLICE_X26Y11.A       Tilo                  0.254   XLXI_18/XLXI_7/XLXI_136/S<23>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_12/XLXI_19/XLXI_15/O
+    SLICE_X25Y12.D4      net (fanout=1)        0.652   XLXI_18/XLXI_7/XLXI_136/XLXI_12/XLXI_19/XLXN_49
+    SLICE_X25Y12.D       Tilo                  0.259   XLXI_18/XLXI_7/XLXI_136/XLXI_12/zero_out
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_12/XLXI_19/XLXI_18
+    SLICE_X23Y11.B3      net (fanout=1)        0.574   XLXI_18/XLXI_7/XLXI_136/XLXI_12/zero_out
+    SLICE_X23Y11.B       Tilo                  0.259   XLXI_18/XLXI_7/MAR_out<2>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_12/XLXI_14
+    SLICE_X23Y11.A5      net (fanout=2)        0.238   XLXI_18/XLXI_7/XLXI_136/COMP_OUT<0>
+    SLICE_X23Y11.A       Tilo                  0.259   XLXI_18/XLXI_7/MAR_out<2>
+                                                       XLXI_18/XLXI_7/XLXI_144/Mmux_O112
+    SLICE_X22Y11.AX      net (fanout=3)        0.315   XLXI_18/XLXI_7/DINT<0>
+    SLICE_X22Y11.CLK     Tdick                 0.085   XLXI_18/XLXI_7/XLXI_23/XLXI_2/data_out<2>
+                                                       XLXI_18/XLXI_7/XLXI_23/XLXI_2/data_out_0
+    -------------------------------------------------  ---------------------------
+    Total                                     15.196ns (4.084ns logic, 11.112ns route)
+                                                       (26.9% logic, 73.1% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     1.451ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd5 (FF)
+  Destination:          XLXI_18/XLXI_7/XLXI_23/XLXI_2/data_out_0 (FF)
+  Requirement:          16.666ns
+  Data Path Delay:      15.196ns (Levels of Logic = 14)
+  Clock Path Skew:      0.016ns (0.338 - 0.322)
+  Source Clock:         sdClkFb_i_BUFGP rising at 0.000ns
+  Destination Clock:    sdClkFb_i_BUFGP rising at 16.666ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd5 to XLXI_18/XLXI_7/XLXI_23/XLXI_2/data_out_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X28Y3.CQ       Tcko                  0.476   XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd5
+                                                       XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd5
+    SLICE_X33Y7.B5       net (fanout=22)       1.228   XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd5
+    SLICE_X33Y7.BMUX     Tilo                  0.337   samp<12>
+                                                       XLXI_18/XLXI_1/XLXI_27/current_state_S1sel11
+    SLICE_X24Y3.D1       net (fanout=33)       1.701   samp<29>
+    SLICE_X24Y3.D        Tilo                  0.235   XLXI_18/XLXI_7/S1out<3>
+                                                       XLXI_18/XLXI_7/XLXI_36/Mmux_O261
+    SLICE_X26Y0.D2       net (fanout=6)        1.273   XLXI_18/XLXI_7/S1out<3>
+    SLICE_X26Y0.COUT     Topcyd                0.312   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<3>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_lut<3>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<3>
+    SLICE_X26Y1.CIN      net (fanout=1)        0.003   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<3>
+    SLICE_X26Y1.AMUX     Tcina                 0.220   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<7>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_A_rs_cy<7>
+    SLICE_X34Y2.A2       net (fanout=2)        1.522   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_A<4>
+    SLICE_X34Y2.COUT     Topcya                0.474   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_cy<7>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_lut<4>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_cy<7>
+    SLICE_X34Y3.CIN      net (fanout=1)        0.003   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_cy<7>
+    SLICE_X34Y3.COUT     Tbyp                  0.093   XLXI_18/XLXI_7/XLXI_135/Dout<3>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_cy<11>
+    SLICE_X34Y4.CIN      net (fanout=1)        0.003   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_cy<11>
+    SLICE_X34Y4.COUT     Tbyp                  0.093   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_cy<15>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_cy<15>
+    SLICE_X34Y5.CIN      net (fanout=1)        0.003   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_cy<15>
+    SLICE_X34Y5.AMUX     Tcina                 0.220   XLXI_18/XLXI_7/S1out<11>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_adsu_p.adsu_tmp_rs_xor<16>
+    SLICE_X26Y12.B4      net (fanout=1)        1.389   XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/adsu_p.adsu_tmp<16>
+    SLICE_X26Y12.B       Tilo                  0.254   XLXI_18/XLXI_7/XLXI_136/S<30>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_37/Mmux_CO11
+    SLICE_X26Y9.A4       net (fanout=19)       0.810   XLXI_18/XLXI_7/XLXI_136/XLXI_19/co0
+    SLICE_X26Y9.A        Tilo                  0.254   XLXI_18/XLXI_7/XLXI_136/S<20>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_19/XLXI_25/Mmux_O31
+    SLICE_X26Y11.A3      net (fanout=2)        1.398   XLXI_18/XLXI_7/XLXI_136/S<18>
+    SLICE_X26Y11.A       Tilo                  0.254   XLXI_18/XLXI_7/XLXI_136/S<23>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_12/XLXI_19/XLXI_15/O
+    SLICE_X25Y12.D4      net (fanout=1)        0.652   XLXI_18/XLXI_7/XLXI_136/XLXI_12/XLXI_19/XLXN_49
+    SLICE_X25Y12.D       Tilo                  0.259   XLXI_18/XLXI_7/XLXI_136/XLXI_12/zero_out
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_12/XLXI_19/XLXI_18
+    SLICE_X23Y11.B3      net (fanout=1)        0.574   XLXI_18/XLXI_7/XLXI_136/XLXI_12/zero_out
+    SLICE_X23Y11.B       Tilo                  0.259   XLXI_18/XLXI_7/MAR_out<2>
+                                                       XLXI_18/XLXI_7/XLXI_136/XLXI_12/XLXI_14
+    SLICE_X23Y11.A5      net (fanout=2)        0.238   XLXI_18/XLXI_7/XLXI_136/COMP_OUT<0>
+    SLICE_X23Y11.A       Tilo                  0.259   XLXI_18/XLXI_7/MAR_out<2>
+                                                       XLXI_18/XLXI_7/XLXI_144/Mmux_O112
+    SLICE_X22Y11.AX      net (fanout=3)        0.315   XLXI_18/XLXI_7/DINT<0>
+    SLICE_X22Y11.CLK     Tdick                 0.085   XLXI_18/XLXI_7/XLXI_23/XLXI_2/data_out<2>
+                                                       XLXI_18/XLXI_7/XLXI_23/XLXI_2/data_out_0
+    -------------------------------------------------  ---------------------------
+    Total                                     15.196ns (4.084ns logic, 11.112ns route)
+                                                       (26.9% logic, 73.1% route)
+
+--------------------------------------------------------------------------------
+
+Hold Paths: TS_sdClkFb_i = PERIOD TIMEGRP "sdClkFb_i" 60 MHz HIGH 50%;
+--------------------------------------------------------------------------------
+
+Paths for end point XLXI_18/XLXI_7/XLXI_135/XLXI_1/XLXI_6/Q_3 (SLICE_X26Y6.CE), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.286ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd19 (FF)
+  Destination:          XLXI_18/XLXI_7/XLXI_135/XLXI_1/XLXI_6/Q_3 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.292ns (Levels of Logic = 0)
+  Clock Path Skew:      0.006ns (0.091 - 0.085)
+  Source Clock:         sdClkFb_i_BUFGP rising at 0.000ns
+  Destination Clock:    sdClkFb_i_BUFGP rising at 0.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd19 to XLXI_18/XLXI_7/XLXI_135/XLXI_1/XLXI_6/Q_3
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X27Y8.BQ       Tcko                  0.198   XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd19
+                                                       XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd19
+    SLICE_X26Y6.CE       net (fanout=21)       0.202   XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd19
+    SLICE_X26Y6.CLK      Tckce       (-Th)     0.108   XLXI_18/XLXI_7/XLXI_135/Dout<19>
+                                                       XLXI_18/XLXI_7/XLXI_135/XLXI_1/XLXI_6/Q_3
+    -------------------------------------------------  ---------------------------
+    Total                                      0.292ns (0.090ns logic, 0.202ns route)
+                                                       (30.8% logic, 69.2% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point XLXI_18/XLXI_7/XLXI_135/XLXI_1/XLXI_6/Q_2 (SLICE_X26Y6.CE), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.290ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd19 (FF)
+  Destination:          XLXI_18/XLXI_7/XLXI_135/XLXI_1/XLXI_6/Q_2 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.296ns (Levels of Logic = 0)
+  Clock Path Skew:      0.006ns (0.091 - 0.085)
+  Source Clock:         sdClkFb_i_BUFGP rising at 0.000ns
+  Destination Clock:    sdClkFb_i_BUFGP rising at 0.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd19 to XLXI_18/XLXI_7/XLXI_135/XLXI_1/XLXI_6/Q_2
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X27Y8.BQ       Tcko                  0.198   XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd19
+                                                       XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd19
+    SLICE_X26Y6.CE       net (fanout=21)       0.202   XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd19
+    SLICE_X26Y6.CLK      Tckce       (-Th)     0.104   XLXI_18/XLXI_7/XLXI_135/Dout<19>
+                                                       XLXI_18/XLXI_7/XLXI_135/XLXI_1/XLXI_6/Q_2
+    -------------------------------------------------  ---------------------------
+    Total                                      0.296ns (0.094ns logic, 0.202ns route)
+                                                       (31.8% logic, 68.2% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point XLXI_18/XLXI_7/XLXI_135/XLXI_1/XLXI_6/Q_1 (SLICE_X26Y6.CE), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.292ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd19 (FF)
+  Destination:          XLXI_18/XLXI_7/XLXI_135/XLXI_1/XLXI_6/Q_1 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.298ns (Levels of Logic = 0)
+  Clock Path Skew:      0.006ns (0.091 - 0.085)
+  Source Clock:         sdClkFb_i_BUFGP rising at 0.000ns
+  Destination Clock:    sdClkFb_i_BUFGP rising at 0.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd19 to XLXI_18/XLXI_7/XLXI_135/XLXI_1/XLXI_6/Q_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X27Y8.BQ       Tcko                  0.198   XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd19
+                                                       XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd19
+    SLICE_X26Y6.CE       net (fanout=21)       0.202   XLXI_18/XLXI_1/XLXI_27/current_state_FSM_FFd19
+    SLICE_X26Y6.CLK      Tckce       (-Th)     0.102   XLXI_18/XLXI_7/XLXI_135/Dout<19>
+                                                       XLXI_18/XLXI_7/XLXI_135/XLXI_1/XLXI_6/Q_1
+    -------------------------------------------------  ---------------------------
+    Total                                      0.298ns (0.096ns logic, 0.202ns route)
+                                                       (32.2% logic, 67.8% route)
+
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: TS_sdClkFb_i = PERIOD TIMEGRP "sdClkFb_i" 60 MHz HIGH 50%;
+--------------------------------------------------------------------------------
+Slack: 14.000ns (period - min period limit)
+  Period: 16.666ns
+  Min period limit: 2.666ns (375.094MHz) (Tbcper_I)
+  Physical resource: sdClkFb_i_BUFGP/BUFG/I0
+  Logical resource: sdClkFb_i_BUFGP/BUFG/I0
+  Location pin: BUFGMUX_X2Y4.I0
+  Clock network: sdClkFb_i_BUFGP/IBUFG
+--------------------------------------------------------------------------------
+Slack: 15.409ns (period - min period limit)
+  Period: 16.666ns
+  Min period limit: 1.257ns (795.545MHz) (Tcp)
+  Physical resource: XLXI_10/input1<23>/CLK
+  Logical resource: XLXI_10/XLXI_1/XLXI_1/ram10/O0/CLK
+  Location pin: SLICE_X10Y11.CLK
+  Clock network: sdClkFb_i_BUFGP
+--------------------------------------------------------------------------------
+Slack: 15.409ns (period - min period limit)
+  Period: 16.666ns
+  Min period limit: 1.257ns (795.545MHz) (Tcp)
+  Physical resource: XLXI_10/input1<23>/CLK
+  Logical resource: XLXI_10/XLXI_1/XLXI_1/ram10/O1/CLK
+  Location pin: SLICE_X10Y11.CLK
+  Clock network: sdClkFb_i_BUFGP
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_XLXI_20_u0_genClkP_s = PERIOD TIMEGRP 
+"XLXI_20_u0_genClkP_s" TSfpgaClk_i *         5 HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is   2.666ns.
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: TS_XLXI_20_u0_genClkP_s = PERIOD TIMEGRP "XLXI_20_u0_genClkP_s" TSfpgaClk_i *
+        5 HIGH 50%;
+--------------------------------------------------------------------------------
+Slack: 14.000ns (period - min period limit)
+  Period: 16.666ns
+  Min period limit: 2.666ns (375.094MHz) (Tbcper_I)
+  Physical resource: XLXI_20/u0/genClkP_s_BUFG/I0
+  Logical resource: XLXI_20/u0/genClkP_s_BUFG/I0
+  Location pin: BUFGMUX_X2Y3.I0
+  Clock network: XLXI_20/u0/genClkP_s
+--------------------------------------------------------------------------------
+Slack: 14.417ns (period - min period limit)
+  Period: 16.666ns
+  Min period limit: 2.249ns (444.642MHz) (Tockper)
+  Physical resource: sdClk_o_OBUF/CLK0
+  Logical resource: XLXI_20/u0/u1/u1/CK0
+  Location pin: OLOGIC_X23Y34.CLK0
+  Clock network: XLXI_20/u0/genClkP_s_BUFG
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_XLXI_20_u0_genClkN_s = PERIOD TIMEGRP 
+"XLXI_20_u0_genClkN_s" TSfpgaClk_i *         5 PHASE 8.33333333 ns HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is   2.666ns.
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: TS_XLXI_20_u0_genClkN_s = PERIOD TIMEGRP "XLXI_20_u0_genClkN_s" TSfpgaClk_i *
+        5 PHASE 8.33333333 ns HIGH 50%;
+--------------------------------------------------------------------------------
+Slack: 14.000ns (period - min period limit)
+  Period: 16.666ns
+  Min period limit: 2.666ns (375.094MHz) (Tbcper_I)
+  Physical resource: XLXI_20/u0/genClkN_s_BUFG/I0
+  Logical resource: XLXI_20/u0/genClkN_s_BUFG/I0
+  Location pin: BUFGMUX_X3Y13.I0
+  Clock network: XLXI_20/u0/genClkN_s
+--------------------------------------------------------------------------------
+Slack: 14.626ns (period - min period limit)
+  Period: 16.666ns
+  Min period limit: 2.040ns (490.196MHz) (Tockper)
+  Physical resource: sdClk_o_OBUF/CLK1
+  Logical resource: XLXI_20/u0/u1/u1/CK1
+  Location pin: OLOGIC_X23Y34.CLK1
+  Clock network: XLXI_20/u0/genClkN_s_BUFG
+--------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Derived Constraints for TSfpgaClk_i
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TSfpgaClk_i                    |     83.333ns|     32.000ns|     13.330ns|            0|            0|            0|            0|
+| TS_XLXI_20_u0_genClkP_s       |     16.667ns|      2.666ns|          N/A|            0|            0|            0|            0|
+| TS_XLXI_20_u0_genClkN_s       |     16.667ns|      2.666ns|          N/A|            0|            0|            0|            0|
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock sdClkFb_i
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+sdClkFb_i      |   15.410|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
+
+Constraints cover 3820568 paths, 0 nets, and 4999 connections
+
+Design statistics:
+   Minimum period:  32.000ns{1}   (Maximum frequency:  31.250MHz)
+
+
+------------------------------------Footnotes-----------------------------------
+1)  The minimum period statistic assumes all single cycle delays.
+
+Analysis completed Tue May 27 18:49:42 2014 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 177 MB
+
+
+

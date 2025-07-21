@@ -1,0 +1,8 @@
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl EDAC_SCHEM_drc.vhf -w {D:/shira/SOURCE_VER - 8bit/EDAC_SCHEM.sch} 
+sch2sym -intstyle ise -family spartan6 -w -refsym EDAC_SCHEM {D:/shira/SOURCE_VER - 8bit/EDAC_SCHEM.sch} {D:/shira/SOURCE_VER - 8bit/EDAC_SCHEM.sym} 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl EDAC_SCHEM_drc.vhf -w D:/shira/SOURCE_VER8bit/EDAC_SCHEM.sch 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl EDAC_SCHEM_drc.vhf -w D:/shira/SOURCE_VER8bit/EDAC_SCHEM.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym EDAC_SCHEM D:/shira/SOURCE_VER8bit/EDAC_SCHEM.sch D:/shira/SOURCE_VER8bit/EDAC_SCHEM.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl EDAC_SCHEM_drc.vhf -w D:/shira/SOURCE_VER8bit/EDAC_SCHEM.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym EDAC_SCHEM D:/shira/SOURCE_VER8bit/EDAC_SCHEM.sch D:/shira/SOURCE_VER8bit/EDAC_SCHEM.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym EDAC_SCHEM D:/shira/SOURCE_VER8bit/EDAC_SCHEM.sch D:/shira/SOURCE_VER8bit/EDAC_SCHEM.sym 

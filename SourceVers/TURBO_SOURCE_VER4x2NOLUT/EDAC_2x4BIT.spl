@@ -1,0 +1,12 @@
+[Inputs]
+CLK
+en
+reset
+READ
+=DIN[31:0]=
+[Outputs]
+=DOUT[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel EDAC_2x4BIT
+

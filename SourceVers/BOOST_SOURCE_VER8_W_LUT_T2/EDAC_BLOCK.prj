@@ -1,0 +1,7 @@
+verilog work "REGRST.v"
+verilog work "RE32RST.v"
+verilog work "RAM32x32.v"
+verilog work "EDAC_encoder.v"
+verilog work "EDAC_decoder.v"
+verilog work "EDAC_BLOCK.v"
+vhdl work "EDAC_SCHEM.vhf"

@@ -1,0 +1,10 @@
+vhdtdtfi -lib work /home/ise/Xilinx_data/IO_SIMUL_4BIT4CRC/EDAC_2x4BIT.v -lang verilog -prj IO_SIMUL_4BIT -o EDAC_2x4BIT.spl -module EDAC_2x4BIT -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w EDAC_2x4BIT.spl /home/ise/Xilinx_data/IO_SIMUL_4BIT4CRC/EDAC_2x4BIT.sym 
+vhdtdtfi -lib work /home/ise/Xilinx_data/IO_SIMUL_4BIT4CRC/EDAC_2x4BIT.v -lang verilog -prj IO_SIMUL_4BIT -o EDAC_2x4BIT.spl -module EDAC_2x4BIT -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w EDAC_2x4BIT.spl /home/ise/Xilinx_data/IO_SIMUL_4BIT4CRC/EDAC_2x4BIT.sym 
+vhdtdtfi -lib work /home/ise/Xilinx_data/EDAC_LAST_VER/IO_SIMUL_4BIT_NO_L/EDAC_2x4BIT.v -lang verilog -prj IO_SIMUL_4BIT -o EDAC_2x4BIT.spl -module EDAC_2x4BIT -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w EDAC_2x4BIT.spl /home/ise/Xilinx_data/EDAC_LAST_VER/IO_SIMUL_4BIT_NO_L/EDAC_2x4BIT.sym 
+vhdtdtfi -lib work /home/ise/Xilinx_data/EDAC_LAST_VER/IO_SIMUL_4BIT_NO_L/EDAC_2x4BIT.v -lang verilog -prj IO_SIMUL_4BIT -o EDAC_2x4BIT.spl -module EDAC_2x4BIT -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w EDAC_2x4BIT.spl /home/ise/Xilinx_data/EDAC_LAST_VER/IO_SIMUL_4BIT_NO_L/EDAC_2x4BIT.sym 
+vhdtdtfi -lib work /home/ise/Xilinx_data/Final_ver/Simulations/IO_SIMUL_4BIT_NO_LUT/EDAC_2x4BIT.v -lang verilog -prj IO_SIMUL_4BIT -o EDAC_2x4BIT.spl -module EDAC_2x4BIT -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w EDAC_2x4BIT.spl /home/ise/Xilinx_data/Final_ver/Simulations/IO_SIMUL_4BIT_NO_LUT/EDAC_2x4BIT.sym 

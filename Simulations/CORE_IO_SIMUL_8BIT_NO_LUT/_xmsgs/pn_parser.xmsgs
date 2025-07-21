@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/Simulations/CORE_IO_SIMUL_8BIT_NO_LUT/AEQZ.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/Simulations/CORE_IO_SIMUL_8BIT_NO_LUT/AND32.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/Simulations/CORE_IO_SIMUL_8BIT_NO_LUT/CONST_011.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/Simulations/CORE_IO_SIMUL_8BIT_NO_LUT/CONTROL.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/Simulations/CORE_IO_SIMUL_8BIT_NO_LUT/DLX_CTRL.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/Simulations/CORE_IO_SIMUL_8BIT_NO_LUT/EDAC_BLOCK.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/Simulations/CORE_IO_SIMUL_8BIT_NO_LUT/EDAC_decoder.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/Simulations/CORE_IO_SIMUL_8BIT_NO_LUT/EDAC_encoder.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/Simulations/CORE_IO_SIMUL_8BIT_NO_LUT/IO_SIM.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/Simulations/CORE_IO_SIMUL_8BIT_NO_LUT/IR_ENV.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/Simulations/CORE_IO_SIMUL_8BIT_NO_LUT/MAC.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/Simulations/CORE_IO_SIMUL_8BIT_NO_LUT/MMU.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/Simulations/CORE_IO_SIMUL_8BIT_NO_LUT/MUX16bit.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/Simulations/CORE_IO_SIMUL_8BIT_NO_LUT/MUX32bit.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/Simulations/CORE_IO_SIMUL_8BIT_NO_LUT/MUX3bit.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/Simulations/CORE_IO_SIMUL_8BIT_NO_LUT/MUX4_32bit.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/Simulations/CORE_IO_SIMUL_8BIT_NO_LUT/MUX5bit.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/Simulations/CORE_IO_SIMUL_8BIT_NO_LUT/OR32.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/Simulations/CORE_IO_SIMUL_8BIT_NO_LUT/RAM32x32.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/Simulations/CORE_IO_SIMUL_8BIT_NO_LUT/RE32RST.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/Simulations/CORE_IO_SIMUL_8BIT_NO_LUT/REG32CE.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/Simulations/CORE_IO_SIMUL_8BIT_NO_LUT/REG_sram.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/Simulations/CORE_IO_SIMUL_8BIT_NO_LUT/SHIFT_ENV.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/Simulations/CORE_IO_SIMUL_8BIT_NO_LUT/XOR32.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/Simulations/CORE_IO_SIMUL_8BIT_NO_LUT/ZERO.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Xilinx_data/Final_ver/Simulations/CORE_IO_SIMUL_8BIT_NO_LUT/ZERO_BUF_32.v&quot; into library work</arg>
+</msg>
+
+</messages>
+

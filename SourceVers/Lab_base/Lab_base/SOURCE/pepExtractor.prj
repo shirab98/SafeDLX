@@ -1,0 +1,8 @@
+work	"../../Memory_test_60MHZ_26_5_wo_sch/Memory_test_60MHZ_22_5_wo_sch/Memory_test_22_5/Common.vhd"
+work	"../IO_LOGIC_U/ClkGen_U.vhd"
+work	"../IO_LOGIC_U/HostIoToDut_U.vhd"
+work	"../IO_LOGIC_U/IO_LOGIC_U.vhd"
+work	"../IO_LOGIC_U/Interface_Ctrl_U.vhd"
+work	"../IO_LOGIC_U/SdramCntl.vhd"
+work	"../IO_LOGIC_U/SyncToClk.vhd"
+work	"../IO_LOGIC_U/sdram_adapter_U.vhd"

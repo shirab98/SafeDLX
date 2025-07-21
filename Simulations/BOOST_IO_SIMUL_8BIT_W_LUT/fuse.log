@@ -1,0 +1,108 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home/ise/Xilinx_data/Final_ver/Simulations/BOOST_IO_SIMUL_8BIT_W_LUT/IO_SIM_DLX_IO_SIM_DLX_sch_tb_isim_beh.exe -prj /home/ise/Xilinx_data/Final_ver/Simulations/BOOST_IO_SIMUL_8BIT_W_LUT/IO_SIM_DLX_IO_SIM_DLX_sch_tb_beh.prj IO_SIM_DLX_IO_SIM_DLX_sch_tb work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/ise/Xilinx_data/Final_ver/Simulations/BOOST_IO_SIMUL_8BIT_W_LUT/ZERO.v" into library work
+Analyzing Verilog file "/home/ise/Xilinx_data/Final_ver/Simulations/BOOST_IO_SIMUL_8BIT_W_LUT/MUX16bit.v" into library work
+Analyzing Verilog file "/home/ise/Xilinx_data/Final_ver/Simulations/BOOST_IO_SIMUL_8BIT_W_LUT/ZERO_BUF_32.v" into library work
+Analyzing Verilog file "/home/ise/Xilinx_data/Final_ver/Simulations/BOOST_IO_SIMUL_8BIT_W_LUT/XOR32.v" into library work
+Analyzing Verilog file "/home/ise/Xilinx_data/Final_ver/Simulations/BOOST_IO_SIMUL_8BIT_W_LUT/REGRST.v" into library work
+Analyzing Verilog file "/home/ise/Xilinx_data/Final_ver/Simulations/BOOST_IO_SIMUL_8BIT_W_LUT/REG32CE.v" into library work
+Analyzing Verilog file "/home/ise/Xilinx_data/Final_ver/Simulations/BOOST_IO_SIMUL_8BIT_W_LUT/RE32RST.v" into library work
+Analyzing Verilog file "/home/ise/Xilinx_data/Final_ver/Simulations/BOOST_IO_SIMUL_8BIT_W_LUT/RAM32x32.v" into library work
+Analyzing Verilog file "/home/ise/Xilinx_data/Final_ver/Simulations/BOOST_IO_SIMUL_8BIT_W_LUT/OR32.v" into library work
+Analyzing Verilog file "/home/ise/Xilinx_data/Final_ver/Simulations/BOOST_IO_SIMUL_8BIT_W_LUT/MUX5bit.v" into library work
+Analyzing Verilog file "/home/ise/Xilinx_data/Final_ver/Simulations/BOOST_IO_SIMUL_8BIT_W_LUT/MUX3bit.v" into library work
+Analyzing Verilog file "/home/ise/Xilinx_data/Final_ver/Simulations/BOOST_IO_SIMUL_8BIT_W_LUT/MUX32bit.v" into library work
+Analyzing Verilog file "/home/ise/Xilinx_data/Final_ver/Simulations/BOOST_IO_SIMUL_8BIT_W_LUT/EDAC_encoder.v" into library work
+Analyzing Verilog file "/home/ise/Xilinx_data/Final_ver/Simulations/BOOST_IO_SIMUL_8BIT_W_LUT/EDAC_decoder.v" into library work
+Analyzing Verilog file "/home/ise/Xilinx_data/Final_ver/Simulations/BOOST_IO_SIMUL_8BIT_W_LUT/CONST_011.v" into library work
+Analyzing Verilog file "/home/ise/Xilinx_data/Final_ver/Simulations/BOOST_IO_SIMUL_8BIT_W_LUT/AND32.v" into library work
+Analyzing Verilog file "/home/ise/Xilinx_data/Final_ver/Simulations/BOOST_IO_SIMUL_8BIT_W_LUT/AEQZ.v" into library work
+Analyzing Verilog file "/home/ise/Xilinx_data/Final_ver/Simulations/BOOST_IO_SIMUL_8BIT_W_LUT/SHIFT_ENV.v" into library work
+Analyzing Verilog file "/home/ise/Xilinx_data/Final_ver/Simulations/BOOST_IO_SIMUL_8BIT_W_LUT/MUX4_32bit.v" into library work
+Analyzing Verilog file "/home/ise/Xilinx_data/Final_ver/Simulations/BOOST_IO_SIMUL_8BIT_W_LUT/MMU.v" into library work
+Analyzing Verilog file "/home/ise/Xilinx_data/Final_ver/Simulations/BOOST_IO_SIMUL_8BIT_W_LUT/MAC.v" into library work
+Analyzing Verilog file "/home/ise/Xilinx_data/Final_ver/Simulations/BOOST_IO_SIMUL_8BIT_W_LUT/IR_ENV.v" into library work
+Analyzing Verilog file "/home/ise/Xilinx_data/Final_ver/Simulations/BOOST_IO_SIMUL_8BIT_W_LUT/EDAC_BLOCK.v" into library work
+Analyzing Verilog file "/home/ise/Xilinx_data/Final_ver/Simulations/BOOST_IO_SIMUL_8BIT_W_LUT/DLX_CTRL.v" into library work
+Analyzing Verilog file "/home/ise/Xilinx_data/Final_ver/Simulations/BOOST_IO_SIMUL_8BIT_W_LUT/REG_sram.v" into library work
+Analyzing Verilog file "/home/ise/Xilinx_data/Final_ver/Simulations/BOOST_IO_SIMUL_8BIT_W_LUT/CONTROL.v" into library work
+Analyzing Verilog file "/home/ise/Xilinx_data/Final_ver/Simulations/BOOST_IO_SIMUL_8BIT_W_LUT/IO_SIM.v" into library work
+Analyzing Verilog file "/home/ise/Xilinx_data/Final_ver/Simulations/BOOST_IO_SIMUL_8BIT_W_LUT/IO_DLX_TB.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Parsing VHDL file "/home/ise/Xilinx_data/Final_ver/Simulations/BOOST_IO_SIMUL_8BIT_W_LUT/Comparator.vhf" into library work
+Parsing VHDL file "/home/ise/Xilinx_data/Final_ver/Simulations/BOOST_IO_SIMUL_8BIT_W_LUT/ADD_SUB_32b.vhf" into library work
+Parsing VHDL file "/home/ise/Xilinx_data/Final_ver/Simulations/BOOST_IO_SIMUL_8BIT_W_LUT/GPR.vhf" into library work
+Parsing VHDL file "/home/ise/Xilinx_data/Final_ver/Simulations/BOOST_IO_SIMUL_8BIT_W_LUT/ALU_ENV.vhf" into library work
+Parsing VHDL file "/home/ise/Xilinx_data/Final_ver/Simulations/BOOST_IO_SIMUL_8BIT_W_LUT/DATA_PATH.vhf" into library work
+Parsing VHDL file "/home/ise/Xilinx_data/Final_ver/Simulations/BOOST_IO_SIMUL_8BIT_W_LUT/DLX.vhf" into library work
+Parsing VHDL file "/home/ise/Xilinx_data/Final_ver/Simulations/BOOST_IO_SIMUL_8BIT_W_LUT/IO_SIM_DLX.vhf" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 116252 KB
+Fuse CPU Usage: 2630 ms
+Compiling module DLX_CTRL
+Compiling module MAC
+Compiling module FDR
+Compiling module AND2
+Compiling module CONTROL
+Compiling module REG32CE
+Compiling module IR_ENV
+Compiling module RAM32x32
+Compiling module MUX5bit
+Compiling module AEQZ
+Compiling module MUX4_32bit
+Compiling module SHIFT_ENV
+Compiling module MUX16bit
+Compiling module ZERO
+Compiling module MUX32bit
+Compiling module MUX3bit
+Compiling module OR32
+Compiling module XOR32
+Compiling module AND32
+Compiling module CONST_011
+Compiling module ZERO_BUF_32
+Compiling module MMU
+Compiling module REG32RST
+Compiling module EDAC_decoder
+Compiling module EDAC_encoder
+Compiling module REGRST
+Compiling module EDAC_BLOCK
+Compiling module REG_sram(ADDR_WIDTH=10)
+Compiling module IO_SIM(10)
+Compiling module IO_SIM_DLX_IO_SIM_DLX_sch_tb
+Compiling module glbl
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling package vl_types
+Compiling architecture and2_v of entity AND2 [and2_default]
+Compiling architecture or5_v of entity OR5 [or5_default]
+Compiling architecture behavioral of entity GPR_MUSER_IO_SIM_DLX [gpr_muser_io_sim_dlx_default]
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture adsu16_hxilinx_io_sim_dlx_v of entity ADSU16_HXILINX_IO_SIM_DLX [adsu16_hxilinx_io_sim_dlx_defaul...]
+Compiling architecture inv_v of entity INV [inv_default]
+Compiling architecture xor2_v of entity XOR2 [xor2_default]
+Compiling architecture muxcy_v of entity MUXCY [muxcy_default]
+Compiling architecture vcc_v of entity VCC [vcc_default]
+Compiling architecture gnd_v of entity GND [gnd_default]
+Compiling architecture behavioral of entity ADD_SUB_32b_MUSER_IO_SIM_DLX [add_sub_32b_muser_io_sim_dlx_def...]
+Compiling architecture and2b1_v of entity AND2B1 [and2b1_default]
+Compiling architecture or2_v of entity OR2 [or2_default]
+Compiling architecture behavioral of entity Comparator_MUSER_IO_SIM_DLX [comparator_muser_io_sim_dlx_defa...]
+Compiling architecture or2b1_v of entity OR2B1 [or2b1_default]
+Compiling architecture behavioral of entity ALU_ENV_MUSER_IO_SIM_DLX [alu_env_muser_io_sim_dlx_default]
+Compiling architecture behavioral of entity DATA_PATH_MUSER_IO_SIM_DLX [data_path_muser_io_sim_dlx_defau...]
+Compiling architecture behavioral of entity DLX_MUSER_IO_SIM_DLX [dlx_muser_io_sim_dlx_default]
+Compiling architecture behavioral of entity IO_SIM_DLX [io_sim_dlx_default]
+Time Resolution for simulation is 1ps.
+Compiled 43 VHDL Units
+Compiled 31 Verilog Units
+Built simulation executable /home/ise/Xilinx_data/Final_ver/Simulations/BOOST_IO_SIMUL_8BIT_W_LUT/IO_SIM_DLX_IO_SIM_DLX_sch_tb_isim_beh.exe
+Fuse Memory Usage: 142436 KB
+Fuse CPU Usage: 5760 ms
+GCC CPU Usage: 5700 ms

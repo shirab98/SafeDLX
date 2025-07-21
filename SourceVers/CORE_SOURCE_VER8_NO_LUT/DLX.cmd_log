@@ -1,0 +1,23 @@
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DLX_drc.vhf -w E:/adlx/B1/shirab2/Lab7/SOURCE_VER/DLX.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DLX E:/adlx/B1/shirab2/Lab7/SOURCE_VER/DLX.sch E:/adlx/B1/shirab2/Lab7/SOURCE_VER/DLX.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DLX_drc.vhf -w D:/shira/SOURCE_VER/DLX.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DLX D:/shira/SOURCE_VER/DLX.sch D:/shira/SOURCE_VER/DLX.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DLX_drc.vhf -w {D:/shira/SOURCE_VER - 8bit/DLX.sch} 
+sch2sym -intstyle ise -family spartan6 -w -refsym DLX {D:/shira/SOURCE_VER - 8bit/DLX.sch} {D:/shira/SOURCE_VER - 8bit/DLX.sym} 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DLX_drc.vhf -w {D:/shira/SOURCE_VER - 8bit/DLX.sch} 
+sch2sym -intstyle ise -family spartan6 -w -refsym DLX {D:/shira/SOURCE_VER - 8bit/DLX.sch} {D:/shira/SOURCE_VER - 8bit/DLX.sym} 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DLX_drc.vhf -w D:/shira/SOURCE_VER8bit/DLX.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DLX D:/shira/SOURCE_VER8bit/DLX.sch D:/shira/SOURCE_VER8bit/DLX.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DLX_drc.vhf -w D:/shira/SOURCE_VER8bit/DLX.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DLX D:/shira/SOURCE_VER8bit/DLX.sch D:/shira/SOURCE_VER8bit/DLX.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DLX_drc.vhf -w D:/shira/5-4/SOURCE_VER8bit/DLX.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DLX D:/shira/5-4/SOURCE_VER8bit/DLX.sch D:/shira/5-4/SOURCE_VER8bit/DLX.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DLX_drc.vhf -w {/home/ise/Xilinx_data/final_4_5/5-4/SOURCE_VER8bit - Copy/DLX.sch} 
+sch2sym -intstyle ise -family spartan6 -w -refsym DLX {/home/ise/Xilinx_data/final_4_5/5-4/SOURCE_VER8bit - Copy/DLX.sch} {/home/ise/Xilinx_data/final_4_5/5-4/SOURCE_VER8bit - Copy/DLX.sym} 
+sch2sym -intstyle ise -family spartan6 -w -refsym DLX /home/ise/Xilinx_data/11_5/SOURCE_VER8_NO_LUT/DLX.sch /home/ise/Xilinx_data/11_5/SOURCE_VER8_NO_LUT/DLX.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DLX_drc.vhf -w /home/ise/Xilinx_data/11_5/SOURCE_VER8_NO_LUT/DLX.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DLX /home/ise/Xilinx_data/11_5/SOURCE_VER8_NO_LUT/DLX.sch /home/ise/Xilinx_data/11_5/SOURCE_VER8_NO_LUT/DLX.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DLX_drc.vhf -w /home/ise/Xilinx_data/11_5/SOURCE_VER8_NO_LUT/DLX.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DLX /home/ise/Xilinx_data/11_5/SOURCE_VER8_NO_LUT/DLX.sch /home/ise/Xilinx_data/11_5/SOURCE_VER8_NO_LUT/DLX.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym DLX /home/ise/Xilinx_data/EDAC_LAST_VER/SOURCE_VER8_NO_LUT/DLX.sch /home/ise/Xilinx_data/EDAC_LAST_VER/SOURCE_VER8_NO_LUT/DLX.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym DLX /home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER8_NO_LUT/DLX.sch /home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER8_NO_LUT/DLX.sym 

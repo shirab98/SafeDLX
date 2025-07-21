@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Study\Project\Final_material\Lab_base\SOURCE\SOURCE.ncd
+OUTFILE=D:\Study\Project\Final_material\Lab_base\SOURCE\SOURCE.bit
+FAMILY=Spartan6
+PART=xc6slx25-2ftg256
+WORKINGDIR=D:\Study\Project\Final_material\Lab_base\SOURCE
+LICENSE=WebPack
+USER_INFO=210686348_0_0_517

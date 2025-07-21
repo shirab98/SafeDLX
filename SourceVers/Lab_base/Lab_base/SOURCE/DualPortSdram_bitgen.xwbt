@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\XuLA-25_Project\OurProj\current_files\final\SOURCES\DualPortSdram.ncd
+OUTFILE=E:\XuLA-25_Project\OurProj\current_files\final\SOURCES\DualPortSdram.bit
+FAMILY=Spartan6
+PART=xc6slx25-2ftg256
+WORKINGDIR=E:\XuLA-25_Project\OurProj\current_files\final\SOURCES
+LICENSE=WebPack
+USER_INFO=210840218_0_0_270

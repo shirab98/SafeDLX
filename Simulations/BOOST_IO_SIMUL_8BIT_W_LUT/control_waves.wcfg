@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/adlx/B1/shirab2/Lab7/IO_SIMUL_VER/control_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="control_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="42" />
+   <wvobject fp_name="/control_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/step_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">step_en</obj_property>
+      <obj_property name="ObjectShortName">step_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/ACK_N" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ACK_N</obj_property>
+      <obj_property name="ObjectShortName">ACK_N</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/stop_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">stop_n</obj_property>
+      <obj_property name="ObjectShortName">stop_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/busy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/IR_31_26" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">IR_31_26[5:0]</obj_property>
+      <obj_property name="ObjectShortName">IR_31_26[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/IR_5_0" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">IR_5_0[5:0]</obj_property>
+      <obj_property name="ObjectShortName">IR_5_0[5:0]</obj_property>
+      <obj_property name="label">IR_5_0[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/STATE" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">STATE[11:0]</obj_property>
+      <obj_property name="ObjectShortName">STATE[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/in_init" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">in_init</obj_property>
+      <obj_property name="ObjectShortName">in_init</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/AS_N" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">AS_N</obj_property>
+      <obj_property name="ObjectShortName">AS_N</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/WR_N" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">WR_N</obj_property>
+      <obj_property name="ObjectShortName">WR_N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/uut/MR" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MR</obj_property>
+      <obj_property name="ObjectShortName">MR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/uut/MW" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MW</obj_property>
+      <obj_property name="ObjectShortName">MW</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/uut/REQ" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">REQ</obj_property>
+      <obj_property name="ObjectShortName">REQ</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider73" type="divider">
+      <obj_property name="label">ENABLES</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#ff00ff</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/IRCE" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">IRCE</obj_property>
+      <obj_property name="ObjectShortName">IRCE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/PCCE" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">PCCE</obj_property>
+      <obj_property name="ObjectShortName">PCCE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/ACE" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ACE</obj_property>
+      <obj_property name="ObjectShortName">ACE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/BCE" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">BCE</obj_property>
+      <obj_property name="ObjectShortName">BCE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/CCE" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CCE</obj_property>
+      <obj_property name="ObjectShortName">CCE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/MARCE" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MARCE</obj_property>
+      <obj_property name="ObjectShortName">MARCE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/MDRCE" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MDRCE</obj_property>
+      <obj_property name="ObjectShortName">MDRCE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/GPR_WE" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">GPR_WE</obj_property>
+      <obj_property name="ObjectShortName">GPR_WE</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider74" type="divider">
+      <obj_property name="label">SELECTS</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#008080</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/S1SEL0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">S1SEL0</obj_property>
+      <obj_property name="ObjectShortName">S1SEL0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/S1SEL1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">S1SEL1</obj_property>
+      <obj_property name="ObjectShortName">S1SEL1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/S2SEL0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">S2SEL0</obj_property>
+      <obj_property name="ObjectShortName">S2SEL0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/S2SEL1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">S2SEL1</obj_property>
+      <obj_property name="ObjectShortName">S2SEL1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/DINTSEL" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">DINTSEL</obj_property>
+      <obj_property name="ObjectShortName">DINTSEL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/MDRSEL" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MDRSEL</obj_property>
+      <obj_property name="ObjectShortName">MDRSEL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/ASEL" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ASEL</obj_property>
+      <obj_property name="ObjectShortName">ASEL</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider75" type="divider">
+      <obj_property name="label">OTHER_CTRL</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#0000ff</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/ALUF" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ALUF[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUF[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/ADD" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ADD</obj_property>
+      <obj_property name="ObjectShortName">ADD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/TEST" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">TEST</obj_property>
+      <obj_property name="ObjectShortName">TEST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/SHIFT" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SHIFT</obj_property>
+      <obj_property name="ObjectShortName">SHIFT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/RIGHT" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RIGHT</obj_property>
+      <obj_property name="ObjectShortName">RIGHT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/ITYPE" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ITYPE</obj_property>
+      <obj_property name="ObjectShortName">ITYPE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/JLINK" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">JLINK</obj_property>
+      <obj_property name="ObjectShortName">JLINK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/bt" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">bt</obj_property>
+      <obj_property name="ObjectShortName">bt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/AEQZ" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">AEQZ</obj_property>
+      <obj_property name="ObjectShortName">AEQZ</obj_property>
+   </wvobject>
+</wave_config>

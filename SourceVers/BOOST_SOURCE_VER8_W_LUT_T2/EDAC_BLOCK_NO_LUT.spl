@@ -1,0 +1,16 @@
+[Inputs]
+CLK
+en
+EDACSEL
+reset
+READ
+=DIN[31:0]=
+=LUT_IN[31:0]=
+[Outputs]
+valid
+=DOUT[31:0]=
+=NEW_LUT[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel EDAC_BLOCK_NO_LUT
+

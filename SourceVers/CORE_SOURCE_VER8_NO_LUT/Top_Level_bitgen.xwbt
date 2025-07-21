@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER8_NO_LUT/Top_Level.ncd
+OUTFILE=/home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER8_NO_LUT/Top_Level.bit
+FAMILY=Spartan6
+PART=xc6slx25-2ftg256
+WORKINGDIR=/home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER8_NO_LUT
+LICENSE=ISE
+USER_INFO=8416_11442_1478797146_620

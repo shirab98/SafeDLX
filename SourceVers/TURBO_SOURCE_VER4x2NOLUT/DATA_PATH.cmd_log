@@ -1,0 +1,18 @@
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DATA_PATH_drc.vhf -w E:/adlx/B1/shirab2/Lab7/SOURCE_VER/DATA_PATH.sch 
+sch2sym -intstyle ise -family spartan6 -refsym DATA_PATH E:/adlx/B1/shirab2/Lab7/SOURCE_VER/DATA_PATH.sch E:/adlx/B1/shirab2/Lab7/SOURCE_VER/DATA_PATH.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym DATA_PATH E:/adlx/B1/shirab2/Lab7/SOURCE_VER/DATA_PATH.sch E:/adlx/B1/shirab2/Lab7/SOURCE_VER/DATA_PATH.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DATA_PATH_drc.vhf -w D:/shira/SOURCE_VER/DATA_PATH.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DATA_PATH D:/shira/SOURCE_VER/DATA_PATH.sch D:/shira/SOURCE_VER/DATA_PATH.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DATA_PATH_drc.vhf -w D:/shira/SOURCE_VER4x2NOLUT/DATA_PATH.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DATA_PATH D:/shira/SOURCE_VER4x2NOLUT/DATA_PATH.sch D:/shira/SOURCE_VER4x2NOLUT/DATA_PATH.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DATA_PATH_drc.vhf -w D:/shira/SOURCE_VER4x2NOLUT/DATA_PATH.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DATA_PATH D:/shira/SOURCE_VER4x2NOLUT/DATA_PATH.sch D:/shira/SOURCE_VER4x2NOLUT/DATA_PATH.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DATA_PATH_drc.vhf -w D:/shira/5-4/SOURCE_VER4x2NOLUT/DATA_PATH.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DATA_PATH D:/shira/5-4/SOURCE_VER4x2NOLUT/DATA_PATH.sch D:/shira/5-4/SOURCE_VER4x2NOLUT/DATA_PATH.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DATA_PATH_drc.vhf -w D:/shira/5-4/SOURCE_VER4x2NOLUT/DATA_PATH.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DATA_PATH D:/shira/5-4/SOURCE_VER4x2NOLUT/DATA_PATH.sch D:/shira/5-4/SOURCE_VER4x2NOLUT/DATA_PATH.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DATA_PATH_drc.vhf -w D:/shira/5-4/SOURCE_VER4x2NOLUT/DATA_PATH.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DATA_PATH D:/shira/5-4/SOURCE_VER4x2NOLUT/DATA_PATH.sch D:/shira/5-4/SOURCE_VER4x2NOLUT/DATA_PATH.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym DATA_PATH /home/ise/Xilinx_data/11_5/SOURCE_VER4x2NOLUT/DATA_PATH.sch /home/ise/Xilinx_data/11_5/SOURCE_VER4x2NOLUT/DATA_PATH.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym DATA_PATH /home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER4x2NOLUT/DATA_PATH.sch /home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER4x2NOLUT/DATA_PATH.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym DATA_PATH /home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER4x2NOLUT/DATA_PATH.sch /home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER4x2NOLUT/DATA_PATH.sym 

@@ -1,0 +1,43 @@
+0x00000000: 0x2C050015	            	 addi R5 R0 adr1
+0x00000001: 0x2C060018	            	 addi R6 R0 adr2
+0x00000002: 0x2C07001B	            	 addi R7 R0 adr3
+0x00000003: 0x2C08001E	            	 addi R8 R0 cnt
+0x00000004: 0x2C09001E	            	 addi R9 R0 cnt
+0x00000005: 0x2C04FFFF	            	 addi R4 R0 0xFFFF 
+0x00000006: 0x2C0B0000	            	 addi R11 R0 0x0
+0x00000007: 0x2C0C0000	            	 addi R12 R0 0x0
+0x00000008: 0x8CA10000	loop:       	  lw R1 R5 0x0 *clean data
+0x00000009: 0x8CC20000	            	 lw R2 R6 0x0 *1 dirty bit data
+0x0000000A: 0x8CE30000	            	 lw R3 R7 0x0 *2 dirty bit data
+0x0000000B: 0x00226824	            	 xor R13 R1 R2
+0x0000000C: 0x00647024	            	 xor R14 R3 R4
+0x0000000D: 0x11BF0001	            	 beqz R13 skip_d1
+0x0000000E: 0x2D6B0001	            	 addi R11 R11 0x1
+0x0000000F: 0x11DF0001	skip_d1:    	 beqz R14 no_skip2
+0x00000010: 0x2D8C0001	            	 addi R12 R12 0x1
+0x00000011: 0x2C050001	no_skip2:   	 addi R5 R0 1
+0x00000012: 0x2C060001	            	 addi R6 R0 1
+0x00000013: 0x2C070001	            	 addi R7 R0 1
+0x00000014: 0x151FFFF3	            	 bnez R8 loop
+					            	 
+0x00000015: 0x000007CA	adr1:       	 dc 0x07CA
+0x00000016: 0x00002A54	            	 dc 0x2A54
+0x00000017: 0x00002D9E	            	 dc 0x2D9E
+0x00000018: 0x000017CA	adr2:       	 dc 0x17CA
+0x00000019: 0x00002B54	            	 dc 0x2B54
+0x0000001A: 0x00003D9E	            	 dc 0x3D9E
+0x0000001B: 0x000037CA	adr3:       	 dc 0x37CA
+0x0000001C: 0x00004A54	            	 dc 0x4A54
+0x0000001D: 0x00001D9E	            	 dc 0x1D9E
+0x0000001E: 0x00000003	cnt:        	 dc 0x003
+					            	 
+
+Label Report:
+loop: 9 D: 21
+skip_d1: 16 D: 14
+no_skip2: 18 D: 16
+adr1: 23 D: 1
+adr2: 26 D: 2
+adr3: 29 D: 3
+cnt: 32 D: 4, 5
+*XML file date: Wed 20/6/2012 6:49:12

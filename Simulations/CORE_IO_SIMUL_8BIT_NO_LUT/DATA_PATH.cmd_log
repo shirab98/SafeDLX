@@ -1,0 +1,48 @@
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DATA_PATH_drc.vhf -w E:/adlx/B1/shirab2/Lab7/IO_SIMUL_VER/DATA_PATH.sch 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DATA_PATH_drc.vhf -w E:/adlx/B1/shirab2/Lab7/IO_SIMUL_VER/DATA_PATH.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DATA_PATH E:/adlx/B1/shirab2/Lab7/IO_SIMUL_VER/DATA_PATH.sch E:/adlx/B1/shirab2/Lab7/IO_SIMUL_VER/DATA_PATH.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym DATA_PATH E:/adlx/B1/shirab2/Lab7/IO_SIMUL_VER/DATA_PATH.sch E:/adlx/B1/shirab2/Lab7/IO_SIMUL_VER/DATA_PATH.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DATA_PATH_drc.vhf -w /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/DATA_PATH.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DATA_PATH /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/DATA_PATH.sch /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/DATA_PATH.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DATA_PATH_drc.vhf -w /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/DATA_PATH.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DATA_PATH /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/DATA_PATH.sch /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/DATA_PATH.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DATA_PATH_drc.vhf -w /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/DATA_PATH.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DATA_PATH /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/DATA_PATH.sch /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/DATA_PATH.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DATA_PATH_drc.vhf -w /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/DATA_PATH.sch 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DATA_PATH_drc.vhf -w /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/DATA_PATH.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DATA_PATH /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/DATA_PATH.sch /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/DATA_PATH.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DATA_PATH_drc.vhf -w /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/DATA_PATH.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DATA_PATH /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/DATA_PATH.sch /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/DATA_PATH.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DATA_PATH_drc.vhf -w /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/DATA_PATH.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DATA_PATH /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/DATA_PATH.sch /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/DATA_PATH.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DATA_PATH_drc.vhf -w /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/DATA_PATH.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DATA_PATH /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/DATA_PATH.sch /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/DATA_PATH.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DATA_PATH_drc.vhf -w /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/DATA_PATH.sch 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DATA_PATH_drc.vhf -w /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/DATA_PATH.sch 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DATA_PATH_drc.vhf -w /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/DATA_PATH.sch 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DATA_PATH_drc.vhf -w /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/DATA_PATH.sch 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DATA_PATH.vhf -w /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/DATA_PATH.sch 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DATA_PATH_drc.vhf -w /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/DATA_PATH.sch 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DATA_PATH_drc.vhf -w /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/DATA_PATH.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DATA_PATH /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/DATA_PATH.sch /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/DATA_PATH.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DATA_PATH_drc.vhf -w /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/DATA_PATH.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DATA_PATH /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/DATA_PATH.sch /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/DATA_PATH.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DATA_PATH_drc.vhf -w /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/DATA_PATH.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DATA_PATH /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/DATA_PATH.sch /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/DATA_PATH.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DATA_PATH_drc.vhf -w /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/DATA_PATH.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DATA_PATH /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/DATA_PATH.sch /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/DATA_PATH.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DATA_PATH_drc.vhf -w /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/DATA_PATH.sch 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DATA_PATH_drc.vhf -w /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/DATA_PATH.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DATA_PATH /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/DATA_PATH.sch /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/DATA_PATH.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DATA_PATH_drc.vhf -w /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/DATA_PATH.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DATA_PATH /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/DATA_PATH.sch /home/ise/Xilinx_data/IO_SIMUL_VER_TRY3/DATA_PATH.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DATA_PATH_drc.vhf -w /home/ise/Xilinx_data/final_4_5/5-4/IO_SIMUL_VER_TRY3/DATA_PATH.sch 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DATA_PATH_drc.vhf -w /home/ise/Xilinx_data/final_4_5/5-4/IO_SIMUL_VER_TRY3/DATA_PATH.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DATA_PATH /home/ise/Xilinx_data/final_4_5/5-4/IO_SIMUL_VER_TRY3/DATA_PATH.sch /home/ise/Xilinx_data/final_4_5/5-4/IO_SIMUL_VER_TRY3/DATA_PATH.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym DATA_PATH /home/ise/Xilinx_data/extra_try/11_5/IO_SIMUL_8BIT/DATA_PATH.sch /home/ise/Xilinx_data/extra_try/11_5/IO_SIMUL_8BIT/DATA_PATH.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym DATA_PATH /home/ise/Xilinx_data/extra_try/11_5/IO_SIMUL_8BIT/DATA_PATH.sch /home/ise/Xilinx_data/extra_try/11_5/IO_SIMUL_8BIT/DATA_PATH.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym DATA_PATH /home/ise/Xilinx_data/extra_try/11_5/IO_SIMUL_8BIT/DATA_PATH.sch /home/ise/Xilinx_data/extra_try/11_5/IO_SIMUL_8BIT/DATA_PATH.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DATA_PATH_drc.vhf -w /home/ise/Xilinx_data/extra_try/11_5/IO_SIMUL_8BIT/DATA_PATH.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DATA_PATH /home/ise/Xilinx_data/extra_try/11_5/IO_SIMUL_8BIT/DATA_PATH.sch /home/ise/Xilinx_data/extra_try/11_5/IO_SIMUL_8BIT/DATA_PATH.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym DATA_PATH /home/ise/Xilinx_data/extra_try/11_5/IO_SIMUL_8BIT/DATA_PATH.sch /home/ise/Xilinx_data/extra_try/11_5/IO_SIMUL_8BIT/DATA_PATH.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym DATA_PATH /home/ise/Xilinx_data/EDAC_LAST_VER/IO_SIMUL_8BIT_NO_LUT/DATA_PATH.sch /home/ise/Xilinx_data/EDAC_LAST_VER/IO_SIMUL_8BIT_NO_LUT/DATA_PATH.sym 

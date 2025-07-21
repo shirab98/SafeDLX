@@ -1,0 +1,10 @@
+Command line:
+   IO_SIM_DLX_IO_SIM_DLX_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  43107
+
+Mon Jun 23 18:15:43 2025
+
+
+ Elaboration Time: 0.13 sec

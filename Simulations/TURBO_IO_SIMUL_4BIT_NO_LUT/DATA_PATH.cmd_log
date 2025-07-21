@@ -1,0 +1,26 @@
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DATA_PATH_drc.vhf -w /home/ise/Xilinx_data/IO_SIMUL_4BIT/DATA_PATH.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DATA_PATH /home/ise/Xilinx_data/IO_SIMUL_4BIT/DATA_PATH.sch /home/ise/Xilinx_data/IO_SIMUL_4BIT/DATA_PATH.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DATA_PATH_drc.vhf -w /home/ise/Xilinx_data/IO_SIMUL_4BIT/DATA_PATH.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DATA_PATH /home/ise/Xilinx_data/IO_SIMUL_4BIT/DATA_PATH.sch /home/ise/Xilinx_data/IO_SIMUL_4BIT/DATA_PATH.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DATA_PATH_drc.vhf -w /home/ise/Xilinx_data/IO_SIMUL_4BIT/DATA_PATH.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DATA_PATH /home/ise/Xilinx_data/IO_SIMUL_4BIT/DATA_PATH.sch /home/ise/Xilinx_data/IO_SIMUL_4BIT/DATA_PATH.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DATA_PATH_drc.vhf -w /home/ise/Xilinx_data/IO_SIMUL_4BIT/DATA_PATH.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DATA_PATH /home/ise/Xilinx_data/IO_SIMUL_4BIT/DATA_PATH.sch /home/ise/Xilinx_data/IO_SIMUL_4BIT/DATA_PATH.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DATA_PATH_drc.vhf -w /home/ise/Xilinx_data/IO_SIMUL_4BIT/DATA_PATH.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DATA_PATH /home/ise/Xilinx_data/IO_SIMUL_4BIT/DATA_PATH.sch /home/ise/Xilinx_data/IO_SIMUL_4BIT/DATA_PATH.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DATA_PATH_drc.vhf -w /home/ise/Xilinx_data/IO_SIMUL_4BIT/DATA_PATH.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DATA_PATH /home/ise/Xilinx_data/IO_SIMUL_4BIT/DATA_PATH.sch /home/ise/Xilinx_data/IO_SIMUL_4BIT/DATA_PATH.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DATA_PATH_drc.vhf -w /home/ise/Xilinx_data/IO_SIMUL_4BIT/DATA_PATH.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DATA_PATH /home/ise/Xilinx_data/IO_SIMUL_4BIT/DATA_PATH.sch /home/ise/Xilinx_data/IO_SIMUL_4BIT/DATA_PATH.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym DATA_PATH /home/ise/Xilinx_data/IO_SIMUL_4BIT/DATA_PATH.sch /home/ise/Xilinx_data/IO_SIMUL_4BIT/DATA_PATH.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym DATA_PATH /home/ise/Xilinx_data/IO_SIMUL_4BIT/DATA_PATH.sch /home/ise/Xilinx_data/IO_SIMUL_4BIT/DATA_PATH.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DATA_PATH_drc.vhf -w /home/ise/Xilinx_data/IO_SIMUL_4BIT4CRC/DATA_PATH.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DATA_PATH /home/ise/Xilinx_data/IO_SIMUL_4BIT4CRC/DATA_PATH.sch /home/ise/Xilinx_data/IO_SIMUL_4BIT4CRC/DATA_PATH.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DATA_PATH_drc.vhf -w /home/ise/Xilinx_data/IO_SIMUL_4BIT4CRC/DATA_PATH.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DATA_PATH /home/ise/Xilinx_data/IO_SIMUL_4BIT4CRC/DATA_PATH.sch /home/ise/Xilinx_data/IO_SIMUL_4BIT4CRC/DATA_PATH.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DATA_PATH_drc.vhf -w /home/ise/Xilinx_data/EDAC_LAST_VER/IO_SIMUL_4BIT_NO_L/DATA_PATH.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DATA_PATH /home/ise/Xilinx_data/EDAC_LAST_VER/IO_SIMUL_4BIT_NO_L/DATA_PATH.sch /home/ise/Xilinx_data/EDAC_LAST_VER/IO_SIMUL_4BIT_NO_L/DATA_PATH.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DATA_PATH_drc.vhf -w /home/ise/Xilinx_data/EDAC_LAST_VER/IO_SIMUL_4BIT_NO_L/DATA_PATH.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DATA_PATH /home/ise/Xilinx_data/EDAC_LAST_VER/IO_SIMUL_4BIT_NO_L/DATA_PATH.sch /home/ise/Xilinx_data/EDAC_LAST_VER/IO_SIMUL_4BIT_NO_L/DATA_PATH.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl DATA_PATH_drc.vhf -w /home/ise/Xilinx_data/Final_ver/Simulations/IO_SIMUL_4BIT_NO_LUT/DATA_PATH.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym DATA_PATH /home/ise/Xilinx_data/Final_ver/Simulations/IO_SIMUL_4BIT_NO_LUT/DATA_PATH.sch /home/ise/Xilinx_data/Final_ver/Simulations/IO_SIMUL_4BIT_NO_LUT/DATA_PATH.sym 

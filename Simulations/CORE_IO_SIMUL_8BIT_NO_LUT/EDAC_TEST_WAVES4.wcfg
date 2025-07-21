@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/ise/Xilinx_data/shira27-74/shira/IO_SIMUL_VER_TRY3/EDAC_BLOCK_TB_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="EDAC_BLOCK_TB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="31" />
+   <wvobject fp_name="/EDAC_BLOCK_TB/DOUT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DOUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DOUT[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_BLOCK_TB/CLK" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_BLOCK_TB/en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">en</obj_property>
+      <obj_property name="ObjectShortName">en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_BLOCK_TB/EDACSEL" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">EDACSEL</obj_property>
+      <obj_property name="ObjectShortName">EDACSEL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_BLOCK_TB/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_BLOCK_TB/READ" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">READ</obj_property>
+      <obj_property name="ObjectShortName">READ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_BLOCK_TB/DIN" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DIN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DIN[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_BLOCK_TB/uut/CLK" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_BLOCK_TB/uut/en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">en</obj_property>
+      <obj_property name="ObjectShortName">en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_BLOCK_TB/uut/EDACSEL" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">EDACSEL</obj_property>
+      <obj_property name="ObjectShortName">EDACSEL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_BLOCK_TB/uut/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_BLOCK_TB/uut/READ" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">READ</obj_property>
+      <obj_property name="ObjectShortName">READ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_BLOCK_TB/uut/DIN" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DIN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DIN[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_BLOCK_TB/uut/DOUT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DOUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DOUT[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_BLOCK_TB/uut/LUT_CE" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">LUT_CE</obj_property>
+      <obj_property name="ObjectShortName">LUT_CE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_BLOCK_TB/uut/RAM__WE" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RAM__WE</obj_property>
+      <obj_property name="ObjectShortName">RAM__WE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_BLOCK_TB/uut/PRE_ADDR" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PRE_ADDR[4:0]</obj_property>
+      <obj_property name="ObjectShortName">PRE_ADDR[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_BLOCK_TB/uut/ADDR" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ADDR[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_BLOCK_TB/uut/LUT_IN" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">LUT_IN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">LUT_IN[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_BLOCK_TB/uut/dec_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dec_en</obj_property>
+      <obj_property name="ObjectShortName">dec_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_BLOCK_TB/uut/dec_valid" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dec_valid</obj_property>
+      <obj_property name="ObjectShortName">dec_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_BLOCK_TB/uut/DEC_O" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DEC_O[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DEC_O[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_BLOCK_TB/uut/DEC_LUT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DEC_LUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DEC_LUT[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_BLOCK_TB/uut/enc_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">enc_en</obj_property>
+      <obj_property name="ObjectShortName">enc_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_BLOCK_TB/uut/ENC_O" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ENC_O[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ENC_O[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_BLOCK_TB/uut/valid" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">valid</obj_property>
+      <obj_property name="ObjectShortName">valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_BLOCK_TB/uut/DOUT_PRE" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DOUT_PRE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DOUT_PRE[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_BLOCK_TB/uut/NEW_LUT" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">NEW_LUT</obj_property>
+      <obj_property name="ObjectShortName">NEW_LUT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_BLOCK_TB/uut/LUT_PRE" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">LUT_PRE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">LUT_PRE[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_BLOCK_TB/uut/ERROR_CODE" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ERROR_CODE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ERROR_CODE[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EDAC_BLOCK_TB/uut/CRC_POLY_CONST" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CRC_POLY_CONST[7:0]</obj_property>
+      <obj_property name="ObjectShortName">CRC_POLY_CONST[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

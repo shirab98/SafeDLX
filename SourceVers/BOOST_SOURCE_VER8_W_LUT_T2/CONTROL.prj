@@ -1,0 +1,3 @@
+verilog work "MAC.v"
+verilog work "DLX_CTRL.v"
+verilog work "CONTROL.v"

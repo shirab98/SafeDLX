@@ -1,0 +1,3 @@
+MODULE comp
+	SUBMODULE zero
+		INSTANCE XLXI_19

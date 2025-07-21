@@ -1,0 +1,18 @@
+vhdtdtfi -lib work D:/shira/SOURCE_VER/EDAC_2x4BIT.v -lang verilog -prj SOURCE_VER -o EDAC_2x4BIT.spl -module EDAC_2x4BIT -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w EDAC_2x4BIT.spl D:/shira/SOURCE_VER/EDAC_2x4BIT.sym 
+vhdtdtfi -lib work D:/shira/SOURCE_VER4x2NOLUT/EDAC_2x4BIT.v -lang verilog -prj SOURCE_VER -o EDAC_2x4BIT.spl -module EDAC_2x4BIT -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w EDAC_2x4BIT.spl D:/shira/SOURCE_VER4x2NOLUT/EDAC_2x4BIT.sym 
+vhdtdtfi -lib work D:/shira/SOURCE_VER4x2NOLUT/EDAC_2x4BIT.v -lang verilog -prj SOURCE_VER -o EDAC_2x4BIT.spl -module EDAC_2x4BIT -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w EDAC_2x4BIT.spl D:/shira/SOURCE_VER4x2NOLUT/EDAC_2x4BIT.sym 
+vhdtdtfi -lib work D:/shira/5-4/SOURCE_VER4x2NOLUT/EDAC_2x4BIT.v -lang verilog -prj SOURCE_VER -o EDAC_2x4BIT.spl -module EDAC_2x4BIT -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w EDAC_2x4BIT.spl D:/shira/5-4/SOURCE_VER4x2NOLUT/EDAC_2x4BIT.sym 
+vhdtdtfi -lib work D:/shira/5-4/SOURCE_VER4x2NOLUT/EDAC_2x4BIT.v -lang verilog -prj SOURCE_VER -o EDAC_2x4BIT.spl -module EDAC_2x4BIT -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w EDAC_2x4BIT.spl D:/shira/5-4/SOURCE_VER4x2NOLUT/EDAC_2x4BIT.sym 
+vhdtdtfi -lib work D:/shira/5-4/SOURCE_VER4x2NOLUT/EDAC_2x4BIT.v -lang verilog -prj SOURCE_VER -o EDAC_2x4BIT.spl -module EDAC_2x4BIT -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w EDAC_2x4BIT.spl D:/shira/5-4/SOURCE_VER4x2NOLUT/EDAC_2x4BIT.sym 
+vhdtdtfi -lib work /home/ise/Xilinx_data/11_5/SOURCE_VER4x2NOLUT/EDAC_2x4BIT.v -lang verilog -prj SOURCE_VER -o EDAC_2x4BIT.spl -module EDAC_2x4BIT -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w EDAC_2x4BIT.spl /home/ise/Xilinx_data/11_5/SOURCE_VER4x2NOLUT/EDAC_2x4BIT.sym 
+vhdtdtfi -lib work /home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER4x2NOLUT/EDAC_2x4BIT.v -lang verilog -prj SOURCE_VER -o EDAC_2x4BIT.spl -module EDAC_2x4BIT -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w EDAC_2x4BIT.spl /home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER4x2NOLUT/EDAC_2x4BIT.sym 
+vhdtdtfi -lib work /home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER4x2NOLUT/EDAC_2x4BIT.v -lang verilog -prj SOURCE_VER -o EDAC_2x4BIT.spl -module EDAC_2x4BIT -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w EDAC_2x4BIT.spl /home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER4x2NOLUT/EDAC_2x4BIT.sym 

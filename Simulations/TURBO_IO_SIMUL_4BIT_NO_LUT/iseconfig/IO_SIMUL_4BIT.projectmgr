@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="IO_SIMUL_4BIT" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/EDAC |home|ise|Xilinx_data|IO_SIMUL_4BIT|EDAC.v</ClosedNode>
+         <ClosedNode>/EDAC |home|ise|Xilinx_data|final_4_5|5-4|IO_SIMUL_4BIT_NO_L|EDAC.v</ClosedNode>
+         <ClosedNode>/EDAC_CRC_HAMMING |home|ise|Xilinx_data|IO_SIMUL_4BIT4CRC|EDAC_CRC_HAMMING.sch</ClosedNode>
+         <ClosedNode>/EDAC_CRC_HAMMING |home|ise|Xilinx_data|final_4_5|5-4|IO_SIMUL_4BIT_NO_L|EDAC_CRC_HAMMING.sch</ClosedNode>
+         <ClosedNode>/EDAC_SCHEM |home|ise|Xilinx_data|IO_SIMUL_4BIT4CRC|EDAC_SCHEM.sch</ClosedNode>
+         <ClosedNode>/EDAC_SCHEM |home|ise|Xilinx_data|final_4_5|5-4|IO_SIMUL_4BIT_NO_L|EDAC_SCHEM.sch</ClosedNode>
+         <ClosedNode>/EDAC_SCHEM_DOUBLE4BIT |home|ise|Xilinx_data|EDAC_LAST_VER|IO_SIMUL_4BIT_NO_L|EDAC_SCHEM_DOUBLE4BIT.sch/XLXI_109 - EDAC_SCHEM_4BIT</ClosedNode>
+         <ClosedNode>/EDAC_SCHEM_DOUBLE4BIT |home|ise|Xilinx_data|EDAC_LAST_VER|IO_SIMUL_4BIT_NO_L|EDAC_SCHEM_DOUBLE4BIT.sch/XLXI_111 - EDAC_SCHEM_4BIT</ClosedNode>
+         <ClosedNode>/EDAC_SCHEM_DOUBLE4BIT |home|ise|Xilinx_data|IO_SIMUL_4BIT|EDAC_SCHEM_DOUBLE4BIT.sch</ClosedNode>
+         <ClosedNode>/EDAC_SCHEM_DOUBLE4BIT |home|ise|Xilinx_data|final_4_5|5-4|IO_SIMUL_4BIT_NO_L|EDAC_SCHEM_DOUBLE4BIT.sch</ClosedNode>
+         <ClosedNode>/IO_SIM_DLX |home|ise|Xilinx_data|EDAC_LAST_VER|IO_SIMUL_4BIT_NO_L|IO_SIM_DLX.sch/XLXI_1 - DLX/XLXI_1 - CONTROL</ClosedNode>
+         <ClosedNode>/IO_SIM_DLX |home|ise|Xilinx_data|EDAC_LAST_VER|IO_SIMUL_4BIT_NO_L|IO_SIM_DLX.sch/XLXI_1 - DLX/XLXI_3 - DATA_PATH/XLXI_1 - IR_ENV</ClosedNode>
+         <ClosedNode>/IO_SIM_DLX |home|ise|Xilinx_data|EDAC_LAST_VER|IO_SIMUL_4BIT_NO_L|IO_SIM_DLX.sch/XLXI_1 - DLX/XLXI_3 - DATA_PATH/XLXI_121 - EDAC_2x4BIT/EDAC_LOW - EDAC_4BIT_A</ClosedNode>
+         <ClosedNode>/IO_SIM_DLX |home|ise|Xilinx_data|EDAC_LAST_VER|IO_SIMUL_4BIT_NO_L|IO_SIM_DLX.sch/XLXI_1 - DLX/XLXI_3 - DATA_PATH/XLXI_2 - GPR</ClosedNode>
+         <ClosedNode>/IO_SIM_DLX |home|ise|Xilinx_data|EDAC_LAST_VER|IO_SIMUL_4BIT_NO_L|IO_SIM_DLX.sch/XLXI_1 - DLX/XLXI_3 - DATA_PATH/XLXI_6 - ALU_ENV</ClosedNode>
+         <ClosedNode>/IO_SIM_DLX |home|ise|Xilinx_data|IO_SIMUL_4BIT4CRC|IO_SIM_DLX.sch/XLXI_1 - DLX/XLXI_1 - CONTROL</ClosedNode>
+         <ClosedNode>/IO_SIM_DLX |home|ise|Xilinx_data|IO_SIMUL_4BIT4CRC|IO_SIM_DLX.sch/XLXI_1 - DLX/XLXI_3 - DATA_PATH</ClosedNode>
+         <ClosedNode>/IO_SIM_DLX |home|ise|Xilinx_data|IO_SIMUL_4BIT4CRC|IO_SIM_DLX.sch/XLXI_1 - DLX/XLXI_3 - DATA_PATH/XLXI_1 - IR_ENV</ClosedNode>
+         <ClosedNode>/IO_SIM_DLX |home|ise|Xilinx_data|IO_SIMUL_4BIT4CRC|IO_SIM_DLX.sch/XLXI_1 - DLX/XLXI_3 - DATA_PATH/XLXI_121 - EDAC_2x4BIT</ClosedNode>
+         <ClosedNode>/IO_SIM_DLX |home|ise|Xilinx_data|IO_SIMUL_4BIT4CRC|IO_SIM_DLX.sch/XLXI_1 - DLX/XLXI_3 - DATA_PATH/XLXI_2 - GPR</ClosedNode>
+         <ClosedNode>/IO_SIM_DLX |home|ise|Xilinx_data|IO_SIMUL_4BIT4CRC|IO_SIM_DLX.sch/XLXI_1 - DLX/XLXI_3 - DATA_PATH/XLXI_6 - ALU_ENV</ClosedNode>
+         <ClosedNode>/IO_SIM_DLX |home|ise|Xilinx_data|IO_SIMUL_4BIT|IO_SIM_DLX.sch/XLXI_1 - DLX/XLXI_3 - DATA_PATH/XLXI_1 - IR_ENV</ClosedNode>
+         <ClosedNode>/IO_SIM_DLX |home|ise|Xilinx_data|IO_SIMUL_4BIT|IO_SIM_DLX.sch/XLXI_1 - DLX/XLXI_3 - DATA_PATH/XLXI_118 - EDAC_SCHEM</ClosedNode>
+         <ClosedNode>/IO_SIM_DLX |home|ise|Xilinx_data|IO_SIMUL_4BIT|IO_SIM_DLX.sch/XLXI_1 - DLX/XLXI_3 - DATA_PATH/XLXI_2 - GPR</ClosedNode>
+         <ClosedNode>/IO_SIM_DLX |home|ise|Xilinx_data|IO_SIMUL_4BIT|IO_SIM_DLX.sch/XLXI_1 - DLX/XLXI_3 - DATA_PATH/XLXI_6 - ALU_ENV</ClosedNode>
+         <ClosedNode>/IO_SIM_DLX |home|ise|Xilinx_data|IO_SIMUL_4BIT|IO_SIM_DLX.sch/XLXI_2 - IO_SIM</ClosedNode>
+         <ClosedNode>PROJECT</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>IO_SIM_DLX (/home/ise/Xilinx_data/EDAC_LAST_VER/IO_SIMUL_4BIT_NO_L/IO_SIM_DLX.sch)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001ef000000020000000000000000000000000200000064ffffffff000000810000000300000002000001ef0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>IO_SIM_DLX (/home/ise/Xilinx_data/EDAC_LAST_VER/IO_SIMUL_4BIT_NO_L/IO_SIM_DLX.sch)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_SCHEMATIC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001bf000000010000000100000000000000000000000064ffffffff000000810000000000000001000001bf0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000004d0000000040101000100000000000000000000000064ffffffff000000810000000000000004000000e70000000100000000000001100000000100000000000000840000000100000000000002550000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>ADD_SUB_32b.sch</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000128000000010001000100000000000000000000000064ffffffff000000810000000000000001000001280000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Create Schematic Symbol</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001bf000000010000000100000000000000000000000064ffffffff000000810000000000000001000001bf0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Create Schematic Symbol</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Design Utilities</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001bf000000010000000100000000000000000000000064ffffffff000000810000000000000001000001bf0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Design Utilities</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000025a000000d101000000060100000002</SourceProcessView>
+   <CurrentView>Behavioral Simulation</CurrentView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/CRC_DECODER_TB |home|ise|Xilinx_data|11_5|IO_SIMUL_4BIT_NO_L|CRC_DECODER_TB.v</ClosedNode>
+         <ClosedNode>/CRC_DECODER_TB |home|ise|Xilinx_data|IO_SIMUL_4BIT4CRC|CRC_DECODER_TB.v</ClosedNode>
+         <ClosedNode>/CRC_DECODER_TB |home|ise|Xilinx_data|IO_SIMUL_4BIT|CRC_DECODER_TB.v</ClosedNode>
+         <ClosedNode>/CRC_TB |home|ise|Xilinx_data|11_5|IO_SIMUL_4BIT_NO_L|CRC_TB.v</ClosedNode>
+         <ClosedNode>/CRC_TB |home|ise|Xilinx_data|IO_SIMUL_4BIT4CRC|CRC_TB.v</ClosedNode>
+         <ClosedNode>/CRC_TB |home|ise|Xilinx_data|IO_SIMUL_4BIT|CRC_TB.v</ClosedNode>
+         <ClosedNode>/EDAC_2x4BIT_TB |home|ise|Xilinx_data|11_5|IO_SIMUL_4BIT_NO_L|EDAC_2x4BIT_TB.v/uut - EDAC_2x4BIT/EDAC_HIGH - EDAC_4BIT_A</ClosedNode>
+         <ClosedNode>/EDAC_2x4BIT_TB |home|ise|Xilinx_data|IO_SIMUL_4BIT4CRC|EDAC_2x4BIT_TB.v</ClosedNode>
+         <ClosedNode>/EDAC_2x4BIT_TB |home|ise|Xilinx_data|final_4_5|5-4|IO_SIMUL_4BIT_NO_L|EDAC_2x4BIT_TB.v</ClosedNode>
+         <ClosedNode>/EDAC_4BIT_TB |home|ise|Xilinx_data|IO_SIMUL_4BIT4CRC|EDAC_4BIT_TB.v</ClosedNode>
+         <ClosedNode>/EDAC_CRC_HAMMING_EDAC_CRC_HAMMING_sch_tb |home|ise|Xilinx_data|11_5|IO_SIMUL_4BIT_NO_L|decoder_tb_2.v</ClosedNode>
+         <ClosedNode>/EDAC_CRC_HAMMING_EDAC_CRC_HAMMING_sch_tb |home|ise|Xilinx_data|IO_SIMUL_4BIT4CRC|decoder_tb_2.v</ClosedNode>
+         <ClosedNode>/EDAC_CRC_HAMMING_EDAC_CRC_HAMMING_sch_tb |home|ise|Xilinx_data|IO_SIMUL_4BIT|decoder_tb_2.v</ClosedNode>
+         <ClosedNode>/EDAC_SCHEM_4BIT_EDAC_SCHEM_4BIT_sch_tb |home|ise|Xilinx_data|11_5|IO_SIMUL_4BIT_NO_L|EDAC_HALF.v</ClosedNode>
+         <ClosedNode>/EDAC_SCHEM_4BIT_EDAC_SCHEM_4BIT_sch_tb |home|ise|Xilinx_data|IO_SIMUL_4BIT4CRC|EDAC_HALF.v</ClosedNode>
+         <ClosedNode>/EDAC_SCHEM_4BIT_EDAC_SCHEM_4BIT_sch_tb |home|ise|Xilinx_data|shira27-74|shira|IO_SIMUL_4BIT4CRC|EDAC_HALF.v</ClosedNode>
+         <ClosedNode>/EDAC_SCHEM_DOUBLE4BIT_EDAC_SCHEM_DOUBLE4BIT_sch_tb |home|ise|Xilinx_data|11_5|IO_SIMUL_4BIT_NO_L|EDAC_TESTER_4BIT.v</ClosedNode>
+         <ClosedNode>/EDAC_SCHEM_DOUBLE4BIT_EDAC_SCHEM_DOUBLE4BIT_sch_tb |home|ise|Xilinx_data|IO_SIMUL_4BIT4CRC|EDAC_TESTER_4BIT.v</ClosedNode>
+         <ClosedNode>/EDAC_SCHEM_DOUBLE4BIT_EDAC_SCHEM_DOUBLE4BIT_sch_tb |home|ise|Xilinx_data|IO_SIMUL_4BIT|EDAC_TESTER_4BIT.v/UUT - EDAC_SCHEM_DOUBLE4BIT/XLXI_109 - EDAC_SCHEM_4BIT</ClosedNode>
+         <ClosedNode>/EDAC_SCHEM_DOUBLE4BIT_EDAC_SCHEM_DOUBLE4BIT_sch_tb |home|ise|Xilinx_data|IO_SIMUL_4BIT|EDAC_TESTER_4BIT.v/UUT - EDAC_SCHEM_DOUBLE4BIT/XLXI_111 - EDAC_SCHEM_4BIT</ClosedNode>
+         <ClosedNode>/EDAC_SCHEM_DOUBLE4BIT_EDAC_SCHEM_DOUBLE4BIT_sch_tb |home|ise|Xilinx_data|final_4_5|5-4|IO_SIMUL_4BIT_NO_L|EDAC_TESTER_4BIT.v</ClosedNode>
+         <ClosedNode>/EDAC_SCHEM_DOUBLE4BIT_EDAC_SCHEM_DOUBLE4BIT_sch_tb |home|ise|Xilinx_data|shira27-74|shira|IO_SIMUL_4BIT4CRC|EDAC_TESTER_4BIT.v</ClosedNode>
+         <ClosedNode>/EDAC_SCHEM_EDAC_SCHEM_sch_tb |home|ise|Xilinx_data|11_5|IO_SIMUL_4BIT_NO_L|EDAC_TB.v</ClosedNode>
+         <ClosedNode>/EDAC_SCHEM_EDAC_SCHEM_sch_tb |home|ise|Xilinx_data|IO_SIMUL_4BIT4CRC|EDAC_TB.v</ClosedNode>
+         <ClosedNode>/EDAC_SCHEM_EDAC_SCHEM_sch_tb |home|ise|Xilinx_data|IO_SIMUL_4BIT|EDAC_TB.v</ClosedNode>
+         <ClosedNode>/EDAC_SCHEM_EDAC_SCHEM_sch_tb |home|ise|Xilinx_data|IO_SIMUL_4BIT|EDAC_TB.v/UUT - EDAC_SCHEM</ClosedNode>
+         <ClosedNode>/EDAC_SCHEM_EDAC_SCHEM_sch_tb |home|ise|Xilinx_data|final_4_5|5-4|IO_SIMUL_4BIT_NO_L|EDAC_TB.v</ClosedNode>
+         <ClosedNode>/EDAC_SCHEM_EDAC_SCHEM_sch_tb |home|ise|Xilinx_data|shira27-74|shira|IO_SIMUL_4BIT4CRC|EDAC_TB.v</ClosedNode>
+         <ClosedNode>/EDAC_TESTER |home|ise|Xilinx_data|11_5|IO_SIMUL_4BIT_NO_L|EDAC_TESTER.v</ClosedNode>
+         <ClosedNode>/EDAC_TESTER |home|ise|Xilinx_data|IO_SIMUL_4BIT4CRC|EDAC_TESTER.v</ClosedNode>
+         <ClosedNode>/EDAC_TESTER |home|ise|Xilinx_data|IO_SIMUL_4BIT|EDAC_TESTER.v</ClosedNode>
+         <ClosedNode>/EDAC_TESTER |home|ise|Xilinx_data|final_4_5|5-4|IO_SIMUL_4BIT_NO_L|EDAC_TESTER.v</ClosedNode>
+         <ClosedNode>/EDAC_TESTER |home|ise|Xilinx_data|shira27-74|shira|IO_SIMUL_4BIT4CRC|EDAC_TESTER.v</ClosedNode>
+         <ClosedNode>/ENCODER_TB |home|ise|Xilinx_data|11_5|IO_SIMUL_4BIT_NO_L|ENCODER_TB.v</ClosedNode>
+         <ClosedNode>/ENCODER_TB |home|ise|Xilinx_data|IO_SIMUL_4BIT|ENCODER_TB.v</ClosedNode>
+         <ClosedNode>/ERROR_FINDER |home|ise|Xilinx_data|11_5|IO_SIMUL_4BIT_NO_L|ERROR_FINDER.v</ClosedNode>
+         <ClosedNode>/IO_SIM_DLX_IO_SIM_DLX_sch_tb |home|ise|Xilinx_data|11_5|IO_SIMUL_4BIT_NO_L|IO_DLX_TB.v/UUT - IO_SIM_DLX/XLXI_1 - DLX</ClosedNode>
+         <ClosedNode>/IO_SIM_DLX_IO_SIM_DLX_sch_tb |home|ise|Xilinx_data|11_5|IO_SIMUL_4BIT_NO_L|IO_DLX_TB.v/UUT - IO_SIM_DLX/XLXI_1 - DLX/XLXI_1 - CONTROL</ClosedNode>
+         <ClosedNode>/IO_SIM_DLX_IO_SIM_DLX_sch_tb |home|ise|Xilinx_data|11_5|IO_SIMUL_4BIT_NO_L|IO_DLX_TB.v/UUT - IO_SIM_DLX/XLXI_1 - DLX/XLXI_3 - DATA_PATH/XLXI_1 - IR_ENV</ClosedNode>
+         <ClosedNode>/IO_SIM_DLX_IO_SIM_DLX_sch_tb |home|ise|Xilinx_data|11_5|IO_SIMUL_4BIT_NO_L|IO_DLX_TB.v/UUT - IO_SIM_DLX/XLXI_1 - DLX/XLXI_3 - DATA_PATH/XLXI_121 - EDAC_2x4BIT/EDAC_HIGH - EDAC_4BIT_A</ClosedNode>
+         <ClosedNode>/IO_SIM_DLX_IO_SIM_DLX_sch_tb |home|ise|Xilinx_data|11_5|IO_SIMUL_4BIT_NO_L|IO_DLX_TB.v/UUT - IO_SIM_DLX/XLXI_1 - DLX/XLXI_3 - DATA_PATH/XLXI_121 - EDAC_2x4BIT/EDAC_LOW - EDAC_4BIT_A</ClosedNode>
+         <ClosedNode>/IO_SIM_DLX_IO_SIM_DLX_sch_tb |home|ise|Xilinx_data|11_5|IO_SIMUL_4BIT_NO_L|IO_DLX_TB.v/UUT - IO_SIM_DLX/XLXI_1 - DLX/XLXI_3 - DATA_PATH/XLXI_2 - GPR</ClosedNode>
+         <ClosedNode>/IO_SIM_DLX_IO_SIM_DLX_sch_tb |home|ise|Xilinx_data|11_5|IO_SIMUL_4BIT_NO_L|IO_DLX_TB.v/UUT - IO_SIM_DLX/XLXI_1 - DLX/XLXI_3 - DATA_PATH/XLXI_6 - ALU_ENV</ClosedNode>
+         <ClosedNode>/IO_SIM_DLX_IO_SIM_DLX_sch_tb |home|ise|Xilinx_data|EDAC_LAST_VER|IO_SIMUL_4BIT_NO_L|IO_DLX_TB.v/UUT - IO_SIM_DLX/XLXI_1 - DLX</ClosedNode>
+         <ClosedNode>/IO_SIM_DLX_IO_SIM_DLX_sch_tb |home|ise|Xilinx_data|EDAC_LAST_VER|IO_SIMUL_4BIT_NO_L|IO_DLX_TB.v/UUT - IO_SIM_DLX/XLXI_1 - DLX/XLXI_1 - CONTROL</ClosedNode>
+         <ClosedNode>/IO_SIM_DLX_IO_SIM_DLX_sch_tb |home|ise|Xilinx_data|EDAC_LAST_VER|IO_SIMUL_4BIT_NO_L|IO_DLX_TB.v/UUT - IO_SIM_DLX/XLXI_1 - DLX/XLXI_3 - DATA_PATH/XLXI_1 - IR_ENV</ClosedNode>
+         <ClosedNode>/IO_SIM_DLX_IO_SIM_DLX_sch_tb |home|ise|Xilinx_data|EDAC_LAST_VER|IO_SIMUL_4BIT_NO_L|IO_DLX_TB.v/UUT - IO_SIM_DLX/XLXI_1 - DLX/XLXI_3 - DATA_PATH/XLXI_121 - EDAC_2x4BIT</ClosedNode>
+         <ClosedNode>/IO_SIM_DLX_IO_SIM_DLX_sch_tb |home|ise|Xilinx_data|EDAC_LAST_VER|IO_SIMUL_4BIT_NO_L|IO_DLX_TB.v/UUT - IO_SIM_DLX/XLXI_1 - DLX/XLXI_3 - DATA_PATH/XLXI_2 - GPR</ClosedNode>
+         <ClosedNode>/IO_SIM_DLX_IO_SIM_DLX_sch_tb |home|ise|Xilinx_data|EDAC_LAST_VER|IO_SIMUL_4BIT_NO_L|IO_DLX_TB.v/UUT - IO_SIM_DLX/XLXI_1 - DLX/XLXI_3 - DATA_PATH/XLXI_6 - ALU_ENV</ClosedNode>
+         <ClosedNode>/IO_SIM_DLX_IO_SIM_DLX_sch_tb |home|ise|Xilinx_data|EDAC_LAST_VER|IO_SIMUL_4BIT_NO_L|IO_DLX_TB.v/UUT - IO_SIM_DLX/XLXI_2 - IO_SIM</ClosedNode>
+         <ClosedNode>/IO_SIM_DLX_IO_SIM_DLX_sch_tb |home|ise|Xilinx_data|IO_SIMUL_4BIT4CRC|IO_DLX_TB.v</ClosedNode>
+         <ClosedNode>/IO_SIM_DLX_IO_SIM_DLX_sch_tb |home|ise|Xilinx_data|IO_SIMUL_4BIT|IO_DLX_TB.v/UUT - IO_SIM_DLX/XLXI_1 - DLX/XLXI_3 - DATA_PATH/XLXI_1 - IR_ENV</ClosedNode>
+         <ClosedNode>/IO_SIM_DLX_IO_SIM_DLX_sch_tb |home|ise|Xilinx_data|IO_SIMUL_4BIT|IO_DLX_TB.v/UUT - IO_SIM_DLX/XLXI_1 - DLX/XLXI_3 - DATA_PATH/XLXI_120 - EDAC_SCHEM_DOUBLE4BIT/XLXI_109 - EDAC_SCHEM_4BIT</ClosedNode>
+         <ClosedNode>/IO_SIM_DLX_IO_SIM_DLX_sch_tb |home|ise|Xilinx_data|IO_SIMUL_4BIT|IO_DLX_TB.v/UUT - IO_SIM_DLX/XLXI_1 - DLX/XLXI_3 - DATA_PATH/XLXI_120 - EDAC_SCHEM_DOUBLE4BIT/XLXI_111 - EDAC_SCHEM_4BIT</ClosedNode>
+         <ClosedNode>/IO_SIM_DLX_IO_SIM_DLX_sch_tb |home|ise|Xilinx_data|IO_SIMUL_4BIT|IO_DLX_TB.v/UUT - IO_SIM_DLX/XLXI_1 - DLX/XLXI_3 - DATA_PATH/XLXI_2 - GPR</ClosedNode>
+         <ClosedNode>/IO_SIM_DLX_IO_SIM_DLX_sch_tb |home|ise|Xilinx_data|IO_SIMUL_4BIT|IO_DLX_TB.v/UUT - IO_SIM_DLX/XLXI_1 - DLX/XLXI_3 - DATA_PATH/XLXI_6 - ALU_ENV</ClosedNode>
+         <ClosedNode>/IO_SIM_DLX_IO_SIM_DLX_sch_tb |home|ise|Xilinx_data|IO_SIMUL_4BIT|IO_DLX_TB.v/UUT - IO_SIM_DLX/XLXI_2 - IO_SIM</ClosedNode>
+         <ClosedNode>/IO_SIM_DLX_IO_SIM_DLX_sch_tb |home|ise|Xilinx_data|final_4_5|5-4|IO_SIMUL_4BIT_NO_L|IO_DLX_TB.v/UUT - IO_SIM_DLX/XLXI_1 - DLX</ClosedNode>
+         <ClosedNode>/IO_SIM_DLX_IO_SIM_DLX_sch_tb |home|ise|Xilinx_data|shira27-74|shira|IO_SIMUL_4BIT4CRC|IO_DLX_TB.v</ClosedNode>
+         <ClosedNode>/IO_SIM_DLX_IO_SIM_DLX_sch_tb |home|ise|Xilinx_data|shira27-74|shira|IO_SIMUL_4BIT4CRC|IO_DLX_TB.v/UUT - IO_SIM_DLX/XLXI_1 - DLX/XLXI_1 - CONTROL</ClosedNode>
+         <ClosedNode>/IO_SIM_DLX_IO_SIM_DLX_sch_tb |home|ise|Xilinx_data|shira27-74|shira|IO_SIMUL_4BIT4CRC|IO_DLX_TB.v/UUT - IO_SIM_DLX/XLXI_1 - DLX/XLXI_3 - DATA_PATH/XLXI_1 - IR_ENV</ClosedNode>
+         <ClosedNode>/IO_SIM_DLX_IO_SIM_DLX_sch_tb |home|ise|Xilinx_data|shira27-74|shira|IO_SIMUL_4BIT4CRC|IO_DLX_TB.v/UUT - IO_SIM_DLX/XLXI_1 - DLX/XLXI_3 - DATA_PATH/XLXI_2 - GPR</ClosedNode>
+         <ClosedNode>/IO_SIM_DLX_IO_SIM_DLX_sch_tb |home|ise|Xilinx_data|shira27-74|shira|IO_SIMUL_4BIT4CRC|IO_DLX_TB.v/UUT - IO_SIM_DLX/XLXI_1 - DLX/XLXI_3 - DATA_PATH/XLXI_6 - ALU_ENV</ClosedNode>
+         <ClosedNode>/IO_SIM_TEST |home|ise|Xilinx_data|11_5|IO_SIMUL_4BIT_NO_L|IO_SIM_TEST.v</ClosedNode>
+         <ClosedNode>/IO_SIM_TEST |home|ise|Xilinx_data|EDAC_LAST_VER|IO_SIMUL_4BIT_NO_L|IO_SIM_TEST.v</ClosedNode>
+         <ClosedNode>/IO_SIM_TEST |home|ise|Xilinx_data|IO_SIMUL_4BIT|IO_SIM_TEST.v</ClosedNode>
+         <ClosedNode>/IR_TB |home|ise|Xilinx_data|11_5|IO_SIMUL_4BIT_NO_L|IR_TB.v</ClosedNode>
+         <ClosedNode>/IR_TB |home|ise|Xilinx_data|EDAC_LAST_VER|IO_SIMUL_4BIT_NO_L|IR_TB.v</ClosedNode>
+         <ClosedNode>/IR_TB |home|ise|Xilinx_data|IO_SIMUL_4BIT|IR_TB.v</ClosedNode>
+         <ClosedNode>/control_tb |home|ise|Xilinx_data|11_5|IO_SIMUL_4BIT_NO_L|control_tb.v</ClosedNode>
+         <ClosedNode>/control_tb |home|ise|Xilinx_data|EDAC_LAST_VER|IO_SIMUL_4BIT_NO_L|control_tb.v</ClosedNode>
+         <ClosedNode>/control_tb |home|ise|Xilinx_data|IO_SIMUL_4BIT|control_tb.v</ClosedNode>
+         <ClosedNode>/decoder_tb |home|ise|Xilinx_data|IO_SIMUL_4BIT|decoder_tb.v</ClosedNode>
+         <ClosedNode>/hamming_tb |home|ise|Xilinx_data|IO_SIMUL_4BIT|hamming_tb.v</ClosedNode>
+         <ClosedNode>PROJECT</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>IO_SIM_DLX_IO_SIM_DLX_sch_tb (/home/ise/Xilinx_data/EDAC_LAST_VER/IO_SIMUL_4BIT_NO_L/IO_DLX_TB.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001c7000000020000000000000000000000000200000064ffffffff000000810000000300000002000001c70000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>IO_SIM_DLX_IO_SIM_DLX_sch_tb (/home/ise/Xilinx_data/EDAC_LAST_VER/IO_SIMUL_4BIT_NO_L/IO_DLX_TB.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001b0000000010000000100000000000000000000000064ffffffff000000810000000000000001000001b00000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001bf000000010000000100000000000000000000000064ffffffff000000810000000000000001000001bf0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_SCHEMATIC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000172000000010000000100000000000000000000000064ffffffff000000810000000000000001000001720000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_CDC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" />
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+</Project>

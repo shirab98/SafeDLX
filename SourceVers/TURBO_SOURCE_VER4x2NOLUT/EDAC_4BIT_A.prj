@@ -1,0 +1,3 @@
+verilog work "EDAC_encode_4BIT.v"
+verilog work "EDAC_decode_4BIT.v"
+verilog work "EDAC_4BIT_A.v"

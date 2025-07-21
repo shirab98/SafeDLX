@@ -1,0 +1,4 @@
+vhdtdtfi -lib work /home/ise/Xilinx_data/IO_SIMUL_VER/DLX_CTRL.v -lang verilog -prj IO_SIMUL_VER -o DLX_CTRL.spl -module DLX_CTRL -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w DLX_CTRL.spl /home/ise/Xilinx_data/IO_SIMUL_VER/DLX_CTRL.sym 
+vhdtdtfi -lib work /home/ise/Xilinx_data/IO_SIMUL_VER/DLX_CTRL.v -lang verilog -prj IO_SIMUL_VER -o DLX_CTRL.spl -module DLX_CTRL -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w DLX_CTRL.spl /home/ise/Xilinx_data/IO_SIMUL_VER/DLX_CTRL.sym 

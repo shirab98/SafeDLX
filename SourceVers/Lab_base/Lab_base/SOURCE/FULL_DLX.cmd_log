@@ -1,0 +1,4 @@
+sch2sym -intstyle ise -family spartan6 -refsym FULL_DLX E:/XuLA-25_Project/OurProj/current_files/final/SOURCES/FULL_DLX.sch E:/XuLA-25_Project/OurProj/current_files/final/SOURCES/FULL_DLX.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl FULL_DLX_drc.vhf -w E:/XuLA-25_Project/OurProj/current_files/final/SOURCES/FULL_DLX.sch 
+sch2sym -intstyle ise -family spartan6 -refsym FULL_DLX E:/XuLA-25_Project/OurProj/current_files/final/SOURCES/FULL_DLX.sch E:/XuLA-25_Project/OurProj/current_files/final/SOURCES/FULL_DLX.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym FULL_DLX E:/XuLA-25_Project/OurProj/current_files/final/SOURCES/FULL_DLX.sch E:/XuLA-25_Project/OurProj/current_files/final/SOURCES/FULL_DLX.sym 

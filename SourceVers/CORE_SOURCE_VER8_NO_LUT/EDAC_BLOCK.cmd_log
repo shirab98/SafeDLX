@@ -1,0 +1,20 @@
+vhdtdtfi -lib work D:/shira/5-4/SOURCE_VER8bit/EDAC_BLOCK.v -lang verilog -prj SOURCE_VER -o EDAC_BLOCK.spl -module EDAC_BLOCK -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w EDAC_BLOCK.spl D:/shira/5-4/SOURCE_VER8bit/EDAC_BLOCK.sym 
+vhdtdtfi -lib work D:/shira/5-4/SOURCE_VER8bit/EDAC_BLOCK.v -lang verilog -prj SOURCE_VER -o EDAC_BLOCK.spl -module EDAC_BLOCK -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w EDAC_BLOCK.spl D:/shira/5-4/SOURCE_VER8bit/EDAC_BLOCK.sym 
+vhdtdtfi -lib work /home/ise/Xilinx_data/final_4_5/5-4/SOURCE_VER8bit/EDAC_BLOCK.v -lang verilog -prj SOURCE_VER -o EDAC_BLOCK.spl -module EDAC_BLOCK -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w EDAC_BLOCK.spl /home/ise/Xilinx_data/final_4_5/5-4/SOURCE_VER8bit/EDAC_BLOCK.sym 
+vhdtdtfi -lib work {/home/ise/Xilinx_data/final_4_5/5-4/SOURCE_VER8bit - Copy/EDAC_BLOCK.v} -lang verilog -prj SOURCE_VER -o EDAC_BLOCK.spl -module EDAC_BLOCK -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w EDAC_BLOCK.spl {/home/ise/Xilinx_data/final_4_5/5-4/SOURCE_VER8bit - Copy/EDAC_BLOCK.sym} 
+vhdtdtfi -lib work /home/ise/Xilinx_data/11_5/SOURCE_VER8_NO_LUT/EDAC_BLOCK.v -lang verilog -prj SOURCE_VER -o EDAC_BLOCK.spl -module EDAC_BLOCK -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w EDAC_BLOCK.spl /home/ise/Xilinx_data/11_5/SOURCE_VER8_NO_LUT/EDAC_BLOCK.sym 
+vhdtdtfi -lib work /home/ise/Xilinx_data/11_5/SOURCE_VER8_NO_LUT/EDAC_BLOCK.v -lang verilog -prj SOURCE_VER -o EDAC_BLOCK.spl -module EDAC_BLOCK -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w EDAC_BLOCK.spl /home/ise/Xilinx_data/11_5/SOURCE_VER8_NO_LUT/EDAC_BLOCK.sym 
+vhdtdtfi -lib work /home/ise/Xilinx_data/11_5/SOURCE_VER8_NO_LUT/EDAC_BLOCK.v -lang verilog -prj SOURCE_VER -o EDAC_BLOCK.spl -module EDAC_BLOCK -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w EDAC_BLOCK.spl /home/ise/Xilinx_data/11_5/SOURCE_VER8_NO_LUT/EDAC_BLOCK.sym 
+vhdtdtfi -lib work /home/ise/Xilinx_data/11_5/SOURCE_VER8_NO_LUT/EDAC_BLOCK.v -lang verilog -prj SOURCE_VER -o EDAC_BLOCK.spl -module EDAC_BLOCK -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w EDAC_BLOCK.spl /home/ise/Xilinx_data/11_5/SOURCE_VER8_NO_LUT/EDAC_BLOCK.sym 
+vhdtdtfi -lib work /home/ise/Xilinx_data/EDAC_LAST_VER/SOURCE_VER8_NO_LUT/EDAC_BLOCK.v -lang verilog -prj SOURCE_VER -o EDAC_BLOCK.spl -module EDAC_BLOCK -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w EDAC_BLOCK.spl /home/ise/Xilinx_data/EDAC_LAST_VER/SOURCE_VER8_NO_LUT/EDAC_BLOCK.sym 
+vhdtdtfi -lib work /home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER8_NO_LUT/EDAC_BLOCK.v -lang verilog -prj SOURCE_VER -o EDAC_BLOCK.spl -module EDAC_BLOCK -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w EDAC_BLOCK.spl /home/ise/Xilinx_data/Final_ver/SourceVers/SOURCE_VER8_NO_LUT/EDAC_BLOCK.sym 
